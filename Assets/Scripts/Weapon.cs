@@ -8,7 +8,12 @@ public class Weapon: MonoBehaviour
     [SerializeField] Camera PlayerCamera;
     [SerializeField] float maxRange = 100f;
     [SerializeField] float damage = 30f;
+    [Tooltip("Fire rate in seconds")]
+    [SerializeField] float fireRate = 0.5f;
     [SerializeField] ParticleSystem muzzleFlash;
+    [SerializeField] GameObject hitFX;
+
+    float lastShot = 0f;
 
     void Update()
     {
@@ -20,8 +25,15 @@ public class Weapon: MonoBehaviour
 
     private void Shoot()
     {
-        PlayMuzzleFlash();
-        ProcessRaycast();
+        if (Time.time > fireRate + lastShot)
+        {
+            PlayMuzzleFlash();
+            ProcessRaycast();
+            GetComponent<Animator>().SetTrigger("isFired");
+            lastShot = Time.time;
+        }
+           
+        
     }
 
     private void PlayMuzzleFlash()
@@ -34,7 +46,7 @@ public class Weapon: MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out hit, maxRange))
         {
-            Debug.Log("Hit " + hit.transform.name);
+            CreateImpact(hit);
             //Todo: Add Hit effect for visual
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
             if (target == null) return;
@@ -45,5 +57,12 @@ public class Weapon: MonoBehaviour
         {
             return;
         }
+    }
+
+    private void CreateImpact(RaycastHit hit)
+    {
+        //Instantiate Hit effect with rotation from shot direction
+        GameObject impact = Instantiate(hitFX, hit.point, Quaternion.LookRotation(hit.normal));
+        Destroy(impact, 0.1f);
     }
 }
