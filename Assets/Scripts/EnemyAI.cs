@@ -10,7 +10,12 @@ public class EnemyAI : MonoBehaviour
     [Tooltip("Object to follow (usually Player).")]
     [SerializeField] Transform target;
     [Tooltip("Distance before chase starts.")]
-    [SerializeField] float chaseRange = 5f;
+    [SerializeField] float chaseRange = 10f;
+    [Tooltip("Distance to escape.")]
+    [SerializeField] float escapeRange = 30f;
+    [SerializeField] float turnSpeed = 3f;
+
+
 
     NavMeshAgent navMeshAgent;
 
@@ -36,12 +41,18 @@ public class EnemyAI : MonoBehaviour
         {
             isProvoked = true;
         }
+        else if (distanceToTarget > escapeRange)
+        {
+            isProvoked = false;
+        }
         
     }
 
     private void EngageTarget()
     {
-        //Find distance to target
+        FaceTarget();
+
+        //chase taget based on chase range variable
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
@@ -56,7 +67,6 @@ public class EnemyAI : MonoBehaviour
     private void AttackTarget()
     {
         GetComponent<Animator>().SetBool("isAttacking", true);
-        Debug.Log(name + " is attacking " + target.name);
     }
 
     private void ChaseTarget()
@@ -65,6 +75,17 @@ public class EnemyAI : MonoBehaviour
         GetComponent<Animator>().SetBool("isAttacking", false);
         GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
+    }
+
+    //Ensure enemy faces the target even during the atack phase.
+    private void FaceTarget()
+    {
+
+        Vector3 direction = (target.position - transform.position).normalized;
+        //Currently 0 Y axis rotation
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
+        //transform.rotation = where the target is, we'll roatate at a certain speed
     }
 
     void OnDrawGizmosSelected()

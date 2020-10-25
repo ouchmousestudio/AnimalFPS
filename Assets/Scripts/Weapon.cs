@@ -14,10 +14,11 @@ public class Weapon: MonoBehaviour
     [SerializeField] GameObject hitFX;
 
     float lastShot = 0f;
+    public bool isAlive = true;
 
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire1") && isAlive) 
         {
             Shoot();
         }
