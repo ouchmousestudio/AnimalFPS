@@ -767,6 +767,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &176616426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176616423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7175ad9316b5a4885aab212d7a68419d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 20039226895249935}
+  normalFOV: 60
+  zoomFOV: 40
+  smoothingAmount: 10
+  normalSensitivity: 2
+  zoomSensitivity: 1.2
+  weaponAnimation: {fileID: 1889544607}
 --- !u!1001 &177954653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9244,6 +9263,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1298276663311460193, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 1315209960332993751, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
         type: 3}
       propertyPath: m_IsActive
@@ -9394,6 +9418,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1320236842714755897, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.318
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320236842714755897, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.397
+      objectReference: {fileID: 0}
     - target: {fileID: 1320410359872102841, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -9458,6 +9492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0907395
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344190795241228279, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1430840512593180253, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
         type: 3}
