@@ -8,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] float hitPoint = 200f;
     [SerializeField] Canvas gameOverCanvas;
-    [SerializeField] Rigidbody myGun;
+    //Drop gun after death
+    //[SerializeField] Rigidbody myGun;
 
     private void Awake()
     {
@@ -30,7 +31,8 @@ public class PlayerHealth : MonoBehaviour
         //Deactive isAlive to stop weapon being fired.
         GetComponentInChildren<Weapon>().isAlive = false;
 
-        myGun.isKinematic = false;
+        //Dtop gun after death
+        //myGun.isKinematic = false;
         
         //Fall over Animation
         GetComponent<Animator>().SetTrigger("death");

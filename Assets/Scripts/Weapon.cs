@@ -12,6 +12,7 @@ public class Weapon: MonoBehaviour
     [SerializeField] float fireRate = 0.5f;
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitFX;
+    [SerializeField] Ammo ammoSlot;
 
     float lastShot = 0f;
     public bool isAlive = true;
@@ -26,14 +27,17 @@ public class Weapon: MonoBehaviour
 
     private void Shoot()
     {
-        if (Time.time > fireRate + lastShot)
+        if (ammoSlot.GetCurrentAmmo() >= 1)
         {
-            PlayMuzzleFlash();
-            ProcessRaycast();
-            GetComponent<Animator>().SetTrigger("isFired");
-            lastShot = Time.time;
+            if (Time.time > fireRate + lastShot)
+            {
+                PlayMuzzleFlash();
+                ProcessRaycast();
+                ammoSlot.ReduceCurrentAmmo();
+                GetComponent<Animator>().SetTrigger("isFired");
+                lastShot = Time.time;
+            }
         }
-           
         
     }
 
