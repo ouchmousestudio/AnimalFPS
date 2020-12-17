@@ -11,10 +11,13 @@ public class PlayerHealth : MonoBehaviour
     //Drop gun after death
     //[SerializeField] Rigidbody myGun;
 
+    Collider  playerCollider;
+
     private void Awake()
     {
         gameOverCanvas.enabled = false;
 
+        playerCollider = GetComponent<CapsuleCollider>();
     }
     //create a public method which reduces hitpoints by damage.
     public void TakeDamage(float damage)
@@ -26,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void DeathEvent()
+public void DeathEvent()
     {
         //Deactive isAlive to stop weapon being fired.
         GetComponentInChildren<Weapon>().isAlive = false;
