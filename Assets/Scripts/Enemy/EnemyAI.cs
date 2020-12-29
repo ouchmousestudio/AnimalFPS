@@ -66,6 +66,7 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackTarget()
     {
+        Debug.Log("IS ATTACKING!)");
         GetComponent<Animator>().SetBool("isAttacking", true);
     }
 
@@ -73,7 +74,8 @@ public class EnemyAI : MonoBehaviour
     {
         //Start move animation and reset attack animation
         GetComponent<Animator>().SetBool("isAttacking", false);
-        GetComponent<Animator>().SetTrigger("move");
+        //GetComponent<Animator>().SetTrigger("move");
+        GetComponent<Animator>().SetBool("isWalking", true);
         navMeshAgent.SetDestination(target.position);
     }
 

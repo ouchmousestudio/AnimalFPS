@@ -18,7 +18,7 @@ MonoBehaviour:
   specColor: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
   smoothness: 0.5
   enableLightAbsorption: 1
-  depthColor: {r: 0, g: 0.19525, b: 0.284, a: 0.9372549}
+  depthColor: {r: 0, g: 0.111373216, b: 0.16037738, a: 0.9372549}
   maxDepth: 13.95
   enableFoam: 1
   foamColor: {r: 1, g: 1, b: 1, a: 1}
@@ -37,13 +37,13 @@ MonoBehaviour:
   rippleSpeed: 6
   rippleNoiseScale: 1
   enableWave: 0
-  waveDirection: 0
-  waveSpeed: 5
-  waveHeight: 0.2
-  waveLength: 50
+  waveDirection: 99
+  waveSpeed: 3
+  waveHeight: 1
+  waveLength: 117.28
   waveSteepness: 0
-  waveDeform: 0.509
-  fresnelStrength: 0
+  waveDeform: 0.617
+  fresnelStrength: 0.62
   fresnelBias: 0
   enableReflection: 0
   reflectionTextureResolution: 128
