@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] float hitPoint = 200f;
     [SerializeField] Canvas gameOverCanvas;
+    [SerializeField] Canvas hudCanvas;
     //Drop gun after death
     //[SerializeField] Rigidbody myGun;
 
@@ -15,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Awake()
     {
+        hudCanvas.enabled = true;
         gameOverCanvas.enabled = false;
 
         playerCollider = GetComponent<CapsuleCollider>();
@@ -41,6 +43,7 @@ public void DeathEvent()
         GetComponent<Animator>().SetTrigger("death");
         //Display UI
         gameOverCanvas.enabled = true;
+        hudCanvas.enabled = false;
     }
 
     private void FreezeScreen()

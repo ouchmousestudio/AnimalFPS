@@ -24,6 +24,16 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void LoadSettings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
+
     public void LoadLevel1()
     {
         SceneManager.LoadScene("Sandbox");

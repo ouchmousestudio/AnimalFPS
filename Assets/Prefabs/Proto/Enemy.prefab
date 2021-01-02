@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 5105128366842602509}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 78f382da2260c154c9e7c883b74ca8e5, type: 2}
+  m_Controller: {fileID: 9100000, guid: ee742df5fc94044c693c42a2b25316a3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -156,6 +156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   chaseRange: 5
+  escapeRange: 30
+  turnSpeed: 3
 --- !u!114 &-7840294421848329353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,3 +185,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoint: 100
+  deathTime: 1.5
+  deathFX: {fileID: 0}
