@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eae04a4fe514bf4789aec1bdb93100b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxLateralSpeed: 10
+  _maxLateralSpeed: 25
   _maxRiseSpeed: 20
   _maxFallSpeed: 20
   _useGravity: 1
@@ -607,7 +607,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _backwardSpeed: 3
   _strafeSpeed: 4
-  _runSpeedMultiplier: 5
+  _runSpeedMultiplier: 2
 --- !u!95 &176616425
 Animator:
   serializedVersion: 3
@@ -642,6 +642,7 @@ MonoBehaviour:
   hitPoint: 200
   gameOverCanvas: {fileID: 0}
   hudCanvas: {fileID: 0}
+  bossHP: {fileID: 0}
 --- !u!114 &176616427
 MonoBehaviour:
   m_ObjectHideFlags: 0

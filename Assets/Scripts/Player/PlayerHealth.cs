@@ -23,6 +23,14 @@ public class PlayerHealth : MonoBehaviour
 
         playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
+
+        //Make cursor invisible when restarting.
+        GetComponent<ECM.Components.MouseLook>().verticalSensitivity = 2;
+        GetComponent<ECM.Components.MouseLook>().lateralSensitivity = 2;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Time.timeScale = 1f;
     }
 
 
@@ -70,7 +78,12 @@ public class PlayerHealth : MonoBehaviour
     private void FreezeScreen()
     {
         //Make cursor visible to navigate Game over Menu.
+
         GetComponent<ECM.Components.MouseLook>().lockCursor = false;
+
+        GetComponent<ECM.Components.MouseLook>().verticalSensitivity = 0;
+        GetComponent<ECM.Components.MouseLook>().lateralSensitivity = 0;
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         Time.timeScale = 0f;

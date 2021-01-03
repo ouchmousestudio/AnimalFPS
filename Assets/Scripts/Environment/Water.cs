@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Water : MonoBehaviour
 {
+    private SFXPlayer sFXPlayer;
+
+    private void Start()
+    {
+        sFXPlayer = FindObjectOfType<SFXPlayer>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        FindObjectOfType<PlayerHealth>().DeathEvent();
+        sFXPlayer.PlaySFX("waterSplash");
+        FindObjectOfType<PlayerHealth>().DeathEvent(); 
     }
 }
