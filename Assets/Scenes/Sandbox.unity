@@ -340,6 +340,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b8802d83e59c8c448a7665322aa7d17, type: 3}
+--- !u!198 &73993650 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1097637270010584311, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315990268208600430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &75660180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1841,6 +1847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isAfraid
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5105128366842602507, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 5105128366842602509, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
         type: 3}
@@ -3885,6 +3896,11 @@ PrefabInstance:
       propertyPath: isAfraid
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5105128366842602507, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 1.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5105128366842602509, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
         type: 3}
       propertyPath: m_Name
@@ -4056,6 +4072,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e816ed95b763b34459ce693faf289f78, type: 3}
+--- !u!1 &977309352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1317225705759074409, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315990268208600430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &977309354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977309352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35fd7ed251390489db17710cbd8ffe7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &981422741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4796,6 +4830,11 @@ PrefabInstance:
       propertyPath: isAfraid
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5105128366842602507, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 1.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5105128366842602509, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
         type: 3}
       propertyPath: m_Name
@@ -5470,6 +5509,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 066f87768082f0e469955d85666f188a, type: 3}
+--- !u!223 &1269250392 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 9161466886631676989, guid: b0fc5f82d086848a695e279dc127abdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 9161466887258985473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1270444598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4619688038427212, guid: 5f6c85b6f6ab0b24abedd3e57447539c,
@@ -9017,9 +9062,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 176616424, guid: 2283c7f9e1c7c44f2bd71f80b9e302db, type: 3}
+      propertyPath: hudCanvas
+      value: 
+      objectReference: {fileID: 1269250392}
+    - target: {fileID: 176616424, guid: 2283c7f9e1c7c44f2bd71f80b9e302db, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 830803159}
+    - target: {fileID: 176616427, guid: 2283c7f9e1c7c44f2bd71f80b9e302db, type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoAmount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1216712863, guid: 2283c7f9e1c7c44f2bd71f80b9e302db, type: 3}
       propertyPath: fpsCamera
       value: 
@@ -9030,9 +9083,29 @@ PrefabInstance:
       objectReference: {fileID: 9161466887258985474}
     - target: {fileID: 1130425310380651696, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
         type: 3}
+      propertyPath: laserBeam
+      value: 
+      objectReference: {fileID: 73993650}
+    - target: {fileID: 1130425310380651696, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
       propertyPath: ammoSlider
       value: 
       objectReference: {fileID: 9161466887258985474}
+    - target: {fileID: 1143939288963607815, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144159569962622607, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145431352308274913, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1315256201706681911, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
         type: 3}
       propertyPath: m_Name
@@ -9091,6 +9164,21 @@ PrefabInstance:
     - target: {fileID: 1318624333201662151, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3079250662979071781, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191825256128686596, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995285151532884309, guid: 2283c7f9e1c7c44f2bd71f80b9e302db,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9182,6 +9270,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isAfraid
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5105128366842602507, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 5105128366842602509, guid: ee4bdbbd8dd9b49c2904b59436d13f74,
         type: 3}
@@ -9276,11 +9369,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 310180985, guid: b0fc5f82d086848a695e279dc127abdd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310180985, guid: b0fc5f82d086848a695e279dc127abdd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9161466886962951490, guid: b0fc5f82d086848a695e279dc127abdd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2083544171}
+    - target: {fileID: 9161466886999136466, guid: b0fc5f82d086848a695e279dc127abdd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9161466887404143683, guid: b0fc5f82d086848a695e279dc127abdd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

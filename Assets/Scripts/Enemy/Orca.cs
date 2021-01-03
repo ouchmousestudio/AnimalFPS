@@ -6,12 +6,15 @@ public class Orca : MonoBehaviour
 {
 
     [SerializeField] GameObject bossHealthUI;
+    [SerializeField] AudioSource bossTheme;
 
     Transform target;
     //How far away from target
     float distanceToTarget = Mathf.Infinity;
 
     float chaseRange = 50f;
+
+    bool hasStarted = false;
 
     private void Start()
     {
@@ -27,7 +30,13 @@ public class Orca : MonoBehaviour
             if (distanceToTarget < chaseRange)
             {
                 FaceTarget();
-                bossHealthUI.SetActive(true);
+                if (hasStarted == false)
+                {
+                    hasStarted = true;
+                    bossHealthUI.SetActive(true);
+                    bossTheme.Play();
+                }
+                
             }
             else { return; }
         }

@@ -35,4 +35,9 @@ public class Ammo : MonoBehaviour
         return null;
         
     }
+
+    public void Reload(AmmoType ammoType)
+    {
+        GetAmmoSlot(ammoType).ammoAmount = 30;
+    }
 }

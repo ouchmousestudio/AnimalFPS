@@ -29,7 +29,7 @@ public class EnemyAI : MonoBehaviour
         target = FindObjectOfType<PlayerHealth>().transform;
         health = GetComponent<EnemyHealth>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        navMeshAgent.stoppingDistance = stoppingDistance;
+        navMeshAgent.stoppingDistance = 5f;
     }
 
     void Update()
@@ -114,7 +114,6 @@ public class EnemyAI : MonoBehaviour
     // Show chase range in editor
     void OnDrawGizmosSelected()
     {
-        
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, chaseRange);
     }

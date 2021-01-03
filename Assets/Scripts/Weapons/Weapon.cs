@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Weapon: MonoBehaviour
+public class Weapon : MonoBehaviour
 {
     [SerializeField] Camera PlayerCamera;
     [SerializeField] float maxRange = 100f;
@@ -18,21 +18,68 @@ public class Weapon: MonoBehaviour
     [SerializeField] Slider ammoSlider;
     [SerializeField] AmmoType ammoType;
 
-    float lastShot = 0f;
+    private float lastShot = 0f;
     public bool isAlive = true;
+
+    //Raycast variables for Aim()
+    private Ray rayMouse;
+    private Vector3 direction;
+    private Quaternion rotation;
+
 
     private void OnEnable()
     {
         //Display Ammo count in UI
-        ammoSlider.value = ammoSlot.GetCurrentAmmo(ammoType) / 30f;
+        DisplayAmmo();
     }
 
     private void Update()
     {
-        if (Input.GetButton("Fire1") && isAlive) 
+        //Aim();
+        if (Input.GetButton("Fire1") && isAlive)
         {
             Shoot();
         }
+
+        //Todo : Temporary reload for debug
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ammoSlot.Reload(ammoType);
+            DisplayAmmo();
+        }
+    }
+
+
+    private void Aim()
+    {
+        if (PlayerCamera != null)
+        {
+            RaycastHit hit;
+            var mousePos = Input.mousePosition;
+            rayMouse = PlayerCamera.ScreenPointToRay(mousePos);
+            if (Physics.Raycast(rayMouse.origin, rayMouse.direction, out hit, maxRange))
+            {
+                RotateToMouseDirection(gameObject, hit.point);
+            }
+            else
+            {
+                var pos = rayMouse.GetPoint(maxRange);
+                RotateToMouseDirection(gameObject, hit.point);
+            }
+        }
+        else { Debug.Log("No Camera found"); }
+    }
+
+    private void RotateToMouseDirection(GameObject obj, Vector3 destination)
+    {
+        direction = destination - obj.transform.position;
+        rotation = Quaternion.LookRotation(direction);
+        obj.transform.localRotation = Quaternion.Lerp(obj.transform.rotation, rotation, 1);
+    }
+
+    public Quaternion GetRotation()
+    {
+        return rotation;
     }
 
     private void Shoot()
@@ -44,11 +91,9 @@ public class Weapon: MonoBehaviour
                 PlayMuzzleFlash();
                 laserBeam.Emit(1);
 
-                //ProcessRaycast();
-
                 ammoSlot.ReduceCurrentAmmo(ammoType);
-                //Display Ammo count in UI
-                ammoSlider.value = ammoSlot.GetCurrentAmmo(ammoType) / 30f;
+
+                DisplayAmmo();
                 GetComponent<Animator>().SetTrigger("isFired");
                 lastShot = Time.time;
             }
@@ -60,29 +105,8 @@ public class Weapon: MonoBehaviour
         muzzleFlash.Play();
     }
 
-
-    //Replaced with OnParticleCollision script
-
-    //private void ProcessRaycast()
-    //{
-    //    RaycastHit hit;
-    //    if (Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out hit, maxRange))
-    //    {
-    //        CreateImpact(hit);
-    //        EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
-    //        if (target == null) return;
-    //        target.TakeDamage(damage);
-    //    }
-    //    else
-    //    {
-    //        return;
-    //    }
-    //}
-
-    //private void CreateImpact(RaycastHit hit)
-    //{
-    //    //Instantiate Hit effect with rotation from shot direction
-    //    GameObject impact = Instantiate(hitFX, hit.point, Quaternion.LookRotation(hit.normal));
-    //    Destroy(impact, 0.1f);
-    //}
+    private void DisplayAmmo()
+    {
+        ammoSlider.value = ammoSlot.GetCurrentAmmo(ammoType) / 30f;
+    }
 }

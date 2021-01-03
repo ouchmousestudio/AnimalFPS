@@ -15,7 +15,7 @@ MonoBehaviour:
   lightingModel: 0
   renderQueueIndex: 0
   color: {r: 0, g: 0.8, b: 1, a: 0.5}
-  specColor: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
+  specColor: {r: 0.16037738, g: 0.11725705, b: 0.11725705, a: 1}
   smoothness: 0.5
   enableLightAbsorption: 1
   depthColor: {r: 0, g: 0.111373216, b: 0.16037738, a: 0.9372549}
@@ -52,12 +52,12 @@ MonoBehaviour:
   reflectionLayers:
     serializedVersion: 2
     m_Bits: 17
-  reflectCustomSkybox: 0
+  reflectCustomSkybox: 1
   reflectionDistortionStrength: 0
   enableRefraction: 0
   refractionDistortionStrength: 0
   enableCaustic: 0
   causticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
-  causticSize: 14.31
+  causticSize: 28.96
   causticStrength: 5
   causticDistortionStrength: 0
