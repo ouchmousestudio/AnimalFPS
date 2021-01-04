@@ -16,6 +16,8 @@ public class PlayerHealth : MonoBehaviour
     Collider  playerCollider;
     SceneLoader sceneLoader;
 
+    private CameraShake cameraShake;
+
     private void Awake()
     {
         hudCanvas.enabled = true;
@@ -23,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
 
         playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
+        cameraShake = FindObjectOfType<CameraShake>();
 
         //Make cursor invisible when restarting.
         GetComponent<ECM.Components.MouseLook>().verticalSensitivity = 2;
@@ -49,6 +52,7 @@ public class PlayerHealth : MonoBehaviour
     //create a public method which reduces hitpoints by damage.
     public void TakeDamage(float damage)
     {
+        StartCoroutine(cameraShake.Shake(0.15f, 0.2f));
         hitPoint -= damage;
         if (hitPoint <= 0)
         {
@@ -61,7 +65,7 @@ public class PlayerHealth : MonoBehaviour
             //Deactive isAlive to stop weapon being fired.
             GetComponentInChildren<Weapon>().isAlive = false;
 
-            //Dtop gun after death
+            //Drop gun after death
             //myGun.isKinematic = false;
         
             //Fall over Animation

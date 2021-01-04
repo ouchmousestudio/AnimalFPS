@@ -8,11 +8,11 @@ public class EnemyAI : MonoBehaviour
 {
 
     [Tooltip("Distance before chase starts.")]
-    [SerializeField] float chaseRange = 10f;
+    [SerializeField] float agroRange = 10f;
     [Tooltip("Distance to escape.")]
     [SerializeField] float escapeRange = 30f;
     [SerializeField] float turnSpeed = 3f;
-    [SerializeField] float stoppingDistance;
+    [SerializeField] float stoppingDistance = 0f;
     [SerializeField] bool isAfraid;
 
     NavMeshAgent navMeshAgent;
@@ -29,7 +29,7 @@ public class EnemyAI : MonoBehaviour
         target = FindObjectOfType<PlayerHealth>().transform;
         health = GetComponent<EnemyHealth>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        navMeshAgent.stoppingDistance = 5f;
+        //navMeshAgent.stoppingDistance = stoppingDistance;
     }
 
     void Update()
@@ -47,7 +47,7 @@ public class EnemyAI : MonoBehaviour
             {
                 EngageTarget();
             }
-            else if (distanceToTarget < chaseRange)
+            else if (distanceToTarget < agroRange)
             {
                 isProvoked = true;
             }
@@ -91,14 +91,16 @@ public class EnemyAI : MonoBehaviour
     private void AttackTarget()
     {
         GetComponent<Animator>().SetBool("isAttacking", true);
+        navMeshAgent.isStopped = true;
     }
 
     private void ChaseTarget()
     {
         //Start move animation and reset attack animation
         GetComponent<Animator>().SetBool("isAttacking", false);
+        navMeshAgent.isStopped = false;
         //GetComponent<Animator>().SetTrigger("move");
-        GetComponent<Animator>().SetBool("isWalking", true);
+        GetComponent<Animator>().SetBool("isRunning", true);
         navMeshAgent.SetDestination(target.position);
     }
 
@@ -115,6 +117,6 @@ public class EnemyAI : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, chaseRange);
+        Gizmos.DrawWireSphere(transform.position, agroRange);
     }
 }

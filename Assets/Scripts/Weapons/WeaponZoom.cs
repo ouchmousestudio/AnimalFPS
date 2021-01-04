@@ -52,16 +52,12 @@ public class WeaponZoom : MonoBehaviour
     {
         weaponAnimation.SetBool("isZoomed", isZoomed);
         fpsCamera.fieldOfView = Mathf.Lerp(fpsCamera.fieldOfView, zoomFOV, Time.deltaTime * smoothingAmount);
-        //GetComponentInParent<ECM.Components.MouseLook>().lateralSensitivity = zoomSensitivity;
-        //GetComponentInParent<ECM.Components.MouseLook>().verticalSensitivity = zoomSensitivity;
     }
 
     private void ZoomOut()
     {
         weaponAnimation.SetBool("isZoomed", isZoomed);
         fpsCamera.fieldOfView = Mathf.Lerp(fpsCamera.fieldOfView, normalFOV, Time.deltaTime * smoothingAmount);
-        //GetComponentInParent<ECM.Components.MouseLook>().lateralSensitivity = normalSensitivity;
-        //GetComponentInParent<ECM.Components.MouseLook>().verticalSensitivity = normalSensitivity;
     }
 
 }

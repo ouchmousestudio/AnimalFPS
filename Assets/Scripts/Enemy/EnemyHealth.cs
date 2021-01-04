@@ -6,20 +6,24 @@ using UnityEngine.UI;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoint = 100f;
-    float hitPointMax;
+    private float hitPointMax;
     [SerializeField] float deathTime = 1.5f;
     [SerializeField] float timeuntilVFX = 1f;
     [SerializeField] ParticleSystem deathFX;
     [SerializeField] Slider enemyHealth;
+    [SerializeField] string sfxName = "";
 
-    Animator myAnimator;
+    private SFXPlayer sFXPlayer;
 
-    bool isDead = false;
+    private Animator myAnimator;
+
+    private bool isDead = false;
 
     private void Start()
     {
         hitPointMax = hitPoint;
         myAnimator = GetComponent<Animator>();
+        sFXPlayer = FindObjectOfType<SFXPlayer>();
     }
 
 
@@ -44,9 +48,6 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        //Remove HealthUI
-        if (enemyHealth != null) { enemyHealth.gameObject.SetActive(false); }
-
         Destroy(gameObject, deathTime);
         if (isDead == false)
         {
@@ -54,6 +55,10 @@ public class EnemyHealth : MonoBehaviour
             myAnimator.SetBool("isWalking", false);
             myAnimator.SetBool("isRunning", false);
             myAnimator.SetBool("isDead", true);
+            if (sfxName != "")
+            {
+                sFXPlayer.PlaySFX(sfxName);
+            }
             StartCoroutine(SpawnVFX());
         }
     }

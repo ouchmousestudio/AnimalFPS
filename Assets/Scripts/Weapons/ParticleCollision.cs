@@ -8,6 +8,7 @@ public class ParticleCollision : MonoBehaviour
 
     [SerializeField] Weapon myWeapon;
     [SerializeField] ParticleSystem hitFX;
+    [SerializeField] float enemyDamage;
 
     private ParticleSystem part;
     public List<ParticleCollisionEvent> collisionEvents;
@@ -17,6 +18,7 @@ public class ParticleCollision : MonoBehaviour
         part = GetComponent<ParticleSystem>();
         collisionEvents = new List<ParticleCollisionEvent>();
     }
+
     private void OnParticleCollision(GameObject target)
     {
         ParticlePhysicsExtensions.GetCollisionEvents(part, target, collisionEvents);
@@ -30,9 +32,19 @@ public class ParticleCollision : MonoBehaviour
 
 
         //Todo: Add Hit effect for visual
-        if (target.GetComponent<EnemyHealth>() == null) return;
-        EnemyHealth targetHealth = target.GetComponent<EnemyHealth>();
-        targetHealth.TakeDamage(myWeapon.damage);
+        if (target.GetComponent<EnemyHealth>())
+        {
+            EnemyHealth targetHealth = target.GetComponent<EnemyHealth>();
+            targetHealth.TakeDamage(myWeapon.damage);
+        }
+        else if (target.GetComponent<PlayerHealth>())
+        {
+            PlayerHealth playerHealth = target.GetComponent<PlayerHealth>();
+            playerHealth.TakeDamage(enemyDamage);
+            part.Clear();
+        }
+
+        
     }
 
     private void EmitHitFX(ParticleCollisionEvent particleCollisionEvent)

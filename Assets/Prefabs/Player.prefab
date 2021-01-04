@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myWeapon: {fileID: 1130425310380651696}
   hitFX: {fileID: 0}
+  enemyDamage: 0
 --- !u!1 &1130425310380651695
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +73,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130425310380651695}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -169,7 +170,7 @@ MonoBehaviour:
   PlayerCamera: {fileID: 1298276663311460193}
   maxRange: 100
   damage: 30
-  fireRate: 0.05
+  fireRate: 0.1
   muzzleFlash: {fileID: 1973910672503124203}
   laserBeam: {fileID: 0}
   hitFX: {fileID: 3810829144241709909, guid: 78b2a61825c074d55a545342e5149a46, type: 3}
@@ -1110,6 +1111,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1127554091025900615}
     m_Modifications:
+    - target: {fileID: 3339469085332358290, guid: 3a362016d6eb44b26a912927269aaa2f,
+        type: 3}
+      propertyPath: myWeapon
+      value: 
+      objectReference: {fileID: 1130425310380651696}
     - target: {fileID: 6223617520129622840, guid: 3a362016d6eb44b26a912927269aaa2f,
         type: 3}
       propertyPath: m_RootOrder
