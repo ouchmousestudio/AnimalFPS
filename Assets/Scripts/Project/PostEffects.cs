@@ -1,28 +1,31 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PostEffects : MonoBehaviour
 {
-    public IEnumerator Bleed(float duration, float magnitude)
-    {
+    private PostProcessVolume volume;
 
-        Vector3 originalPosition = transform.localPosition;
+    private void Start()
+    {
+        volume = GetComponent<PostProcessVolume>();
+    }
+
+    public IEnumerator Glow(float duration, float magnitude)
+    {
 
         float elapsed = 0f;
 
         while (elapsed < duration)
         {
-            float x = Random.Range(-1f, 1f) * magnitude;
-            float y = Random.Range(-1f, 1f) * magnitude;
+            if (volume != null)
+            {
 
-            transform.localPosition = new Vector3(x, y, originalPosition.z);
-
-            elapsed += Time.deltaTime;
+            }
+                elapsed += Time.deltaTime;
 
             yield return null;
         }
-
-        transform.localPosition = originalPosition;
     }
 }

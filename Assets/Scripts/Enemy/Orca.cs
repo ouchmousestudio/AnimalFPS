@@ -8,6 +8,7 @@ public class Orca : MonoBehaviour
     [SerializeField] GameObject bossHealthUI;
     [SerializeField] AudioSource bossTheme;
     [SerializeField] ParticleSystem waterShot;
+    [SerializeField] EnemyHealth orcaHealth;
 
     Transform target;
     //How far away from target
@@ -22,6 +23,7 @@ public class Orca : MonoBehaviour
 
     private void Start()
     {
+        orcaHealth = GetComponent<EnemyHealth>();
         target = FindObjectOfType<PlayerHealth>().transform;
     }
 
@@ -35,7 +37,7 @@ public class Orca : MonoBehaviour
             FaceTarget();
             Invoke("ReadyToFire", 2f);
 
-            if (readyToFire)
+            if (readyToFire && !orcaHealth.isDead)
             {
                 RandomShot();
             }

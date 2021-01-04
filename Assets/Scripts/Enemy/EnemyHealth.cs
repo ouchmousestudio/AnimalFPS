@@ -17,19 +17,13 @@ public class EnemyHealth : MonoBehaviour
 
     private Animator myAnimator;
 
-    private bool isDead = false;
+    public bool isDead = false;
 
     private void Start()
     {
         hitPointMax = hitPoint;
         myAnimator = GetComponent<Animator>();
         sFXPlayer = FindObjectOfType<SFXPlayer>();
-    }
-
-
-    public bool IsDead()
-    {
-        return isDead;
     }
 
     public void TakeDamage(float damage)

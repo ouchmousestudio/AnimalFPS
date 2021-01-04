@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -15,8 +14,8 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem laserBeam;
     [SerializeField] GameObject hitFX;
     [SerializeField] Ammo ammoSlot;
-    [SerializeField] Slider ammoSlider;
     [SerializeField] AmmoType ammoType;
+
 
     private float lastShot = 0f;
     public bool isAlive = true;
@@ -30,7 +29,7 @@ public class Weapon : MonoBehaviour
     private void OnEnable()
     {
         //Display Ammo count in UI
-        DisplayAmmo();
+        ammoSlot.UpdateAmmoUI(ammoType);
     }
 
     private void Update()
@@ -45,7 +44,6 @@ public class Weapon : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             ammoSlot.Reload(ammoType);
-            DisplayAmmo();
         }
     }
 
@@ -93,7 +91,6 @@ public class Weapon : MonoBehaviour
 
                 ammoSlot.ReduceCurrentAmmo(ammoType);
 
-                DisplayAmmo();
                 GetComponent<Animator>().SetTrigger("isFired");
                 lastShot = Time.time;
             }
@@ -103,10 +100,5 @@ public class Weapon : MonoBehaviour
     private void PlayMuzzleFlash()
     {
         muzzleFlash.Play();
-    }
-
-    private void DisplayAmmo()
-    {
-        ammoSlider.value = ammoSlot.GetCurrentAmmo(ammoType) / 30f;
     }
 }

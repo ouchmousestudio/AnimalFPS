@@ -34,7 +34,7 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (health.IsDead())
+        if (health.isDead)
         {
             enabled = false;
             navMeshAgent.enabled = false;

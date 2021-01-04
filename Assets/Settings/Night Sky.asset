@@ -95,7 +95,7 @@ Material:
     - _MoonDirection: {r: 0, g: -0.518624, b: -0.8550025, a: 0}
     - _OverheadCloudColor: {r: 1, g: 1, b: 1, a: 0.050980393}
     - _SkyColor: {r: 0.10090523, g: 0.06363475, b: 0.20754719, a: 1}
-    - _StarsColor0: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+    - _StarsColor0: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
     - _StarsColor1: {r: 1, g: 0.24056602, b: 0.8628801, a: 1}
     - _StarsColor2: {r: 0, g: 0.8351569, b: 1, a: 1}
     - _SunColor: {r: 0, g: 0, b: 0, a: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   starsEndPosition: 1
   starsOpacity: 1
   starsLayerCount: 1
-  starsColor0: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+  starsColor0: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
   starsColor1: {r: 1, g: 0.24056602, b: 0.8628801, a: 1}
   starsColor2: {r: 0, g: 0.8351569, b: 1, a: 1}
   starsDensity0: 0.4
