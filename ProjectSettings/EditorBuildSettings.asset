@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e19ea68174b2e45969d478490041c2bb
   - enabled: 1
+    path: Assets/Scenes/Arctic.unity
+    guid: 21bb2bcc994fe464d99abe270920fcb6
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: 323764ec013a346f782458077f327834
+  - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 2d35b5ca0a4754a6ba30f9181d23616e
   - enabled: 1
-    path: Assets/Scenes/Sandbox.unity
-    guid: e35cb0579a62147248ff7eb6026bc66d
-  - enabled: 1
-    path: Assets/Scenes/Arctic.unity
-    guid: 21bb2bcc994fe464d99abe270920fcb6
+    path: Assets/Scenes/Forest.unity
+    guid: cdd22d8fb6ef249c59961900c5a8aa6b
   m_configObjects: {}

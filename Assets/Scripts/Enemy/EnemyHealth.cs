@@ -60,6 +60,10 @@ public class EnemyHealth : MonoBehaviour
     IEnumerator SpawnVFX()
     {
         yield return new WaitForSecondsRealtime(timeuntilVFX);
-        Instantiate(deathFX, transform.position, Quaternion.identity);
+        if (deathFX != null)
+        {
+            Instantiate(deathFX, transform.position, Quaternion.identity);
+        }
+        
     }
 }

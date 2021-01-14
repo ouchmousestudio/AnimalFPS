@@ -34,14 +34,24 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Settings");
     }
 
-    public void LoadLevel1()
+    public void LoadDesertLevel()
     {
-        SceneManager.LoadScene("Sandbox");
+        SceneManager.LoadScene("Desert");
     }
 
-    public void LoadLevel2()
+    public void LoadArcticLevel()
     {
         SceneManager.LoadScene("Arctic");
+    }
+
+    public void LoadForestLevel()
+    {
+        SceneManager.LoadScene("Forest");
+    }
+
+    public void LoadLevel(string level)
+    {
+        SceneManager.LoadScene(level);
     }
 
 }

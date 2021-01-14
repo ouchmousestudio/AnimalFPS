@@ -5,14 +5,12 @@ using UnityEngine;
 public class Orca : MonoBehaviour
 {
 
-    [SerializeField] GameObject bossHealthUI;
-    [SerializeField] AudioSource bossTheme;
     [SerializeField] ParticleSystem waterShot;
-    [SerializeField] EnemyHealth orcaHealth;
 
-    Transform target;
+    private Transform target;
     //How far away from target
     private float distanceToTarget = Mathf.Infinity;
+    private EnemyHealth orcaHealth;
 
     private float chaseRange = 50f;
     private bool hasStarted = false;
@@ -41,13 +39,6 @@ public class Orca : MonoBehaviour
             {
                 RandomShot();
             }
-
-            if (hasStarted == false)
-            {
-                hasStarted = true;
-                bossHealthUI.SetActive(true);
-                bossTheme.Play();
-            }
         }
         else { return; }
     }
@@ -75,10 +66,5 @@ public class Orca : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 3f);
     }
 
-    private void OnDisable()
-    {
-        if (bossHealthUI != null) { bossHealthUI.SetActive(false); }
-        if (bossTheme != null) { bossTheme.Stop(); }   
-    }
 
 }

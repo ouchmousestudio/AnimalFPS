@@ -45,7 +45,6 @@ public class PlayerHealth : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             sceneLoader.LoadMenu();
-
         }
     }
 
@@ -57,6 +56,21 @@ public class PlayerHealth : MonoBehaviour
         if (hitPoint <= 0)
         {
             DeathEvent();
+        }
+    }
+
+    //For Health Pickups
+    public void IncreaseHealth(float health)
+    {
+        //Todo: Add Post FX
+        
+        if (hitPoint + health >= 200f)
+        {
+            hitPoint = 200f;
+        }
+        else
+        {
+            hitPoint += health;
         }
     }
 

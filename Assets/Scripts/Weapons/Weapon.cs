@@ -7,24 +7,18 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] Camera PlayerCamera;
     [SerializeField] float maxRange = 100f;
-    public float damage = 30f;
     [Tooltip("Fire rate in seconds")]
     [SerializeField] float fireRate = 0.5f;
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] ParticleSystem laserBeam;
     [SerializeField] GameObject hitFX;
+    public float damage = 30f;
+    [SerializeField] int numberOfShots = 1;
     [SerializeField] Ammo ammoSlot;
     [SerializeField] AmmoType ammoType;
 
-
     private float lastShot = 0f;
     public bool isAlive = true;
-
-    //Raycast variables for Aim()
-    private Ray rayMouse;
-    private Vector3 direction;
-    private Quaternion rotation;
-
 
     private void OnEnable()
     {
@@ -34,7 +28,6 @@ public class Weapon : MonoBehaviour
 
     private void Update()
     {
-        //Aim();
         if (Input.GetButton("Fire1") && isAlive)
         {
             Shoot();
@@ -47,39 +40,6 @@ public class Weapon : MonoBehaviour
         }
     }
 
-
-    private void Aim()
-    {
-        if (PlayerCamera != null)
-        {
-            RaycastHit hit;
-            var mousePos = Input.mousePosition;
-            rayMouse = PlayerCamera.ScreenPointToRay(mousePos);
-            if (Physics.Raycast(rayMouse.origin, rayMouse.direction, out hit, maxRange))
-            {
-                RotateToMouseDirection(gameObject, hit.point);
-            }
-            else
-            {
-                var pos = rayMouse.GetPoint(maxRange);
-                RotateToMouseDirection(gameObject, hit.point);
-            }
-        }
-        else { Debug.Log("No Camera found"); }
-    }
-
-    private void RotateToMouseDirection(GameObject obj, Vector3 destination)
-    {
-        direction = destination - obj.transform.position;
-        rotation = Quaternion.LookRotation(direction);
-        obj.transform.localRotation = Quaternion.Lerp(obj.transform.rotation, rotation, 1);
-    }
-
-    public Quaternion GetRotation()
-    {
-        return rotation;
-    }
-
     private void Shoot()
     {
         if (ammoSlot.GetCurrentAmmo(ammoType) >= 1)
@@ -87,7 +47,8 @@ public class Weapon : MonoBehaviour
             if (Time.time > fireRate + lastShot)
             {
                 PlayMuzzleFlash();
-                laserBeam.Emit(1);
+                FindObjectOfType<SFXPlayer>().PlaySFXRandomPitch("Zap");
+                laserBeam.Emit(numberOfShots);
 
                 ammoSlot.ReduceCurrentAmmo(ammoType);
 

@@ -12,7 +12,6 @@ public class EnemyAI : MonoBehaviour
     [Tooltip("Distance to escape.")]
     [SerializeField] float escapeRange = 30f;
     [SerializeField] float turnSpeed = 3f;
-    [SerializeField] float stoppingDistance = 0f;
     [SerializeField] bool isAfraid;
 
     NavMeshAgent navMeshAgent;
@@ -29,7 +28,6 @@ public class EnemyAI : MonoBehaviour
         target = FindObjectOfType<PlayerHealth>().transform;
         health = GetComponent<EnemyHealth>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        //navMeshAgent.stoppingDistance = stoppingDistance;
     }
 
     void Update()
