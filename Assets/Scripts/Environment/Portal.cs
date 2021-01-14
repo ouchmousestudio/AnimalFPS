@@ -32,7 +32,7 @@ public class Portal : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Todo: Replace with enum or string.
-        FindObjectOfType<SceneLoader>().LoadLevel(level);
+        StartCoroutine(FindObjectOfType<SceneLoader>().LoadLevel(level));
     }
 
 }

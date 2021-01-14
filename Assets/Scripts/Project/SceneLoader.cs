@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
 
+    [SerializeField] Animator transition;
+    private float transitionTime = 0.5f;
+
     int currentScene;
 
     private void Awake()
@@ -49,8 +52,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Forest");
     }
 
-    public void LoadLevel(string level)
+    public IEnumerator LoadLevel(string level)
     {
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(level);
     }
 

@@ -203,9 +203,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5215299815803115452, guid: e6a9d38e9cf984af0be57243b87cdd10,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5215299815803115452, guid: e6a9d38e9cf984af0be57243b87cdd10,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1258ab3ba66a04c219d787f93a3c4d2c, type: 2}
+    - target: {fileID: 236216658851537685, guid: e6a9d38e9cf984af0be57243b87cdd10,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 236216658851537685, guid: e6a9d38e9cf984af0be57243b87cdd10,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -215,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LaserPistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057587522248074804, guid: e6a9d38e9cf984af0be57243b87cdd10,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7057587522248074804, guid: e6a9d38e9cf984af0be57243b87cdd10,
         type: 3}
