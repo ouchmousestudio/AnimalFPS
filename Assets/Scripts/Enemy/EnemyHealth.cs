@@ -7,15 +7,16 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoint = 100f;
     private float hitPointMax;
-    [SerializeField] float deathTime = 1.5f;
-    [SerializeField] float timeuntilVFX = 1f;
-    [SerializeField] ParticleSystem deathFX;
+    [SerializeField] float deathTime = 6f;
+
+    //[SerializeField] ParticleSystem deathFX;
+
     [SerializeField] Slider enemyHealth;
     [SerializeField] string sfxName = "";
 
     private SFXPlayer sFXPlayer;
-
     private Animator myAnimator;
+    private Collider myCollider;
 
     public bool isDead = false;
 
@@ -24,6 +25,7 @@ public class EnemyHealth : MonoBehaviour
         hitPointMax = hitPoint;
         myAnimator = GetComponent<Animator>();
         sFXPlayer = FindObjectOfType<SFXPlayer>();
+        myCollider = GetComponent<Collider>();
     }
 
     public void TakeDamage(float damage)
@@ -49,21 +51,21 @@ public class EnemyHealth : MonoBehaviour
             myAnimator.SetBool("isWalking", false);
             myAnimator.SetBool("isRunning", false);
             myAnimator.SetBool("isDead", true);
+            myCollider.enabled = false;
             if (sfxName != "")
             {
                 sFXPlayer.PlaySFX(sfxName);
             }
-            StartCoroutine(SpawnVFX());
+            //StartCoroutine(SpawnVFX());
         }
     }
 
-    IEnumerator SpawnVFX()
-    {
-        yield return new WaitForSecondsRealtime(timeuntilVFX);
-        if (deathFX != null)
-        {
-            Instantiate(deathFX, transform.position, Quaternion.identity);
-        }
-        
-    }
+    //IEnumerator SpawnVFX()
+    //{
+    //    yield return new WaitForSecondsRealtime(timeuntilVFX);
+    //    if (deathFX != null)
+    //    {
+    //        Instantiate(deathFX, transform.position, Quaternion.identity);
+    //    }
+    //}
 }

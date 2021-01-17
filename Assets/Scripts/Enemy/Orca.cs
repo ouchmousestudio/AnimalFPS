@@ -13,7 +13,6 @@ public class Orca : MonoBehaviour
     private EnemyHealth orcaHealth;
 
     private float chaseRange = 50f;
-    private bool hasStarted = false;
 
     private float nextShot = 0f;
 

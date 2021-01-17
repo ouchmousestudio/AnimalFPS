@@ -32,6 +32,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void LoadLevelSelect()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
     public void LoadSettings()
     {
         SceneManager.LoadScene("Settings");
