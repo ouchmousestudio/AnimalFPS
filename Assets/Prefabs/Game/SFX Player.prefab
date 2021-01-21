@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1548223079172959730}
   - component: {fileID: 1548223079172959728}
-  - component: {fileID: 1548223079172959731}
   - component: {fileID: 1548223079172959729}
   m_Layer: 0
   m_Name: SFX Player
@@ -129,18 +128,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1548223079172959731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548223079172959732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f43346060586044a3b48e38b523332f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1548223079172959729
 MonoBehaviour:
   m_ObjectHideFlags: 0

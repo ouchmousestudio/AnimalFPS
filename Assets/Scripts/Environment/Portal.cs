@@ -26,6 +26,7 @@ public class Portal : MonoBehaviour
 
     private void OnEnable()
     {
+        portalMat.SetFloat("_DAmount", dissolveAmount);
         isDissolving = true;
     }
 

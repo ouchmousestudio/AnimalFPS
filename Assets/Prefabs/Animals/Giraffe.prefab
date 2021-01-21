@@ -1358,7 +1358,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoint: 100
   deathTime: 2.5
-  timeuntilVFX: 1.5
   enemyHealth: {fileID: 0}
   sfxName: 
   isDead: 0
@@ -1377,7 +1376,7 @@ MonoBehaviour:
   teleParticles: {fileID: 6678802305674014996}
   dissolveSpeed: 2
   minClamp: 2
-  maxClamp: 11
+  maxClamp: 14
 --- !u!1 &665066165903769508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,6 +1731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3517377818260272958, guid: c76ced66c319b4fd9a5b8b7a6cdcdb72,
         type: 3}
+      propertyPath: startDelay.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517377818260272958, guid: c76ced66c319b4fd9a5b8b7a6cdcdb72,
+        type: 3}
       propertyPath: ShapeModule.m_SkinnedMeshRenderer
       value: 
       objectReference: {fileID: 638108766096691264}
@@ -1790,6 +1794,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7274559962466261566, guid: c76ced66c319b4fd9a5b8b7a6cdcdb72,
+        type: 3}
+      propertyPath: ShapeModule.m_SkinnedMeshRenderer
+      value: 
+      objectReference: {fileID: 638108766096691264}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ced66c319b4fd9a5b8b7a6cdcdb72, type: 3}
 --- !u!4 &4440938516954610342 stripped

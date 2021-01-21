@@ -34,7 +34,7 @@ public class Boss : MonoBehaviour
             {
                 hasStarted = true;
                 bossHealthUI.SetActive(true);
-                bossTheme.Play();
+                FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Tense);
             }
         }
         else { return; }
@@ -43,7 +43,7 @@ public class Boss : MonoBehaviour
     private void OnDisable()
     {
         if (bossHealthUI != null) { bossHealthUI.SetActive(false); }
-        if (bossTheme != null) { bossTheme.Stop(); }
+        if (bossTheme != null) { FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Normal); ; }
         if (portal != null) { portal.SetActive(true); }
     }
 

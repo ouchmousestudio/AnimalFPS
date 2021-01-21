@@ -4182,7 +4182,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoint: 60
   deathTime: 1.5
-  timeuntilVFX: 1
   enemyHealth: {fileID: 0}
   sfxName: 
   isDead: 0
@@ -4394,6 +4393,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7274559962466261566, guid: c76ced66c319b4fd9a5b8b7a6cdcdb72,
+        type: 3}
+      propertyPath: ShapeModule.m_SkinnedMeshRenderer
+      value: 
+      objectReference: {fileID: 1544283341380691480}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ced66c319b4fd9a5b8b7a6cdcdb72, type: 3}
 --- !u!4 &7480625586771115541 stripped
