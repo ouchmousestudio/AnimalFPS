@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -55,6 +54,11 @@ public class SceneLoader : MonoBehaviour
     public void LoadForestLevel()
     {
         SceneManager.LoadScene("Forest");
+    }
+
+    public void LoadLoading()
+    {
+        SceneManager.LoadScene("Opening");
     }
 
     public IEnumerator LoadLevel(string level)

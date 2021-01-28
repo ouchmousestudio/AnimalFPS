@@ -18,7 +18,7 @@ public class MusicPlayer : MonoBehaviour
     [SerializeField] private AudioClip musicStart;
     [SerializeField] private AudioMixerSnapshot[] tracks = new AudioMixerSnapshot[3];
     private int selectionIndex;
-    [SerializeField] float transitionSpeed = 0.5f;
+    [SerializeField] float transitionSpeed = 1f;
     [SerializeField] private musicStates currentState;
 
 

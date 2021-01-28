@@ -75,23 +75,24 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void DeathEvent()
-        {
-            //Deactive isAlive to stop weapon being fired.
-            GetComponentInChildren<Weapon>().isAlive = false;
+    {
+        //Deactive isAlive to stop weapon being fired.
+        GetComponentInChildren<Weapon>().isAlive = false;
 
-            //Drop gun after death
-            //myGun.isKinematic = false;
+        //Drop gun after death
+        //myGun.isKinematic = false;
         
-            //Fall over Animation
-            GetComponent<Animator>().SetTrigger("death");
-            //Display UI
-            gameOverCanvas.enabled = true;
-            hudCanvas.enabled = false;
-            if (bossHP != null)
-            {
-                bossHP.enabled = false;
-            }
+        //Fall over Animation
+        GetComponent<Animator>().SetTrigger("death");
+        //Display UI
+        gameOverCanvas.enabled = true;
+        hudCanvas.enabled = false;
+        if (bossHP != null)
+        {
+            bossHP.enabled = false;
         }
+        FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Normal);
+    }
 
     private void FreezeScreen()
     {

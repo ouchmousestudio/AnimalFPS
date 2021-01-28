@@ -5,7 +5,6 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     [SerializeField] GameObject bossHealthUI;
-    [SerializeField] AudioSource bossTheme;
     [SerializeField] GameObject portal;
 
     private EnemyHealth bossHealth;
@@ -43,7 +42,7 @@ public class Boss : MonoBehaviour
     private void OnDisable()
     {
         if (bossHealthUI != null) { bossHealthUI.SetActive(false); }
-        if (bossTheme != null) { FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Normal); ; }
+        FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Normal);
         if (portal != null) { portal.SetActive(true); }
     }
 
