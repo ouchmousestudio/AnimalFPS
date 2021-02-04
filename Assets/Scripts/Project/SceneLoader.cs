@@ -61,6 +61,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Opening");
     }
 
+    public void LoadOpeningText()
+    {
+        SceneManager.LoadScene("OpeningText");
+    }
+
     public IEnumerator LoadLevel(string level)
     {
         transition.SetTrigger("Start");

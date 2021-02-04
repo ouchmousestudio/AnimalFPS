@@ -41,7 +41,7 @@ public class SFXPlayer : MonoBehaviour
 
     public void PlaySFXRandomPitch(string soundName)
     {
-        myAudioSource.pitch = Random.Range(0.7f, 1.3f);
+        myAudioSource.pitch = Random.Range(0.8f, 1.2f);
         myAudioSource.PlayOneShot(GetSample(soundName).audioClip, GetSample(soundName).soundVolume);
     }
 

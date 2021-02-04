@@ -1391,6 +1391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Session
       objectReference: {fileID: 0}
+    - target: {fileID: 8449182553121474387, guid: f4f92ae01ed944dbd9fcd6fc9e31c270,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8449182553121474389, guid: f4f92ae01ed944dbd9fcd6fc9e31c270,
         type: 3}
       propertyPath: m_RootOrder
