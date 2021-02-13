@@ -10750,11 +10750,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In the far future...\nMankind had to leave it\u2019s home on earth to
-    escape the environmental disaster it caused. Humans learned to ascend their spirits
-    to a digital plane of existence.\n\nBut, there were still many animals left behind
+  m_text: "In the far future...\nMankind had to leave its home on earth to escape
+    the environmental disaster it caused. Humans learned to upload their consciousness
+    to a digital plane of existence.\n\nHowever, there were still animals left behind
     to fend for themselves on the planet.\n\nA starship was sent by humanity\u2019s
-    mechanical caretakers to rescue the animals and secure them in the new digital
+    cybernetic caretakers to rescue the animals and secure them in the new digital
     world."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6d78589d8b08047fcae11c54799e9e19, type: 2}

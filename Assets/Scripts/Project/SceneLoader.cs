@@ -58,7 +58,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadLoading()
     {
-        SceneManager.LoadScene("Opening");
+        SceneManager.LoadScene("Loading");
     }
 
     public void LoadOpeningText()

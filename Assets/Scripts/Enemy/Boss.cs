@@ -9,6 +9,7 @@ public class Boss : MonoBehaviour
 
     private EnemyHealth bossHealth;
     private Transform target;
+    private MusicPlayer musicPlayer;
     //How far away from target
     private float distanceToTarget = Mathf.Infinity;
 
@@ -19,6 +20,7 @@ public class Boss : MonoBehaviour
     {
         bossHealth = GetComponent<EnemyHealth>();
         target = FindObjectOfType<PlayerHealth>().transform;
+        musicPlayer = FindObjectOfType<MusicPlayer>();
     }
 
     // Update is called once per frame
@@ -33,7 +35,7 @@ public class Boss : MonoBehaviour
             {
                 hasStarted = true;
                 bossHealthUI.SetActive(true);
-                FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Tense);
+                musicPlayer.ChangeMusic(MusicPlayer.musicStates.Tense);
             }
         }
         else { return; }
@@ -42,7 +44,7 @@ public class Boss : MonoBehaviour
     private void OnDisable()
     {
         if (bossHealthUI != null) { bossHealthUI.SetActive(false); }
-        FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Normal);
+        if (musicPlayer != null) { musicPlayer.ChangeMusic(MusicPlayer.musicStates.Normal); }
         if (portal != null) { portal.SetActive(true); }
     }
 
