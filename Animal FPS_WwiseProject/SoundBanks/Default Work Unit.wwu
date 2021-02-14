@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{831FE9DA-D199-45F5-9D9D-F7F03677A88A}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{831FE9DA-D199-45F5-9D9D-F7F03677A88A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundFX" ID="{2FFBECB0-5340-44AC-ABBD-B6B1D1BDA77F}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Main" ID="{453F77CA-953A-42BE-933F-7C382CEE0505}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StopAll" ID="{DD7F6508-DB5C-40F1-9510-F52EFBE84FEA}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ammo_Pickup" ID="{50B4FA3D-53BB-4119-B607-CC593BAE4F55}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DesertAmb" ID="{C9EC335E-9272-436B-AC04-FCA6B154A970}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Health_Pickup" ID="{00B27005-3062-43DC-BF48-59B1115BBD2B}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Shotgun" ID="{031D191A-673E-469F-9A8F-513FF9783BB2}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Gun" ID="{9CC88B12-2812-47D3-987F-3F521AA04D8F}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Water_Splash" ID="{336B6102-7370-4B11-92E0-371DBE5D806C}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ArcticAmb" ID="{7BC56E40-1E45-4D2F-B32C-72D555F6BFB9}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Portal" ID="{840DC269-70D1-4D88-82F2-8C3ECAC986C3}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{C3019126-0F6C-4F91-9065-FC85A9CC57B5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Start_Music" ID="{B5F8021F-C345-4D97-B183-DCC71FA3737C}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

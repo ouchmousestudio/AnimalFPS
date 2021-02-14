@@ -91,7 +91,8 @@ public class PlayerHealth : MonoBehaviour
         {
             bossHP.enabled = false;
         }
-        FindObjectOfType<MusicPlayer>().ChangeMusic(MusicPlayer.musicStates.Normal);
+
+        AkSoundEngine.SetState("Boss", "NotStarted");
     }
 
     private void FreezeScreen()

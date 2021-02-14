@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F545025-FDD9-4D34-A962-15AE52C7CC24}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{7F545025-FDD9-4D34-A962-15AE52C7CC24}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Boss" ID="{04B0F5BC-2932-4D6D-A811-C727312CB2EE}">
+					<ChildrenList>
+						<State Name="None" ID="{AC8E2F60-0333-4381-BAA2-E43041DB647A}"/>
+						<State Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
+						<State Name="NotStarted" ID="{16D69514-7973-4A5D-AC34-15159722C4F7}"/>
+						<State Name="HasEnded" ID="{325F4859-B589-461E-A70A-2A02AC44DF84}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="NotStarted" ID="{16D69514-7973-4A5D-AC34-15159722C4F7}"/>
+							<EndState Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
+							<EndState Name="NotStarted" ID="{16D69514-7973-4A5D-AC34-15159722C4F7}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
+							<EndState Name="None" ID="{AC8E2F60-0333-4381-BAA2-E43041DB647A}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Player_Life" ID="{43B627A2-332F-4ED9-BE3C-B487C779B40E}">
+					<ChildrenList>
+						<State Name="None" ID="{9CA6BF4A-341C-43A2-9C7E-AC6EA4487215}"/>
+						<State Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
+						<State Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
+							<EndState Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
+							<EndState Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

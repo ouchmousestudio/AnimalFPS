@@ -12,9 +12,7 @@ public class EnemyHealth : MonoBehaviour
     //[SerializeField] ParticleSystem deathFX;
 
     [SerializeField] Slider enemyHealth;
-    [SerializeField] string sfxName = "";
 
-    private SFXPlayer sFXPlayer;
     private Animator myAnimator;
     private Collider myCollider;
 
@@ -24,7 +22,6 @@ public class EnemyHealth : MonoBehaviour
     {
         hitPointMax = hitPoint;
         myAnimator = GetComponent<Animator>();
-        sFXPlayer = FindObjectOfType<SFXPlayer>();
         myCollider = GetComponent<Collider>();
     }
 
@@ -52,20 +49,15 @@ public class EnemyHealth : MonoBehaviour
             myAnimator.SetBool("isRunning", false);
             myAnimator.SetBool("isDead", true);
             myCollider.enabled = false;
-            if (sfxName != "")
-            {
-                sFXPlayer.PlaySFX(sfxName);
-            }
+
+
+            //TODO: Play SFX
+            
+            // if (sfxName != "")
+            // {
+            //     sFXPlayer.PlaySFX(sfxName);
+            // }
             //StartCoroutine(SpawnVFX());
         }
     }
-
-    //IEnumerator SpawnVFX()
-    //{
-    //    yield return new WaitForSecondsRealtime(timeuntilVFX);
-    //    if (deathFX != null)
-    //    {
-    //        Instantiate(deathFX, transform.position, Quaternion.identity);
-    //    }
-    //}
 }

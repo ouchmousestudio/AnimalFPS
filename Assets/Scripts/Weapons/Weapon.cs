@@ -47,7 +47,25 @@ public class Weapon : MonoBehaviour
             if (Time.time > fireRate + lastShot)
             {
                 PlayMuzzleFlash();
-                FindObjectOfType<SFXPlayer>().PlaySFXRandomPitch("Zap");
+
+                //Play SFX Depending on ammoType
+                switch (ammoType)
+                {
+                    case AmmoType.Pistol:
+                    {
+                            FindObjectOfType<SFXPlayerAK>().PlaySFX("FireGun", gameObject);
+                            break;
+                        }
+                    case AmmoType.Shotgun:
+                    {
+                            FindObjectOfType<SFXPlayerAK>().PlaySFX("FireShotgun", gameObject);
+                            break;
+                        }
+                    default:
+                        FindObjectOfType<SFXPlayerAK>().PlaySFX("FireGun", gameObject);
+                        break;
+                }
+                //Fire Particle system
                 laserBeam.Emit(numberOfShots);
 
                 ammoSlot.ReduceCurrentAmmo(ammoType);

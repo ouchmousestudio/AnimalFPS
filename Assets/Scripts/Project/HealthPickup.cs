@@ -25,7 +25,7 @@ public class HealthPickup : MonoBehaviour
             if (!hasPickedUp)
             {
                 hasPickedUp = true;
-                FindObjectOfType<SFXPlayer>().PlaySFX("HealthPickup");
+                FindObjectOfType<SFXPlayerAK>().PlaySFX("HealthPickup", gameObject);
                 playerHealth.IncreaseHealth(pickupAmount);
                 Destroy(pickupMesh);
                 ps.Stop();

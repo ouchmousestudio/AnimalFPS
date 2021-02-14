@@ -27,7 +27,7 @@ public class AmmoPickup : MonoBehaviour
             if(!hasPickedUp)
             {
                 hasPickedUp = true;
-                FindObjectOfType<SFXPlayer>().PlaySFX("AmmoPickup");
+                FindObjectOfType<SFXPlayerAK>().PlaySFX("AmmoPickup", gameObject);
                 FindObjectOfType<Ammo>().IncreaseCurrentAmmo(ammoType, pickupAmount);
                 //StartCoroutine(postEffects.Glow(2f, 10f));
                 Destroy(pickupMesh);

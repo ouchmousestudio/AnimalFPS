@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	336971538	Fire_Gun			\Default Work Unit\Weapons\Fire_Gun	
+	626438066	Fire_Shotgun			\Default Work Unit\Weapons\Fire_Shotgun	
+	1294445356	Water_Splash			\Default Work Unit\Environment\Water_Splash	
+	1640085587	ArcticAmb			\Default Work Unit\Environment\ArcticAmb	
+	3086540886	StopAll			\Default Work Unit\StopAll	
+	3118032615	Portal			\Default Work Unit\Environment\Portal	
+	3681418210	DesertAmb			\Default Work Unit\Environment\DesertAmb	
+	3731941266	Health_Pickup			\Default Work Unit\Pickups\Health_Pickup	
+	4253579710	Ammo_Pickup			\Default Work Unit\Pickups\Ammo_Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43589592	Portal	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Portal_89C7238A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Portal		166584
+	209034714	Zap4	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Zap4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\Zap4		25330
+	232544840	Zap5	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Zap5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\Zap5		25400
+	268508417	Zap6	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Zap6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\Zap6		26281
+	392460886	Desert	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\desert_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Desert		306278
+	501617340	Shotgun4	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Shotgun4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun4		25349
+	575388350	Ammo	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\PowerUp4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Ammo		31217
+	595611518	Zap2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Zap2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\Zap2		24675
+	737387296	Shotgun1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Shotgun1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun1		25683
+	779302811	Shotgun2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Shotgun2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun2		25883
+	838657869	Zap1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Zap1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\Zap1		24799
+	861324236	Health	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\PowerUp3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Health		36981
+	868965491	Arctic	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\artic_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Arctic		280091
+	936568016	Shotgun3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Shotgun3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun3		25304
+	967057740	WaterSplash	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\waterSplash_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WaterSplash		36034
+	1018302893	Zap3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Windows\SFX\Zap3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\Zap3		24771
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start_Music" ID="{B5F8021F-C345-4D97-B183-DCC71FA3737C}">
+					<ChildrenList>
+						<Action Name="" ID="{8A5AC46A-0B85-4417-B2EB-21BB791F1398}" ShortID="708818188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{4C7603C9-4FC2-46CD-A0AE-A2376A71A4A2}" WorkUnitID="{457161BA-2713-4253-81E7-1EA555529212}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Environment" ID="{BC7A2C44-2AEC-4322-994F-5D43DE755A72}" ShortID="566205090">
+					<ChildrenList>
+						<Event Name="Water_Splash" ID="{336B6102-7370-4B11-92E0-371DBE5D806C}">
+							<ChildrenList>
+								<Action Name="" ID="{83CD9FD0-E390-4E88-A016-AFDA3EB812F2}" ShortID="693433515">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterSplash" ID="{0D176584-6585-4934-BDFB-78E037418E47}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ArcticAmb" ID="{7BC56E40-1E45-4D2F-B32C-72D555F6BFB9}">
+							<ChildrenList>
+								<Action Name="" ID="{45C4541E-EA4B-4CC8-812C-24F2058B98DD}" ShortID="389867225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arctic" ID="{4C3F5670-D2D1-4D6A-8421-24C3FA23266C}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DesertAmb" ID="{C9EC335E-9272-436B-AC04-FCA6B154A970}">
+							<ChildrenList>
+								<Action Name="" ID="{5D1BE198-382E-42A7-9C81-D501E9EA92D8}" ShortID="137788628">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert" ID="{7943E7BC-7271-4847-A06C-7539A16A5942}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Portal" ID="{840DC269-70D1-4D88-82F2-8C3ECAC986C3}">
+							<ChildrenList>
+								<Action Name="" ID="{A1A98991-5E95-4BA1-BB12-E93AE5EA8A95}" ShortID="588559049">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Portal" ID="{72A6A7F3-4ABC-4582-B42E-43911DD774B0}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Weapons" ID="{B58FA15F-FAF7-4EAB-A008-56A2C30EA583}" ShortID="227596455">
+					<ChildrenList>
+						<Event Name="Fire_Gun" ID="{9CC88B12-2812-47D3-987F-3F521AA04D8F}">
+							<ChildrenList>
+								<Action Name="" ID="{E2F6222A-D29D-4DF0-AB00-67CE8B12FDDF}" ShortID="515957187">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pistol" ID="{7E586264-BB58-4FB9-92EC-D559BA3F3655}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fire_Shotgun" ID="{031D191A-673E-469F-9A8F-513FF9783BB2}">
+							<ChildrenList>
+								<Action Name="" ID="{0E3148E3-8C99-4DFF-B7DF-1F3C16F5028A}" ShortID="994180157">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shotgun" ID="{CE5FA951-92CB-4D15-8C81-EE5605D2B85A}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pickups" ID="{CB3B15A0-EE78-46F0-967F-1D9FE3234340}" ShortID="110338329">
+					<ChildrenList>
+						<Event Name="Health_Pickup" ID="{00B27005-3062-43DC-BF48-59B1115BBD2B}">
+							<ChildrenList>
+								<Action Name="" ID="{72921FF2-ED20-49F4-A497-C56E6DAF9EA7}" ShortID="602004629">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health" ID="{7E822F77-63FD-4FCF-92BD-6440541C8EB1}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ammo_Pickup" ID="{50B4FA3D-53BB-4119-B607-CC593BAE4F55}">
+							<ChildrenList>
+								<Action Name="" ID="{E4823FC7-3280-41B4-ADE5-C9961AEBB191}" ShortID="338988941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ammo" ID="{B02E3F76-9DDB-43E4-8EBA-5C4B5DAB38BB}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="StopAll" ID="{DD7F6508-DB5C-40F1-9510-F52EFBE84FEA}">
+					<ChildrenList>
+						<Action Name="" ID="{67B91832-013A-42D5-BA86-3D3E00D5410D}" ShortID="706372443">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

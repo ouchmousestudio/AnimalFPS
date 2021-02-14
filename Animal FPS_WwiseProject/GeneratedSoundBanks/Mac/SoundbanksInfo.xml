@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="417602784">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2810670744" Language="SFX" Hash="1476575304">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
+			<ShortName>SoundFX</ShortName>
+			<Path>SoundFX.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4101690578">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4253579710" Name="Ammo_Pickup" ObjectPath="\Events\Default Work Unit\Pickups\Ammo_Pickup" DurationType="OneShot" DurationMin="2.009977" DurationMax="2.009977">
+					<IncludedMemoryFiles>
+						<File Id="575388350" Language="SFX">
+							<ShortName>PowerUp4.wav</ShortName>
+							<Path>SFX/PowerUp4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1640085587" Name="ArcticAmb" ObjectPath="\Events\Default Work Unit\Environment\ArcticAmb" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="868965491" Language="SFX">
+							<ShortName>artic.wav</ShortName>
+							<Path>SFX/artic_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3681418210" Name="DesertAmb" ObjectPath="\Events\Default Work Unit\Environment\DesertAmb" DurationType="OneShot" DurationMin="23.009319" DurationMax="23.009319">
+					<IncludedMemoryFiles>
+						<File Id="392460886" Language="SFX">
+							<ShortName>desert.wav</ShortName>
+							<Path>SFX/desert_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="336971538" Name="Fire_Gun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Gun" DurationType="OneShot" DurationMin="1.971326" DurationMax="2.058604">
+					<IncludedMemoryFiles>
+						<File Id="209034714" Language="SFX">
+							<ShortName>Zap4.wav</ShortName>
+							<Path>SFX/Zap4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="232544840" Language="SFX">
+							<ShortName>Zap5.wav</ShortName>
+							<Path>SFX/Zap5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="268508417" Language="SFX">
+							<ShortName>Zap6.wav</ShortName>
+							<Path>SFX/Zap6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="595611518" Language="SFX">
+							<ShortName>Zap2.wav</ShortName>
+							<Path>SFX/Zap2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="838657869" Language="SFX">
+							<ShortName>Zap1.wav</ShortName>
+							<Path>SFX/Zap1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1018302893" Language="SFX">
+							<ShortName>Zap3.wav</ShortName>
+							<Path>SFX/Zap3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="626438066" Name="Fire_Shotgun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Shotgun" DurationType="OneShot" DurationMin="1.971326" DurationMax="2.029091">
+					<IncludedMemoryFiles>
+						<File Id="501617340" Language="SFX">
+							<ShortName>Shotgun4.wav</ShortName>
+							<Path>SFX/Shotgun4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="737387296" Language="SFX">
+							<ShortName>Shotgun1.wav</ShortName>
+							<Path>SFX/Shotgun1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="779302811" Language="SFX">
+							<ShortName>Shotgun2.wav</ShortName>
+							<Path>SFX/Shotgun2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="936568016" Language="SFX">
+							<ShortName>Shotgun3.wav</ShortName>
+							<Path>SFX/Shotgun3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3731941266" Name="Health_Pickup" ObjectPath="\Events\Default Work Unit\Pickups\Health_Pickup" DurationType="OneShot" DurationMin="3.009887" DurationMax="3.009887">
+					<IncludedMemoryFiles>
+						<File Id="861324236" Language="SFX">
+							<ShortName>PowerUp3.wav</ShortName>
+							<Path>SFX/PowerUp3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3118032615" Name="Portal" ObjectPath="\Events\Default Work Unit\Environment\Portal" MaxAttenuation="15.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="43589592" Language="SFX">
+							<ShortName>Portal.wav</ShortName>
+							<Path>SFX/Portal_89C7238A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1294445356" Name="Water_Splash" ObjectPath="\Events\Default Work Unit\Environment\Water_Splash" DurationType="OneShot" DurationMin="3.025850" DurationMax="3.025850">
+					<IncludedMemoryFiles>
+						<File Id="967057740" Language="SFX">
+							<ShortName>waterSplash.wav</ShortName>
+							<Path>SFX/waterSplash_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3191019158">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="540993415" Name="Start_Music" ObjectPath="\Events\Default Work Unit\Start_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="18007623" Language="SFX">
+							<ShortName>Arp.wav</ShortName>
+							<Path>SFX/Arp_9EDFC787.wem</Path>
+						</File>
+						<File Id="114816433" Language="SFX">
+							<ShortName>Drums2.wav</ShortName>
+							<Path>SFX/Drums2_9EDFC787.wem</Path>
+						</File>
+						<File Id="279380458" Language="SFX">
+							<ShortName>Guitar+Bass.wav</ShortName>
+							<Path>SFX/Guitar+Bass_9EDFC787.wem</Path>
+						</File>
+						<File Id="333075199" Language="SFX">
+							<ShortName>Lead2.wav</ShortName>
+							<Path>SFX/Lead2_9EDFC787.wem</Path>
+						</File>
+						<File Id="391751706" Language="SFX">
+							<ShortName>Piano1.wav</ShortName>
+							<Path>SFX/Piano1_9EDFC787.wem</Path>
+						</File>
+						<File Id="430593385" Language="SFX">
+							<ShortName>Piano2.wav</ShortName>
+							<Path>SFX/Piano2_9EDFC787.wem</Path>
+						</File>
+						<File Id="579283487" Language="SFX">
+							<ShortName>GuitarHigh.wav</ShortName>
+							<Path>SFX/GuitarHigh_9EDFC787.wem</Path>
+						</File>
+						<File Id="669970577" Language="SFX">
+							<ShortName>Pad.wav</ShortName>
+							<Path>SFX/Pad_9EDFC787.wem</Path>
+						</File>
+						<File Id="848084346" Language="SFX">
+							<ShortName>Drums1.wav</ShortName>
+							<Path>SFX/Drums1_9EDFC787.wem</Path>
+						</File>
+						<File Id="892534645" Language="SFX">
+							<ShortName>Lead1.wav</ShortName>
+							<Path>SFX/Lead1_9EDFC787.wem</Path>
+						</File>
+						<File Id="985165178" Language="SFX">
+							<ShortName>DrumFill.wav</ShortName>
+							<Path>SFX/DrumFill_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{16D69514-7973-4A5D-AC34-15159722C4F7}">
+							<Media>
+								<File Id="18007623"/>
+								<File Id="333075199"/>
+								<File Id="391751706"/>
+								<File Id="430593385"/>
+								<File Id="669970577"/>
+								<File Id="892534645"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}">
+							<Media>
+								<File Id="18007623"/>
+								<File Id="114816433"/>
+								<File Id="279380458"/>
+								<File Id="333075199"/>
+								<File Id="391751706"/>
+								<File Id="430593385"/>
+								<File Id="579283487"/>
+								<File Id="669970577"/>
+								<File Id="848084346"/>
+								<File Id="892534645"/>
+								<File Id="985165178"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{04B0F5BC-2932-4D6D-A811-C727312CB2EE}">
+							<Media>
+								<File Id="18007623"/>
+								<File Id="333075199"/>
+								<File Id="391751706"/>
+								<File Id="430593385"/>
+								<File Id="669970577"/>
+								<File Id="892534645"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{325F4859-B589-461E-A70A-2A02AC44DF84}">
+							<Media>
+								<File Id="18007623"/>
+								<File Id="114816433"/>
+								<File Id="279380458"/>
+								<File Id="333075199"/>
+								<File Id="391751706"/>
+								<File Id="430593385"/>
+								<File Id="669970577"/>
+								<File Id="848084346"/>
+								<File Id="892534645"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Boss">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Boss\None"/>
+						<State Id="31648514" Name="HasStarted" ObjectPath="\States\Default Work Unit\Boss\HasStarted"/>
+						<State Id="2918396911" Name="NotStarted" ObjectPath="\States\Default Work Unit\Boss\NotStarted"/>
+						<State Id="3881786689" Name="HasEnded" ObjectPath="\States\Default Work Unit\Boss\HasEnded"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

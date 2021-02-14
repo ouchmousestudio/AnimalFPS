@@ -13,7 +13,7 @@ public class Water : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        sFXPlayer.PlaySFX("waterSplash");
+        FindObjectOfType<SFXPlayerAK>().PlaySFX("WaterSplash", gameObject);
         FindObjectOfType<PlayerHealth>().DeathEvent(); 
     }
 }
