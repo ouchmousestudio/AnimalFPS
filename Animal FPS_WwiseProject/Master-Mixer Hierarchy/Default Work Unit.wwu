@@ -9,6 +9,36 @@
 							<ObjectRef Name="System" ID="{4D83ECBF-2FDD-491E-84A1-7D1CD68C6BF4}" WorkUnitID="{FD9D2BFD-0888-4A72-B76D-642D5EEF81BC}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Bathroom1" ID="{1969D30F-C165-45C0-B290-DE3ED07A7AA3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerLife" ID="{43B627A2-332F-4ED9-BE3C-B487C779B40E}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
+								<CustomState Name="" ID="{6D0AB579-CA75-4258-B633-3966DEA6AD03}" ShortID="722152062"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
+								<CustomState Name="" ID="{6C935557-F150-458B-BA13-630C18CCD7CA}" ShortID="715813609">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="35"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

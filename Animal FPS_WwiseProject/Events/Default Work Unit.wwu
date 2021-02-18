@@ -124,6 +124,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Player" ID="{FC44FDDF-3F7B-49E7-AD35-90FD83EC3F6A}" ShortID="622281926">
+					<ChildrenList>
+						<Event Name="Footstep_Snow" ID="{7B2F6C29-9CF1-43EB-B5C7-B84B1A2C5CD2}">
+							<ChildrenList>
+								<Action Name="" ID="{AF9843C3-ACAA-4A50-9BCF-58F1162DFE67}" ShortID="246738067">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snow Footsteps" ID="{AA64EB9C-DF44-4EBD-AFB2-9158D31F0CA5}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footstep_Land" ID="{0B8C9337-1702-4762-9485-C1110DD01372}">
+							<ChildrenList>
+								<Action Name="" ID="{2FB09E7C-5D5B-486C-8814-05E4BBBF04F1}" ShortID="598743265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SnowFootstepLand" ID="{152C024B-9824-4EAB-AD3E-64E162E31AC4}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

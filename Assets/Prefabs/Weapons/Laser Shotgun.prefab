@@ -126,8 +126,6 @@ MonoBehaviour:
   normalFOV: 60
   zoomFOV: 40
   smoothingAmount: 10
-  normalSensitivity: 2
-  zoomSensitivity: 1.2
   weaponAnimation: {fileID: 5215538355151405920}
 --- !u!1001 &2140305370806257862
 PrefabInstance:
@@ -221,7 +219,7 @@ PrefabInstance:
     - target: {fileID: 6223617520129622842, guid: 4d8532607940d4833857357a1a77bd0d,
         type: 3}
       propertyPath: ShapeModule.angle
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6223617520129622842, guid: 4d8532607940d4833857357a1a77bd0d,
         type: 3}

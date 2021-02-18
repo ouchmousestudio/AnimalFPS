@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - Snow
+  - Sand
+  - Grass
+  - Street
   layers:
   - Default
   - TransparentFX

@@ -34,6 +34,9 @@ public class PlayerHealth : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         Time.timeScale = 1f;
+
+        //Set to Alive on start.
+        AkSoundEngine.SetState("PlayerLife", "Alive");
     }
 
 
@@ -81,7 +84,10 @@ public class PlayerHealth : MonoBehaviour
 
         //Drop gun after death
         //myGun.isKinematic = false;
-        
+
+        //Send Death event to Wwise
+        AkSoundEngine.SetState("PlayerLife", "Dead");
+
         //Fall over Animation
         GetComponent<Animator>().SetTrigger("death");
         //Display UI

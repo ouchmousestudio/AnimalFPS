@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID DESERTAMB = 3681418210U;
         static const AkUniqueID FIRE_GUN = 336971538U;
         static const AkUniqueID FIRE_SHOTGUN = 626438066U;
+        static const AkUniqueID FOOTSTEP_LAND = 456342789U;
+        static const AkUniqueID FOOTSTEP_SNOW = 4178989675U;
         static const AkUniqueID HEALTH_PICKUP = 3731941266U;
         static const AkUniqueID PORTAL = 3118032615U;
         static const AkUniqueID START_MUSIC = 540993415U;
@@ -40,9 +42,9 @@ namespace AK
             } // namespace STATE
         } // namespace BOSS
 
-        namespace PLAYER_LIFE
+        namespace PLAYERLIFE
         {
-            static const AkUniqueID GROUP = 3762137787U;
+            static const AkUniqueID GROUP = 444815956U;
 
             namespace STATE
             {
@@ -50,9 +52,14 @@ namespace AK
                 static const AkUniqueID DEAD = 2044049779U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
-        } // namespace PLAYER_LIFE
+        } // namespace PLAYERLIFE
 
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MUSIC_VOLUME = 1006694123U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
@@ -67,9 +74,15 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID OUTSIDEREVERB = 3370640258U;
+    } // namespace AUX_BUSSES
+
     namespace AUDIO_DEVICES
     {
         static const AkUniqueID NO_OUTPUT = 2317455096U;
+        static const AkUniqueID OUTSIDEREVERB = 3370640258U;
         static const AkUniqueID SYSTEM = 3859886410U;
     } // namespace AUDIO_DEVICES
 

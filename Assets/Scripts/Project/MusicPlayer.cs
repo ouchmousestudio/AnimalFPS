@@ -6,6 +6,8 @@ using UnityEngine.Audio;
 public class MusicPlayer : MonoBehaviour
 {
 
+    //This script is unused because of Wwise integration.
+
     public enum musicStates
     {
         Normal = 0,

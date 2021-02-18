@@ -50,14 +50,12 @@ public class EnemyHealth : MonoBehaviour
             myAnimator.SetBool("isDead", true);
             myCollider.enabled = false;
 
-
             //TODO: Play SFX
-            
-            // if (sfxName != "")
-            // {
-            //     sFXPlayer.PlaySFX(sfxName);
-            // }
-            //StartCoroutine(SpawnVFX());
+
+        }
+        if (GetComponent<Boss>())
+        {
+            AkSoundEngine.SetState("Boss", "HasEnded");
         }
     }
 }

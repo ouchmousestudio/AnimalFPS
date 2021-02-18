@@ -11,17 +11,29 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="417602784">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2201735812">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="2810670744" Language="SFX" Hash="1476575304">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
 			<ShortName>SoundFX</ShortName>
 			<Path>SoundFX.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4101690578">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2686300645">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -50,53 +62,77 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="336971538" Name="Fire_Gun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Gun" DurationType="OneShot" DurationMin="1.971326" DurationMax="2.058604">
+				<Event Id="336971538" Name="Fire_Gun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Gun" DurationType="OneShot" DurationMin="1.943064" DurationMax="2.058604">
 					<IncludedMemoryFiles>
-						<File Id="209034714" Language="SFX">
-							<ShortName>Zap4.wav</ShortName>
-							<Path>SFX/Zap4_3F75BDB9.wem</Path>
+						<File Id="335893652" Language="SFX">
+							<ShortName>pistol3.wav</ShortName>
+							<Path>SFX/pistol3_3F75BDB9.wem</Path>
 						</File>
-						<File Id="232544840" Language="SFX">
-							<ShortName>Zap5.wav</ShortName>
-							<Path>SFX/Zap5_3F75BDB9.wem</Path>
+						<File Id="938324362" Language="SFX">
+							<ShortName>pistol2.wav</ShortName>
+							<Path>SFX/pistol2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="268508417" Language="SFX">
-							<ShortName>Zap6.wav</ShortName>
-							<Path>SFX/Zap6_3F75BDB9.wem</Path>
-						</File>
-						<File Id="595611518" Language="SFX">
-							<ShortName>Zap2.wav</ShortName>
-							<Path>SFX/Zap2_3F75BDB9.wem</Path>
-						</File>
-						<File Id="838657869" Language="SFX">
-							<ShortName>Zap1.wav</ShortName>
-							<Path>SFX/Zap1_3F75BDB9.wem</Path>
-						</File>
-						<File Id="1018302893" Language="SFX">
-							<ShortName>Zap3.wav</ShortName>
-							<Path>SFX/Zap3_3F75BDB9.wem</Path>
+						<File Id="1065875932" Language="SFX">
+							<ShortName>pistol1.wav</ShortName>
+							<Path>SFX/pistol1_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="626438066" Name="Fire_Shotgun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Shotgun" DurationType="OneShot" DurationMin="1.971326" DurationMax="2.029091">
+				<Event Id="626438066" Name="Fire_Shotgun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Shotgun" DurationType="OneShot" DurationMin="1.971326" DurationMax="2.088547">
 					<IncludedMemoryFiles>
-						<File Id="501617340" Language="SFX">
-							<ShortName>Shotgun4.wav</ShortName>
-							<Path>SFX/Shotgun4_3F75BDB9.wem</Path>
+						<File Id="434490981" Language="SFX">
+							<ShortName>Shotgun5.wav</ShortName>
+							<Path>SFX/Shotgun5_3F75BDB9.wem</Path>
 						</File>
-						<File Id="737387296" Language="SFX">
-							<ShortName>Shotgun1.wav</ShortName>
-							<Path>SFX/Shotgun1_3F75BDB9.wem</Path>
-						</File>
-						<File Id="779302811" Language="SFX">
-							<ShortName>Shotgun2.wav</ShortName>
-							<Path>SFX/Shotgun2_3F75BDB9.wem</Path>
-						</File>
-						<File Id="936568016" Language="SFX">
-							<ShortName>Shotgun3.wav</ShortName>
-							<Path>SFX/Shotgun3_3F75BDB9.wem</Path>
+						<File Id="642359859" Language="SFX">
+							<ShortName>Shotgun6.wav</ShortName>
+							<Path>SFX/Shotgun6_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="456342789" Name="Footstep_Land" ObjectPath="\Events\Default Work Unit\Player\Footstep_Land" DurationType="OneShot" DurationMin="0.316688" DurationMax="0.316688">
+					<IncludedMemoryFiles>
+						<File Id="712141796" Language="SFX">
+							<ShortName>SnowFootstep7.wav</ShortName>
+							<Path>SFX/SnowFootstep7_944DD269.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4178989675" Name="Footstep_Snow" ObjectPath="\Events\Default Work Unit\Player\Footstep_Snow" DurationType="OneShot" DurationMin="0.261727" DurationMax="0.395833">
+					<IncludedMemoryFiles>
+						<File Id="17429998" Language="SFX">
+							<ShortName>SnowFootstep3.wav</ShortName>
+							<Path>SFX/SnowFootstep3_2878D484.wem</Path>
+						</File>
+						<File Id="675236680" Language="SFX">
+							<ShortName>SnowFootstep8.wav</ShortName>
+							<Path>SFX/SnowFootstep8_CF047698.wem</Path>
+						</File>
+						<File Id="712141796" Language="SFX">
+							<ShortName>SnowFootstep7.wav</ShortName>
+							<Path>SFX/SnowFootstep7_944DD269.wem</Path>
+						</File>
+						<File Id="735373283" Language="SFX">
+							<ShortName>SnowFootstep6.wav</ShortName>
+							<Path>SFX/SnowFootstep6_E6805D45.wem</Path>
+						</File>
+						<File Id="823612950" Language="SFX">
+							<ShortName>SnowFootstep.wav</ShortName>
+							<Path>SFX/SnowFootstep_8EC2EC37.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3731941266" Name="Health_Pickup" ObjectPath="\Events\Default Work Unit\Pickups\Health_Pickup" DurationType="OneShot" DurationMin="3.009887" DurationMax="3.009887">
 					<IncludedMemoryFiles>
@@ -110,7 +146,7 @@
 					<IncludedMemoryFiles>
 						<File Id="43589592" Language="SFX">
 							<ShortName>Portal.wav</ShortName>
-							<Path>SFX/Portal_89C7238A.wem</Path>
+							<Path>SFX/Portal_83521290.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -125,7 +161,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3191019158">
+		<SoundBank Id="3991942870" Language="SFX" Hash="554937269">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -186,21 +222,15 @@
 								<File Id="430593385"/>
 								<File Id="669970577"/>
 								<File Id="892534645"/>
+								<File Id="985165178"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}">
 							<Media>
-								<File Id="18007623"/>
 								<File Id="114816433"/>
 								<File Id="279380458"/>
-								<File Id="333075199"/>
-								<File Id="391751706"/>
-								<File Id="430593385"/>
 								<File Id="579283487"/>
-								<File Id="669970577"/>
 								<File Id="848084346"/>
-								<File Id="892534645"/>
-								<File Id="985165178"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{04B0F5BC-2932-4D6D-A811-C727312CB2EE}">
@@ -211,6 +241,7 @@
 								<File Id="430593385"/>
 								<File Id="669970577"/>
 								<File Id="892534645"/>
+								<File Id="985165178"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{325F4859-B589-461E-A70A-2A02AC44DF84}">
@@ -229,6 +260,9 @@
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Boss">
 					<States>

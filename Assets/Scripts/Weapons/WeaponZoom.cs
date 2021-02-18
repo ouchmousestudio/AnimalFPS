@@ -10,8 +10,8 @@ public class WeaponZoom : MonoBehaviour
     [SerializeField] int zoomFOV = 40;
     [SerializeField] float smoothingAmount = 5f;
 
-    [SerializeField] float normalSensitivity = 2f;
-    [SerializeField] float zoomSensitivity = 1.2f;
+    //[SerializeField] float normalSensitivity = 2f;
+    //[SerializeField] float zoomSensitivity = 1.2f;
 
     [SerializeField] Animator weaponAnimation;
 
