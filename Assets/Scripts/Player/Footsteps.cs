@@ -7,8 +7,8 @@ public class Footsteps : MonoBehaviour
 
     Rigidbody rb;
     private float timer = 0;
-    private float walkSpeed = 0.5f;
-    private float runSpeed = 0.35f;
+    [SerializeField] private float walkSpeed = 0.55f;
+    [SerializeField] private float runSpeed = 0.4f;
     private bool canLand = false;
     public ECM.Components.CharacterMovement characterMovement;
 

@@ -38,7 +38,6 @@ namespace AK
                 static const AkUniqueID HASENDED = 3881786689U;
                 static const AkUniqueID HASSTARTED = 31648514U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NOTSTARTED = 2918396911U;
             } // namespace STATE
         } // namespace BOSS
 
@@ -60,6 +59,11 @@ namespace AK
     {
         static const AkUniqueID MUSIC_VOLUME = 1006694123U;
     } // namespace GAME_PARAMETERS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID NEW_TRIGGER = 4163741908U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

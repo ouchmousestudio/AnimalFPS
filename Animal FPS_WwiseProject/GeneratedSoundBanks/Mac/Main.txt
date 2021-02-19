@@ -24,20 +24,20 @@ Custom State	ID	Name	State Group	Owner		Notes
 	289750139	Dead	PlayerLife	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Desert		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	17429998	SnowFootstep2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep3_2878D484.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep2		4139
-	43589592	Portal	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Portal_83521290.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Portal		166584
-	335893652	pistol3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\pistol3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\pistol3		26061
-	392460886	Desert	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\desert_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Desert		306278
-	434490981	Shotgun5	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Shotgun5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\Shotgun5		26304
-	575388350	Ammo	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PowerUp4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Ammo		31217
-	642359859	Shotgun6	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Shotgun6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\Shotgun6		26497
-	675236680	SnowFootstep5	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep8_CF047698.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep5		3886
-	712141796	SnowFootstep4	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep7_944DD269.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep4		3229
-	735373283	SnowFootstep3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep6_E6805D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep3		3051
-	823612950	SnowFootstep	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep_8EC2EC37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep		4290
-	861324236	Health	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PowerUp3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Health		36981
-	868965491	Arctic	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\artic_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Arctic		280091
-	938324362	pistol2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\pistol2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\pistol2		25611
-	967057740	WaterSplash	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\waterSplash_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WaterSplash		36034
-	1065875932	pistol1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\pistol1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\pistol1		25211
+	17429998	SnowFootstep2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep3_6DA76744.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep2		5291
+	43589592	Portal	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Portal_D06F48D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Portal		245971
+	335893652	pistol3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\pistol3_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\pistol3		36304
+	392460886	Desert	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\desert_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Desert		463962
+	434490981	Shotgun5	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Shotgun5_D0E8769A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\Shotgun5		38368
+	575388350	Ammo	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PowerUp4_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Ammo		47211
+	642359859	Shotgun6	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Shotgun6_D0E8769A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\Shotgun6		38390
+	675236680	SnowFootstep5	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep8_D3A278D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep5		5053
+	712141796	SnowFootstep4	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep7_5395FD29.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep4		4089
+	735373283	SnowFootstep3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep6_F80E2885.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep3		3940
+	823612950	SnowFootstep	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep_9935C877.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Snow Footsteps\SnowFootstep		5556
+	861324236	Health	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PowerUp3_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Health		50224
+	868965491	Arctic	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\artic_0762CC47.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Arctic		423270
+	938324362	pistol2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\pistol2_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\pistol2		35959
+	967057740	WaterSplash	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\waterSplash_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WaterSplash		54554
+	1065875932	pistol1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\pistol1_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\pistol1		35372
 

@@ -21,7 +21,7 @@ public class Boss : MonoBehaviour
         bossHealth = GetComponent<EnemyHealth>();
         target = FindObjectOfType<PlayerHealth>().transform;
 
-        AkSoundEngine.SetState("Boss", "NotStarted");
+        AkSoundEngine.SetState("Boss", "HasEnded");
     }
 
     // Update is called once per frame

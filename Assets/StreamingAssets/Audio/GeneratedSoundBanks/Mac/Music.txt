@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	540993415	Start_Music			\Default Work Unit\Start_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	1560169506	Boss			\Default Work Unit\Boss	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	31648514	HasStarted	Boss			
+	748895195	None	Boss			
+	2918396911	NotStarted	Boss			
+	3881786689	HasEnded	Boss			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	175188628	NotStarted	Boss	\Interactive Music Hierarchy\Music\Music\Calm\Calm\DrumFill		
+	595835495	Dead	PlayerLife	\Interactive Music Hierarchy\Music\Music		
+	787127638	HasEnded	Boss	\Interactive Music Hierarchy\Music\Music\Calm\Calm\DrumFill		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	18007623	Arp	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Arp_9EDFC787.wem	18007623.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\Arp	
+	114816433	Drums	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Drums2_9EDFC787.wem	114816433.wem	\Interactive Music Hierarchy\Music\Music\Heavy\Boss\Drums	
+	279380458	Guitar+Bass	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Guitar+Bass_9EDFC787.wem	279380458.wem	\Interactive Music Hierarchy\Music\Music\Heavy\Boss\Guitar+Bass	
+	333075199	Lead1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Lead2_9EDFC787.wem	333075199.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\Lead1	
+	391751706	Piano	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Piano1_9EDFC787.wem	391751706.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\Piano	
+	430593385	Piano	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Piano2_9EDFC787.wem	430593385.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\Piano	
+	579283487	GuitarHigh	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\GuitarHigh_9EDFC787.wem	579283487.wem	\Interactive Music Hierarchy\Music\Music\Heavy\Boss\GuitarHigh	
+	669970577	Pad	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Pad_9EDFC787.wem	669970577.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\Pad	
+	848084346	Drums	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Drums1_9EDFC787.wem	848084346.wem	\Interactive Music Hierarchy\Music\Music\Heavy\Boss\Drums	
+	892534645	Lead1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Lead1_9EDFC787.wem	892534645.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\Lead1	
+	985165178	DrumFill	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\DrumFill_9EDFC787.wem	985165178.wem	\Interactive Music Hierarchy\Music\Music\Calm\Calm\DrumFill	
+

@@ -30,9 +30,24 @@
 						<Event Name="ArcticAmb" ID="{7BC56E40-1E45-4D2F-B32C-72D555F6BFB9}">
 							<ChildrenList>
 								<Action Name="" ID="{45C4541E-EA4B-4CC8-812C-24F2058B98DD}" ShortID="389867225">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Arctic" ID="{4C3F5670-D2D1-4D6A-8421-24C3FA23266C}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B733E71B-1665-4F55-9D4D-ECF5873E5FBB}" ShortID="1023034270">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert" ID="{7943E7BC-7271-4847-A06C-7539A16A5942}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -41,9 +56,24 @@
 						<Event Name="DesertAmb" ID="{C9EC335E-9272-436B-AC04-FCA6B154A970}">
 							<ChildrenList>
 								<Action Name="" ID="{5D1BE198-382E-42A7-9C81-D501E9EA92D8}" ShortID="137788628">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Desert" ID="{7943E7BC-7271-4847-A06C-7539A16A5942}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5BD7D16D-0BF5-45C6-8E53-D965A1C8C95B}" ShortID="214672897">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arctic" ID="{4C3F5670-D2D1-4D6A-8421-24C3FA23266C}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

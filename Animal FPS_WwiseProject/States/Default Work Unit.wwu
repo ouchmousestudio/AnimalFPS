@@ -7,26 +7,13 @@
 					<ChildrenList>
 						<State Name="None" ID="{AC8E2F60-0333-4381-BAA2-E43041DB647A}"/>
 						<State Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
-						<State Name="NotStarted" ID="{16D69514-7973-4A5D-AC34-15159722C4F7}"/>
 						<State Name="HasEnded" ID="{325F4859-B589-461E-A70A-2A02AC44DF84}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="NotStarted" ID="{16D69514-7973-4A5D-AC34-15159722C4F7}"/>
-							<EndState Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
-							<Time>0</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
-							<EndState Name="NotStarted" ID="{16D69514-7973-4A5D-AC34-15159722C4F7}"/>
-							<Time>3</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
 							<StartState Name="HasStarted" ID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
 							<EndState Name="None" ID="{AC8E2F60-0333-4381-BAA2-E43041DB647A}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

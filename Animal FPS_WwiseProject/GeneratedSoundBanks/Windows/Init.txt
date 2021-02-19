@@ -8,7 +8,6 @@ State	ID	Name	State Group			Notes
 	2044049779	Dead	PlayerLife			
 	31648514	HasStarted	Boss			
 	748895195	None	Boss			
-	2918396911	NotStarted	Boss			
 	3881786689	HasEnded	Boss			
 
 Custom State	ID	Name	State Group	Owner		Notes

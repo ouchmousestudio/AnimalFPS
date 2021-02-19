@@ -8,10 +8,55 @@
 		<ExternalSourcesOutputRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="18007623" Language="SFX">
+			<ShortName>Arp.wav</ShortName>
+			<Path>SFX/Arp_F2BF74AC.wem</Path>
+		</File>
+		<File Id="114816433" Language="SFX">
+			<ShortName>Drums2.wav</ShortName>
+			<Path>SFX/Drums2_F2BF74AC.wem</Path>
+		</File>
+		<File Id="279380458" Language="SFX">
+			<ShortName>Guitar+Bass.wav</ShortName>
+			<Path>SFX/Guitar+Bass_F2BF74AC.wem</Path>
+		</File>
+		<File Id="333075199" Language="SFX">
+			<ShortName>Lead2.wav</ShortName>
+			<Path>SFX/Lead2_F2BF74AC.wem</Path>
+		</File>
+		<File Id="391751706" Language="SFX">
+			<ShortName>Piano1.wav</ShortName>
+			<Path>SFX/Piano1_F2BF74AC.wem</Path>
+		</File>
+		<File Id="430593385" Language="SFX">
+			<ShortName>Piano2.wav</ShortName>
+			<Path>SFX/Piano2_F2BF74AC.wem</Path>
+		</File>
+		<File Id="579283487" Language="SFX">
+			<ShortName>GuitarHigh.wav</ShortName>
+			<Path>SFX/GuitarHigh_F2BF74AC.wem</Path>
+		</File>
+		<File Id="669970577" Language="SFX">
+			<ShortName>Pad.wav</ShortName>
+			<Path>SFX/Pad_F2BF74AC.wem</Path>
+		</File>
+		<File Id="848084346" Language="SFX">
+			<ShortName>Drums1.wav</ShortName>
+			<Path>SFX/Drums1_F2BF74AC.wem</Path>
+		</File>
+		<File Id="892534645" Language="SFX">
+			<ShortName>Lead1.wav</ShortName>
+			<Path>SFX/Lead1_F2BF74AC.wem</Path>
+		</File>
+		<File Id="985165178" Language="SFX">
+			<ShortName>DrumFill.wav</ShortName>
+			<Path>SFX/DrumFill_F2BF74AC.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2201735812">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2426426741">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -33,7 +78,7 @@
 			<ShortName>SoundFX</ShortName>
 			<Path>SoundFX.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2686300645">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4096422617">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -42,7 +87,7 @@
 					<IncludedMemoryFiles>
 						<File Id="575388350" Language="SFX">
 							<ShortName>PowerUp4.wav</ShortName>
-							<Path>SFX/PowerUp4_3F75BDB9.wem</Path>
+							<Path>SFX/PowerUp4_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -50,7 +95,7 @@
 					<IncludedMemoryFiles>
 						<File Id="868965491" Language="SFX">
 							<ShortName>artic.wav</ShortName>
-							<Path>SFX/artic_9EDFC787.wem</Path>
+							<Path>SFX/artic_0762CC47.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -58,7 +103,7 @@
 					<IncludedMemoryFiles>
 						<File Id="392460886" Language="SFX">
 							<ShortName>desert.wav</ShortName>
-							<Path>SFX/desert_3F75BDB9.wem</Path>
+							<Path>SFX/desert_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -66,15 +111,15 @@
 					<IncludedMemoryFiles>
 						<File Id="335893652" Language="SFX">
 							<ShortName>pistol3.wav</ShortName>
-							<Path>SFX/pistol3_3F75BDB9.wem</Path>
+							<Path>SFX/pistol3_D8C07C79.wem</Path>
 						</File>
 						<File Id="938324362" Language="SFX">
 							<ShortName>pistol2.wav</ShortName>
-							<Path>SFX/pistol2_3F75BDB9.wem</Path>
+							<Path>SFX/pistol2_D8C07C79.wem</Path>
 						</File>
 						<File Id="1065875932" Language="SFX">
 							<ShortName>pistol1.wav</ShortName>
-							<Path>SFX/pistol1_3F75BDB9.wem</Path>
+							<Path>SFX/pistol1_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -85,49 +130,49 @@
 					<IncludedMemoryFiles>
 						<File Id="434490981" Language="SFX">
 							<ShortName>Shotgun5.wav</ShortName>
-							<Path>SFX/Shotgun5_3F75BDB9.wem</Path>
+							<Path>SFX/Shotgun5_D0E8769A.wem</Path>
 						</File>
 						<File Id="642359859" Language="SFX">
 							<ShortName>Shotgun6.wav</ShortName>
-							<Path>SFX/Shotgun6_3F75BDB9.wem</Path>
+							<Path>SFX/Shotgun6_D0E8769A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="456342789" Name="Footstep_Land" ObjectPath="\Events\Default Work Unit\Player\Footstep_Land" DurationType="OneShot" DurationMin="0.316688" DurationMax="0.316688">
+				<Event Id="456342789" Name="Footstep_Land" ObjectPath="\Events\Default Work Unit\Player\Footstep_Land" DurationType="OneShot" DurationMin="0.269396" DurationMax="0.285415">
 					<IncludedMemoryFiles>
 						<File Id="712141796" Language="SFX">
 							<ShortName>SnowFootstep7.wav</ShortName>
-							<Path>SFX/SnowFootstep7_944DD269.wem</Path>
+							<Path>SFX/SnowFootstep7_5395FD29.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4178989675" Name="Footstep_Snow" ObjectPath="\Events\Default Work Unit\Player\Footstep_Snow" DurationType="OneShot" DurationMin="0.261727" DurationMax="0.395833">
+				<Event Id="4178989675" Name="Footstep_Snow" ObjectPath="\Events\Default Work Unit\Player\Footstep_Snow" DurationType="OneShot" DurationMin="0.254276" DurationMax="0.407432">
 					<IncludedMemoryFiles>
 						<File Id="17429998" Language="SFX">
 							<ShortName>SnowFootstep3.wav</ShortName>
-							<Path>SFX/SnowFootstep3_2878D484.wem</Path>
+							<Path>SFX/SnowFootstep3_6DA76744.wem</Path>
 						</File>
 						<File Id="675236680" Language="SFX">
 							<ShortName>SnowFootstep8.wav</ShortName>
-							<Path>SFX/SnowFootstep8_CF047698.wem</Path>
+							<Path>SFX/SnowFootstep8_D3A278D8.wem</Path>
 						</File>
 						<File Id="712141796" Language="SFX">
 							<ShortName>SnowFootstep7.wav</ShortName>
-							<Path>SFX/SnowFootstep7_944DD269.wem</Path>
+							<Path>SFX/SnowFootstep7_5395FD29.wem</Path>
 						</File>
 						<File Id="735373283" Language="SFX">
 							<ShortName>SnowFootstep6.wav</ShortName>
-							<Path>SFX/SnowFootstep6_E6805D45.wem</Path>
+							<Path>SFX/SnowFootstep6_F80E2885.wem</Path>
 						</File>
 						<File Id="823612950" Language="SFX">
 							<ShortName>SnowFootstep.wav</ShortName>
-							<Path>SFX/SnowFootstep_8EC2EC37.wem</Path>
+							<Path>SFX/SnowFootstep_9935C877.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -138,7 +183,7 @@
 					<IncludedMemoryFiles>
 						<File Id="861324236" Language="SFX">
 							<ShortName>PowerUp3.wav</ShortName>
-							<Path>SFX/PowerUp3_3F75BDB9.wem</Path>
+							<Path>SFX/PowerUp3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -146,7 +191,7 @@
 					<IncludedMemoryFiles>
 						<File Id="43589592" Language="SFX">
 							<ShortName>Portal.wav</ShortName>
-							<Path>SFX/Portal_83521290.wem</Path>
+							<Path>SFX/Portal_D06F48D0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -155,76 +200,65 @@
 					<IncludedMemoryFiles>
 						<File Id="967057740" Language="SFX">
 							<ShortName>waterSplash.wav</ShortName>
-							<Path>SFX/waterSplash_3F75BDB9.wem</Path>
+							<Path>SFX/waterSplash_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="554937269">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3801953104">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="540993415" Name="Start_Music" ObjectPath="\Events\Default Work Unit\Start_Music" DurationType="Infinite">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="18007623" Language="SFX">
 							<ShortName>Arp.wav</ShortName>
-							<Path>SFX/Arp_9EDFC787.wem</Path>
+							<Path>SFX/Arp_F2BF74AC.wem</Path>
 						</File>
 						<File Id="114816433" Language="SFX">
 							<ShortName>Drums2.wav</ShortName>
-							<Path>SFX/Drums2_9EDFC787.wem</Path>
+							<Path>SFX/Drums2_F2BF74AC.wem</Path>
 						</File>
 						<File Id="279380458" Language="SFX">
 							<ShortName>Guitar+Bass.wav</ShortName>
-							<Path>SFX/Guitar+Bass_9EDFC787.wem</Path>
+							<Path>SFX/Guitar+Bass_F2BF74AC.wem</Path>
 						</File>
 						<File Id="333075199" Language="SFX">
 							<ShortName>Lead2.wav</ShortName>
-							<Path>SFX/Lead2_9EDFC787.wem</Path>
+							<Path>SFX/Lead2_F2BF74AC.wem</Path>
 						</File>
 						<File Id="391751706" Language="SFX">
 							<ShortName>Piano1.wav</ShortName>
-							<Path>SFX/Piano1_9EDFC787.wem</Path>
+							<Path>SFX/Piano1_F2BF74AC.wem</Path>
 						</File>
 						<File Id="430593385" Language="SFX">
 							<ShortName>Piano2.wav</ShortName>
-							<Path>SFX/Piano2_9EDFC787.wem</Path>
+							<Path>SFX/Piano2_F2BF74AC.wem</Path>
 						</File>
 						<File Id="579283487" Language="SFX">
 							<ShortName>GuitarHigh.wav</ShortName>
-							<Path>SFX/GuitarHigh_9EDFC787.wem</Path>
+							<Path>SFX/GuitarHigh_F2BF74AC.wem</Path>
 						</File>
 						<File Id="669970577" Language="SFX">
 							<ShortName>Pad.wav</ShortName>
-							<Path>SFX/Pad_9EDFC787.wem</Path>
+							<Path>SFX/Pad_F2BF74AC.wem</Path>
 						</File>
 						<File Id="848084346" Language="SFX">
 							<ShortName>Drums1.wav</ShortName>
-							<Path>SFX/Drums1_9EDFC787.wem</Path>
+							<Path>SFX/Drums1_F2BF74AC.wem</Path>
 						</File>
 						<File Id="892534645" Language="SFX">
 							<ShortName>Lead1.wav</ShortName>
-							<Path>SFX/Lead1_9EDFC787.wem</Path>
+							<Path>SFX/Lead1_F2BF74AC.wem</Path>
 						</File>
 						<File Id="985165178" Language="SFX">
 							<ShortName>DrumFill.wav</ShortName>
-							<Path>SFX/DrumFill_9EDFC787.wem</Path>
+							<Path>SFX/DrumFill_F2BF74AC.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{16D69514-7973-4A5D-AC34-15159722C4F7}">
-							<Media>
-								<File Id="18007623"/>
-								<File Id="333075199"/>
-								<File Id="391751706"/>
-								<File Id="430593385"/>
-								<File Id="669970577"/>
-								<File Id="892534645"/>
-								<File Id="985165178"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}">
 							<Media>
 								<File Id="114816433"/>
@@ -247,14 +281,12 @@
 						<SwitchContainer SwitchValue="{325F4859-B589-461E-A70A-2A02AC44DF84}">
 							<Media>
 								<File Id="18007623"/>
-								<File Id="114816433"/>
-								<File Id="279380458"/>
 								<File Id="333075199"/>
 								<File Id="391751706"/>
 								<File Id="430593385"/>
 								<File Id="669970577"/>
-								<File Id="848084346"/>
 								<File Id="892534645"/>
+								<File Id="985165178"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -268,7 +300,6 @@
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Boss\None"/>
 						<State Id="31648514" Name="HasStarted" ObjectPath="\States\Default Work Unit\Boss\HasStarted"/>
-						<State Id="2918396911" Name="NotStarted" ObjectPath="\States\Default Work Unit\Boss\NotStarted"/>
 						<State Id="3881786689" Name="HasEnded" ObjectPath="\States\Default Work Unit\Boss\HasEnded"/>
 					</States>
 				</StateGroup>
