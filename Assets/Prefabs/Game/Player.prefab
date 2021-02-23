@@ -237,6 +237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c0c7800c994ec9abf7bf2eb362fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkSpeed: 0.6
+  runSpeed: 0.4
   characterMovement: {fileID: 1430839908775285657}
   footStep:
     idInternal: 0
@@ -374,6 +376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1320216701871226217}
+  - component: {fileID: 5495432432437327926}
   m_Layer: 0
   m_Name: Camera_Pivot
   m_TagString: Untagged
@@ -396,6 +399,18 @@ Transform:
   m_Father: {fileID: 1318624333201662151}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5495432432437327926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317225705759074409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35fd7ed251390489db17710cbd8ffe7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7289935977530350369
 GameObject:
   m_ObjectHideFlags: 0

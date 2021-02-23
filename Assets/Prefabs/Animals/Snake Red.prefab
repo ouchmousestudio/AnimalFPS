@@ -993,6 +993,7 @@ GameObject:
   - component: {fileID: 7360795099577087885}
   - component: {fileID: 2443260426752253015}
   - component: {fileID: 6877682904673906696}
+  - component: {fileID: 6796294979369462925}
   m_Layer: 0
   m_Name: Snake Red
   m_TagString: Untagged
@@ -1072,6 +1073,10 @@ MonoBehaviour:
   hitPoint: 30
   deathTime: 1.5
   enemyHealth: {fileID: 0}
+  deathSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   isDead: 0
 --- !u!114 &7360795099577087885
 MonoBehaviour:
@@ -1119,6 +1124,19 @@ MonoBehaviour:
   dissolveSpeed: 2
   minClamp: 2
   maxClamp: 4
+--- !u!114 &6796294979369462925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3605967302875183967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331a2c0c207e24586af5554a7c9ba9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 30
 --- !u!1 &3605969402099294347
 GameObject:
   m_ObjectHideFlags: 0

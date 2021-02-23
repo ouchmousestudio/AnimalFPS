@@ -13,19 +13,19 @@ public class PlayerHealth : MonoBehaviour
     //Drop gun after death
     //[SerializeField] Rigidbody myGun;
 
-    Collider  playerCollider;
     SceneLoader sceneLoader;
 
     private CameraShake cameraShake;
+    private PostEffects cameraGlitch;
 
     private void Awake()
     {
         hudCanvas.enabled = true;
         gameOverCanvas.enabled = false;
 
-        playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
         cameraShake = FindObjectOfType<CameraShake>();
+        cameraGlitch = FindObjectOfType<PostEffects>();
 
         //Make cursor invisible when restarting.
         GetComponent<ECM.Components.MouseLook>().verticalSensitivity = 2;
@@ -54,12 +54,14 @@ public class PlayerHealth : MonoBehaviour
     //create a public method which reduces hitpoints by damage.
     public void TakeDamage(float damage)
     {
-        StartCoroutine(cameraShake.Shake(0.15f, 0.2f));
+        StartCoroutine(cameraShake.Shake(0.15f, 0.4f));
+        StartCoroutine(cameraGlitch.Glitch());
         hitPoint -= damage;
         if (hitPoint <= 0)
         {
             DeathEvent();
         }
+        FindObjectOfType<SFXPlayerAK>().PlaySFX("DamageGlitch", gameObject);
     }
 
     //For Health Pickups
@@ -75,6 +77,7 @@ public class PlayerHealth : MonoBehaviour
         {
             hitPoint += health;
         }
+        StartCoroutine(cameraGlitch.Glow());
     }
 
     public void DeathEvent()
@@ -97,13 +100,12 @@ public class PlayerHealth : MonoBehaviour
         {
             bossHP.enabled = false;
         }
-
         AkSoundEngine.SetState("Boss", "NotStarted");
     }
 
     private void FreezeScreen()
     {
-        //Make cursor visible to navigate Game over Menu.
+        //Access ECM components in character controller to take cursor visible to navigate Game over Menu.
 
         GetComponent<ECM.Components.MouseLook>().lockCursor = false;
 

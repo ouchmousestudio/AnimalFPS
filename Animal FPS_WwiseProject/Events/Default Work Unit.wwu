@@ -178,6 +178,91 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Damage_Glitch" ID="{ADEFD0D5-6A5D-4A5E-A3DF-197087196E91}">
+							<ChildrenList>
+								<Action Name="" ID="{096D206B-0D5A-49B4-A7D5-7EB894173697}" ShortID="1022799335">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Glitch" ID="{8071BC34-FA6A-4C7A-9A9D-07179D83C9A8}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Animals" ID="{2C0987B2-A33D-4C83-83EA-0F205B70DB79}" ShortID="739074634">
+					<ChildrenList>
+						<Event Name="Penguin" ID="{66E76999-C35B-4EDC-AE0F-C6152BCB55FA}">
+							<ChildrenList>
+								<Action Name="" ID="{4C40AF1D-D3CA-4840-AE17-CABE8FAF5CD1}" ShortID="418677866">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="penguin" ID="{7B69DA4D-1B34-43B8-98C7-DAC30ABF4D95}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Rattlesnake" ID="{9F911B4D-E030-461B-832D-C936A8706520}">
+							<ChildrenList>
+								<Action Name="" ID="{8FEBE329-E263-47C4-B8DD-1B5A4E694E90}" ShortID="468841550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="snake-rattle" ID="{7E727FC0-FD85-41E7-A05D-EC373C7C5F40}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Elephant" ID="{0244F1B9-B06A-4845-95BA-4F3F89F927E4}" ShortID="647836846">
+							<ChildrenList>
+								<Event Name="Elephant_Stomp" ID="{FBECCCAD-A162-4BEA-A27C-F23D12710AF8}">
+									<ChildrenList>
+										<Action Name="" ID="{D7626317-4687-4A11-9DB9-B495EDE8A592}" ShortID="26624379">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="elephant-stomp" ID="{2236C848-5CEA-474D-9E2A-3E87A1B0FA82}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Elelphant_Trumpet" ID="{F4F46961-18D3-482D-A702-F56091FC8054}">
+									<ChildrenList>
+										<Action Name="" ID="{D6CCD7C9-6B57-4744-A8CD-3143DF9CDECF}" ShortID="900759002">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Elephant-Trumpet" ID="{D1A4E6B2-EF17-4B26-84C4-66219B59998A}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Elephant_Fall" ID="{4FC9EA8C-5408-49DE-9A92-27991ABE8E2E}">
+									<ChildrenList>
+										<Action Name="" ID="{DB648F3F-3A3A-43B7-A498-69BD0904DE36}" ShortID="406055448">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="elephant-fall" ID="{762CED36-6B58-4C12-996A-A284E9A6F2A2}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Orca_Death" ID="{842A2C4E-5B75-4D05-8AA6-088E3DEDB873}">
+							<ChildrenList>
+								<Action Name="" ID="{BF6F1320-EAF4-47E9-8672-789D42CFDE1F}" ShortID="330926169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OrcaDie" ID="{FBF0AF8E-5872-4498-A244-9548616BE1BD}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

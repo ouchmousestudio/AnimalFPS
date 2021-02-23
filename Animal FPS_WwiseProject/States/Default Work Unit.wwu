@@ -19,6 +19,9 @@
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="PlayerLife" ID="{43B627A2-332F-4ED9-BE3C-B487C779B40E}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{9CA6BF4A-341C-43A2-9C7E-AC6EA4487215}"/>
 						<State Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
@@ -28,13 +31,13 @@
 						<Transition>
 							<StartState Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
 							<EndState Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
 							<EndState Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

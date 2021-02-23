@@ -56,7 +56,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2426426741">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1098102669">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -73,21 +73,16 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2810670744" Language="SFX" Hash="1476575304">
+		<SoundBank Id="2810670744" Language="SFX" Hash="1649004652">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
 			<ShortName>SoundFX</ShortName>
 			<Path>SoundFX.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4096422617">
-			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
-			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4253579710" Name="Ammo_Pickup" ObjectPath="\Events\Default Work Unit\Pickups\Ammo_Pickup" DurationType="OneShot" DurationMin="2.009977" DurationMax="2.009977">
 					<IncludedMemoryFiles>
 						<File Id="575388350" Language="SFX">
 							<ShortName>PowerUp4.wav</ShortName>
-							<Path>SFX/PowerUp4_D8C07C79.wem</Path>
+							<Path>SFX/PowerUp4_32513D82.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -95,7 +90,27 @@
 					<IncludedMemoryFiles>
 						<File Id="868965491" Language="SFX">
 							<ShortName>artic.wav</ShortName>
-							<Path>SFX/artic_0762CC47.wem</Path>
+							<Path>SFX/artic_F2BF74AC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1598691714" Name="Damage_Glitch" ObjectPath="\Events\Default Work Unit\Player\Damage_Glitch" DurationType="OneShot" DurationMin="0.546834" DurationMax="1.046044">
+					<IncludedMemoryFiles>
+						<File Id="27077756" Language="SFX">
+							<ShortName>Glitch3.wav</ShortName>
+							<Path>SFX/Glitch3_1A5FC5F7.wem</Path>
+						</File>
+						<File Id="98906436" Language="SFX">
+							<ShortName>Glitch4.wav</ShortName>
+							<Path>SFX/Glitch4_A35DCB3F.wem</Path>
+						</File>
+						<File Id="484022025" Language="SFX">
+							<ShortName>Glitch6.wav</ShortName>
+							<Path>SFX/Glitch6_CE734EC6.wem</Path>
+						</File>
+						<File Id="1010233304" Language="SFX">
+							<ShortName>Glitch2.wav</ShortName>
+							<Path>SFX/Glitch2_B864BDBB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -103,23 +118,64 @@
 					<IncludedMemoryFiles>
 						<File Id="392460886" Language="SFX">
 							<ShortName>desert.wav</ShortName>
-							<Path>SFX/desert_D8C07C79.wem</Path>
+							<Path>SFX/desert_32513D82.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3551026914" Name="Elelphant_Trumpet" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elelphant_Trumpet" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="1.028934" DurationMax="1.552835">
+					<IncludedMemoryFiles>
+						<File Id="490024087" Language="SFX">
+							<ShortName>elephant-trumpeting1.wav</ShortName>
+							<Path>SFX/elephant-trumpeting1_32513D82.wem</Path>
+						</File>
+						<File Id="650297903" Language="SFX">
+							<ShortName>elephant-trumpeting2.wav</ShortName>
+							<Path>SFX/elephant-trumpeting2_32513D82.wem</Path>
+						</File>
+						<File Id="692104950" Language="SFX">
+							<ShortName>elephant-trumpeting3.wav</ShortName>
+							<Path>SFX/elephant-trumpeting3_32513D82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3293832530" Name="Elephant_Fall" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Fall" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="1.100000" DurationMax="1.100000">
+					<IncludedMemoryFiles>
+						<File Id="954565246" Language="SFX">
+							<ShortName>elephant-fall.wav</ShortName>
+							<Path>SFX/elephant-fall_32513D82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1415145768" Name="Elephant_Stomp" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Stomp" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="0.953333" DurationMax="0.953333">
+					<IncludedMemoryFiles>
+						<File Id="123132921" Language="SFX">
+							<ShortName>elephant-stomp.wav</ShortName>
+							<Path>SFX/elephant-stomp_32513D82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="336971538" Name="Fire_Gun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Gun" DurationType="OneShot" DurationMin="1.943064" DurationMax="2.058604">
 					<IncludedMemoryFiles>
 						<File Id="335893652" Language="SFX">
 							<ShortName>pistol3.wav</ShortName>
-							<Path>SFX/pistol3_D8C07C79.wem</Path>
+							<Path>SFX/pistol3_32513D82.wem</Path>
 						</File>
 						<File Id="938324362" Language="SFX">
 							<ShortName>pistol2.wav</ShortName>
-							<Path>SFX/pistol2_D8C07C79.wem</Path>
+							<Path>SFX/pistol2_32513D82.wem</Path>
 						</File>
 						<File Id="1065875932" Language="SFX">
 							<ShortName>pistol1.wav</ShortName>
-							<Path>SFX/pistol1_D8C07C79.wem</Path>
+							<Path>SFX/pistol1_32513D82.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -130,11 +186,11 @@
 					<IncludedMemoryFiles>
 						<File Id="434490981" Language="SFX">
 							<ShortName>Shotgun5.wav</ShortName>
-							<Path>SFX/Shotgun5_D0E8769A.wem</Path>
+							<Path>SFX/Shotgun5_51CA20BD.wem</Path>
 						</File>
 						<File Id="642359859" Language="SFX">
 							<ShortName>Shotgun6.wav</ShortName>
-							<Path>SFX/Shotgun6_D0E8769A.wem</Path>
+							<Path>SFX/Shotgun6_51CA20BD.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -145,7 +201,7 @@
 					<IncludedMemoryFiles>
 						<File Id="712141796" Language="SFX">
 							<ShortName>SnowFootstep7.wav</ShortName>
-							<Path>SFX/SnowFootstep7_5395FD29.wem</Path>
+							<Path>SFX/SnowFootstep7_69371BEE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -156,23 +212,23 @@
 					<IncludedMemoryFiles>
 						<File Id="17429998" Language="SFX">
 							<ShortName>SnowFootstep3.wav</ShortName>
-							<Path>SFX/SnowFootstep3_6DA76744.wem</Path>
+							<Path>SFX/SnowFootstep3_968BB93B.wem</Path>
 						</File>
 						<File Id="675236680" Language="SFX">
 							<ShortName>SnowFootstep8.wav</ShortName>
-							<Path>SFX/SnowFootstep8_D3A278D8.wem</Path>
+							<Path>SFX/SnowFootstep8_81013B13.wem</Path>
 						</File>
 						<File Id="712141796" Language="SFX">
 							<ShortName>SnowFootstep7.wav</ShortName>
-							<Path>SFX/SnowFootstep7_5395FD29.wem</Path>
+							<Path>SFX/SnowFootstep7_69371BEE.wem</Path>
 						</File>
 						<File Id="735373283" Language="SFX">
 							<ShortName>SnowFootstep6.wav</ShortName>
-							<Path>SFX/SnowFootstep6_F80E2885.wem</Path>
+							<Path>SFX/SnowFootstep6_6819E3CE.wem</Path>
 						</File>
 						<File Id="823612950" Language="SFX">
 							<ShortName>SnowFootstep.wav</ShortName>
-							<Path>SFX/SnowFootstep_9935C877.wem</Path>
+							<Path>SFX/SnowFootstep_5135E8A0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -183,30 +239,67 @@
 					<IncludedMemoryFiles>
 						<File Id="861324236" Language="SFX">
 							<ShortName>PowerUp3.wav</ShortName>
-							<Path>SFX/PowerUp3_D8C07C79.wem</Path>
+							<Path>SFX/PowerUp3_32513D82.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="554156753" Name="Orca_Death" ObjectPath="\Events\Default Work Unit\Animals\Orca_Death" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="4.160726" DurationMax="4.160726">
+					<IncludedMemoryFiles>
+						<File Id="550014342" Language="SFX">
+							<ShortName>OrcaDie.wav</ShortName>
+							<Path>SFX/OrcaDie_32513D82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3549282475" Name="Penguin" ObjectPath="\Events\Default Work Unit\Animals\Penguin" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="1.147936" DurationMax="1.147936">
+					<IncludedMemoryFiles>
+						<File Id="722984977" Language="SFX">
+							<ShortName>penguin.wav</ShortName>
+							<Path>SFX/penguin_32513D82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3118032615" Name="Portal" ObjectPath="\Events\Default Work Unit\Environment\Portal" MaxAttenuation="15.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="43589592" Language="SFX">
 							<ShortName>Portal.wav</ShortName>
-							<Path>SFX/Portal_D06F48D0.wem</Path>
+							<Path>SFX/Portal_CF39397F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="113145041" Name="Rattlesnake" ObjectPath="\Events\Default Work Unit\Animals\Rattlesnake" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="2.934026" DurationMax="3.108493">
+					<IncludedMemoryFiles>
+						<File Id="557103967" Language="SFX">
+							<ShortName>snake-rattle.wav</ShortName>
+							<Path>SFX/snake-rattle_32513D82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="1294445356" Name="Water_Splash" ObjectPath="\Events\Default Work Unit\Environment\Water_Splash" DurationType="OneShot" DurationMin="3.025850" DurationMax="3.025850">
 					<IncludedMemoryFiles>
 						<File Id="967057740" Language="SFX">
 							<ShortName>waterSplash.wav</ShortName>
-							<Path>SFX/waterSplash_D8C07C79.wem</Path>
+							<Path>SFX/waterSplash_32513D82.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3801953104">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2348770020">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3111627378">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

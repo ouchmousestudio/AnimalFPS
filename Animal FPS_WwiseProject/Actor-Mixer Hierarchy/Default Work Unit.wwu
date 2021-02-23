@@ -240,6 +240,7 @@
 						</Sound>
 						<Sound Name="Portal" ID="{72A6A7F3-4ABC-4582-B42E-43911DD774B0}" ShortID="885948113">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Color" Type="int16" Value="3"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -770,6 +771,607 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="DamageGlitch" ID="{3DEFCFF8-E38A-46B3-850B-39242C6BBE9D}" ShortID="217122088">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Glitch" ID="{8071BC34-FA6A-4C7A-9A9D-07179D83C9A8}" ShortID="969821103">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{74913490-5F84-4BF2-B226-144C2693F11A}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Glitch1" ID="{E4042385-686F-4800-8E41-AD1BE053102E}" ShortID="264468241">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glitch1" ID="{37284FD8-CEC4-4DB8-BDA0-0388D949974F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00571614583333335"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00571614583333335"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.318198784722222"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.798355034722222"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Glitch1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671915172"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glitch1" ID="{37284FD8-CEC4-4DB8-BDA0-0388D949974F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Glitch2" ID="{050F321D-7B2F-4FBA-85FF-67F92F3153D0}" ShortID="236373445">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glitch2" ID="{0CF2A6DC-102B-4D4B-A9D0-A5B24522BF8A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00990798611111111"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00247699652777778"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.661358072916667"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.36234809027778"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Glitch2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1010233304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glitch2" ID="{0CF2A6DC-102B-4D4B-A9D0-A5B24522BF8A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Glitch3" ID="{C5AAA298-0478-4678-A95C-BA13F9797E2F}" ShortID="844990644">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glitch3" ID="{D9B94E03-1504-476B-BC6D-DCFF5A72AD16}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0171482566550927"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.236645941840278"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.28268959780093"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Glitch3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="27077756"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glitch3" ID="{D9B94E03-1504-476B-BC6D-DCFF5A72AD16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Glitch4" ID="{75BB3E4E-A475-477B-818F-B695D93013EA}" ShortID="573508246">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glitch4" ID="{5B542529-1CDF-4F6A-AD51-D27DCE6BDBD0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0148617621527778"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0049539207175926"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.346774450231482"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.10472432002315"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Glitch4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="98906436"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glitch4" ID="{5B542529-1CDF-4F6A-AD51-D27DCE6BDBD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Glitch5" ID="{D8D17CBF-A8B8-42AD-B8EA-776F506BA6B3}" ShortID="57636847">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glitch5" ID="{8ED61E4D-6D6C-4C98-9506-28215DAA77A9}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00838353587962959"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.232643120659722"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.788052372685185"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Glitch5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="477809371"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glitch5" ID="{8ED61E4D-6D6C-4C98-9506-28215DAA77A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Glitch6" ID="{3FAD7B13-DB99-48AD-A104-C3BCB133A7F1}" ShortID="357935827">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glitch6" ID="{9C6BBD80-EDD1-4D4D-9ED1-6E8DF7BF6C89}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00571603732638881"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.304855324074074"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.851689561631944"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Glitch6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="484022025"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glitch6" ID="{9C6BBD80-EDD1-4D4D-9ED1-6E8DF7BF6C89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Animals" ID="{C378E8E1-7F39-4BA3-91CA-41E6D982CC6E}" ShortID="482182417">
+					<ChildrenList>
+						<Folder Name="Elephant" ID="{FF6D7AFC-D3FC-4AFB-AFFD-C802F96263B6}" ShortID="721785058">
+							<ChildrenList>
+								<Sound Name="elephant-fall" ID="{762CED36-6B58-4C12-996A-A284E9A6F2A2}" ShortID="552040732">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Animals" ID="{49647448-9036-44A2-B771-B9F579BB5ED9}" WorkUnitID="{B35ACD33-01BC-49B1-A4F2-8506E44465C2}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="elephant-fall" ID="{3EE2C282-2F7B-4B29-A28C-D08C3F7A0373}">
+											<Language>SFX</Language>
+											<AudioFile>elephant-fall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954565246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="elephant-fall" ID="{3EE2C282-2F7B-4B29-A28C-D08C3F7A0373}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="elephant-stomp" ID="{2236C848-5CEA-474D-9E2A-3E87A1B0FA82}" ShortID="1008244591">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Animals" ID="{49647448-9036-44A2-B771-B9F579BB5ED9}" WorkUnitID="{B35ACD33-01BC-49B1-A4F2-8506E44465C2}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="elephant-stomp" ID="{C9D38563-4E90-4759-909E-34907A0C9256}">
+											<Language>SFX</Language>
+											<AudioFile>elephant-stomp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123132921"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{1E4887CF-49BF-4AF2-9219-4A04F839946E}"/>
+										<Position Name="" ID="{3FC11478-E1EF-4ED9-A685-ABA6A8365E6A}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="elephant-stomp" ID="{C9D38563-4E90-4759-909E-34907A0C9256}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Elephant-Trumpet" ID="{D1A4E6B2-EF17-4B26-84C4-66219B59998A}" ShortID="1036047338">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Animals" ID="{49647448-9036-44A2-B771-B9F579BB5ED9}" WorkUnitID="{B35ACD33-01BC-49B1-A4F2-8506E44465C2}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="elephant-trumpeting1" ID="{38B0B3D9-8065-4021-8FA8-ADD0CB838D4E}" ShortID="856150356">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="elephant-trumpeting1" ID="{B5CC7931-B4D9-4D5F-8A0C-071A11C19B8D}">
+													<Language>SFX</Language>
+													<AudioFile>elephant-trumpeting1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="490024087"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="elephant-trumpeting1" ID="{B5CC7931-B4D9-4D5F-8A0C-071A11C19B8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="elephant-trumpeting2" ID="{D2807701-F795-45D7-95D3-DD8C4AD5BE25}" ShortID="16794244">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="elephant-trumpeting2" ID="{A3A69CC5-8F04-4C4E-A526-0044B48EEC0D}">
+													<Language>SFX</Language>
+													<AudioFile>elephant-trumpeting2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="650297903"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="elephant-trumpeting2" ID="{A3A69CC5-8F04-4C4E-A526-0044B48EEC0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="elephant-trumpeting3" ID="{58C566BF-425E-4AF4-9A14-87ED82A7E237}" ShortID="206961142">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="elephant-trumpeting3" ID="{5ED00BA7-7476-4182-947E-C9B83B0238B4}">
+													<Language>SFX</Language>
+													<AudioFile>elephant-trumpeting3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692104950"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="elephant-trumpeting3" ID="{5ED00BA7-7476-4182-947E-C9B83B0238B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="OrcaDie" ID="{FBF0AF8E-5872-4498-A244-9548616BE1BD}" ShortID="183794006">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{49647448-9036-44A2-B771-B9F579BB5ED9}">
+										<Attenuation Name="Animals (Custom)" ID="{75B03482-AD08-4CD3-94DE-477CD8D37C46}" ShortID="163595618">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="70"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{BBDE4F3D-D75E-4C30-8F34-47834DD14706}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>40</XPos>
+																	<YPos>-11</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>70</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OrcaDie" ID="{907F3FDF-4EF9-4C53-ACCA-78B1E283D561}">
+									<Language>SFX</Language>
+									<AudioFile>OrcaDie.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="550014342"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OrcaDie" ID="{907F3FDF-4EF9-4C53-ACCA-78B1E283D561}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="snake-rattle" ID="{7E727FC0-FD85-41E7-A05D-EC373C7C5F40}" ShortID="775557060">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{71D5E105-4A13-44A6-BC95-7DB386F2F36E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Animals" ID="{49647448-9036-44A2-B771-B9F579BB5ED9}" WorkUnitID="{B35ACD33-01BC-49B1-A4F2-8506E44465C2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snake-rattle" ID="{DD67CDF4-250D-4622-8727-F533F386AD3B}">
+									<Language>SFX</Language>
+									<AudioFile>snake-rattle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557103967"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="snake-rattle" ID="{DD67CDF4-250D-4622-8727-F533F386AD3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="penguin" ID="{7B69DA4D-1B34-43B8-98C7-DAC30ABF4D95}" ShortID="133937238">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Animals" ID="{49647448-9036-44A2-B771-B9F579BB5ED9}" WorkUnitID="{B35ACD33-01BC-49B1-A4F2-8506E44465C2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="OutsideReverb" ID="{660C1575-9378-41B0-80ED-F2D050783BDD}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="penguin" ID="{D0B41974-42B5-455A-88C0-9A33940A6F69}">
+									<Language>SFX</Language>
+									<AudioFile>penguin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="722984977"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="penguin" ID="{D0B41974-42B5-455A-88C0-9A33940A6F69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

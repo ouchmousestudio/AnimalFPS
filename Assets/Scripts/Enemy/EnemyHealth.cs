@@ -9,9 +9,9 @@ public class EnemyHealth : MonoBehaviour
     private float hitPointMax;
     [SerializeField] float deathTime = 6f;
 
-    //[SerializeField] ParticleSystem deathFX;
-
     [SerializeField] Slider enemyHealth;
+
+    public AK.Wwise.Event deathSFX;
 
     private Animator myAnimator;
     private Collider myCollider;
@@ -45,10 +45,12 @@ public class EnemyHealth : MonoBehaviour
         if (isDead == false)
         {
             isDead = true;
+            if (deathSFX != null) { deathSFX.Post(gameObject); }
+            myCollider.enabled = false;
             myAnimator.SetBool("isWalking", false);
             myAnimator.SetBool("isRunning", false);
             myAnimator.SetBool("isDead", true);
-            myCollider.enabled = false;
+            
 
             //TODO: Play SFX
 

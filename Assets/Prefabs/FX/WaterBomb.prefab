@@ -918,7 +918,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 4
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4842,7 +4842,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083823908223918435}
-  m_LocalRotation: {x: -0.17364825, y: -0, z: -0, w: 0.9848078}
+  m_LocalRotation: {x: -0.11320323, y: -0, z: -0, w: 0.9935719}
   m_LocalPosition: {x: 0, y: 0.03999996, z: 3.6100006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4933,7 +4933,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 2.8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4986,7 +4986,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 18
+      scalar: 27
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -9706,4 +9706,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myWeapon: {fileID: 0}
   hitFX: {fileID: 0}
+  enemyHitFX: {fileID: 0}
   enemyDamage: 0

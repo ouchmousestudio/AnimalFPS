@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5905a32b05d34a8ab044a7b21f2c73a, type: 3}
+  m_Name: 4FC9EA8C-5408-49DE-9A92-27991ABE8E2E
+  m_EditorClassIdentifier: 
+  objectName: Elephant_Fall
+  id: 3293832530
+  guid: 4FC9EA8C-5408-49DE-9A92-27991ABE8E2E

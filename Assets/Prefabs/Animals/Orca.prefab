@@ -1082,7 +1082,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5664313359501994116}
   - component: {fileID: 5754357943676770520}
-  - component: {fileID: 5726018404938668962}
   - component: {fileID: 5659385990585303755}
   - component: {fileID: 5659385990585303753}
   - component: {fileID: 1616567105362226052}
@@ -1132,24 +1131,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!143 &5726018404938668962
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5661003051066196600}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &5659385990585303755
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1177,9 +1158,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoint: 400
-  deathTime: 3
+  deathTime: 5
   enemyHealth: {fileID: 0}
-  sfxName: orcaDie
+  deathSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   isDead: 0
 --- !u!114 &1616567105362226052
 MonoBehaviour:
@@ -1194,7 +1178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossHealthUI: {fileID: 0}
-  bossTheme: {fileID: 0}
   portal: {fileID: 0}
 --- !u!114 &5659385990585303754
 MonoBehaviour:
@@ -1222,7 +1205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleParticles: {fileID: 8846057831154698884}
-  dissolveSpeed: 2
+  dissolveSpeed: 3.5
   minClamp: -2.2
   maxClamp: 4.7
 --- !u!1 &5661007531550787188
@@ -1394,16 +1377,6 @@ PrefabInstance:
         type: 3}
       propertyPath: CollisionModule.m_Bounce.scalar
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083823908223918432, guid: dfeb06052e9144cf38dc6c8b64f8bcd3,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 19.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083823908223918432, guid: dfeb06052e9144cf38dc6c8b64f8bcd3,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2083823908223918432, guid: dfeb06052e9144cf38dc6c8b64f8bcd3,
         type: 3}
@@ -1589,16 +1562,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083823908223918434, guid: dfeb06052e9144cf38dc6c8b64f8bcd3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.96126175
-      objectReference: {fileID: 0}
-    - target: {fileID: 2083823908223918434, guid: dfeb06052e9144cf38dc6c8b64f8bcd3,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.27563733
       objectReference: {fileID: 0}
     - target: {fileID: 2083823908223918434, guid: dfeb06052e9144cf38dc6c8b64f8bcd3,
         type: 3}

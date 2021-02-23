@@ -4,49 +4,24 @@ using UnityEngine;
 
 public class Elephant : MonoBehaviour
 {
-    [SerializeField] GameObject bossHealthUI;
-    [SerializeField] AudioSource bossTheme;
-    [SerializeField] EnemyHealth elephantHealth;
-    [SerializeField] GameObject portal;
+    [Header("Audio")]
+    public AK.Wwise.Event trumpet;
+    public AK.Wwise.Event stomp;
+    public AK.Wwise.Event fall;
 
-    Transform target;
-    //How far away from target
-    private float distanceToTarget = Mathf.Infinity;
-
-    private float chaseRange = 50f;
-    private bool hasStarted = false;
-
-
-    private void Start()
+    public void PlayTrumpet()
     {
-        elephantHealth = GetComponent<EnemyHealth>();
-        target = FindObjectOfType<PlayerHealth>().transform;
+        trumpet.Post(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayStomp()
     {
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
-
-        if (distanceToTarget < chaseRange)
-        {
-
-            if (hasStarted == false)
-            {
-                hasStarted = true;
-                bossHealthUI.SetActive(true);
-                bossTheme.Play();
-            }
-        }
-        else { return; }
+        stomp.Post(gameObject);
     }
 
-
-    private void OnDisable()
+    public void PlayFall()
     {
-        if (bossHealthUI != null) { bossHealthUI.SetActive(false); }
-        if (bossTheme != null) { bossTheme.Stop(); }
-        if (portal != null) { portal.SetActive(true); }
+        fall.Post(gameObject);
     }
 
 }

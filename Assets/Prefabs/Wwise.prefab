@@ -95,7 +95,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 540d9dc8031d843d4905748f3a49a5a2,
+    WwiseObjectReference: {fileID: 11400000, guid: 9db6acf88736b4d41b5e6a304735d057,
       type: 2}
   decodeBank: 0
   loadAsynchronous: 0
@@ -207,6 +207,12 @@ MonoBehaviour:
       idInternal: 0
       valueGuidInternal: 
       WwiseObjectReference: {fileID: 11400000, guid: 6928bfcf07d1c4860b02740cb8c01527,
+        type: 2}
+  - soundName: DamageGlitch
+    MyEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: a09c1214e2f064ce3817c7e59abc8b7b,
         type: 2}
 --- !u!1 &8599924307860051931
 GameObject:

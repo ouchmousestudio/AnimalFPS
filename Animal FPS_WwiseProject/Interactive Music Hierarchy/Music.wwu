@@ -49,7 +49,7 @@
 							<ObjectRef Name="Music" ID="{D37421BD-6D9A-4DDF-B92B-AF929F8C080F}" WorkUnitID="{7EDF9101-4C3E-40FA-8331-2349C5C38DDB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
+							<ObjectRef Name="Music" ID="{E7EB537F-7B80-439B-B3F4-562C8DF69DC9}" WorkUnitID="{2E454C83-5ED6-4972-92E9-D12B257C3268}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
