@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-
     [SerializeField] Animator transition;
     private float transitionTime = 0.5f;
 
@@ -72,5 +71,4 @@ public class SceneLoader : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(level);
     }
-
 }

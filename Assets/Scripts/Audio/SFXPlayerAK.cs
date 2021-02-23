@@ -7,25 +7,11 @@ public class SFXPlayerAK : MonoBehaviour
 
     [SerializeField] WwiseEvent[] wwiseEvent;
 
-        [System.Serializable]
+    [System.Serializable]
     private class WwiseEvent
     {
         public string soundName;
         public AK.Wwise.Event MyEvent;
-    }
-
-    //Singleton
-    private void Awake()
-    {
-        int sfxPlayers = FindObjectsOfType<SFXPlayerAK>().Length;
-        if (sfxPlayers > 1)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-        }
     }
 
     public void PlaySFX(string soundName, GameObject gameObj)

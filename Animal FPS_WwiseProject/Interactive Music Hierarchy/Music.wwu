@@ -1331,11 +1331,26 @@
 							<StateGroupInfo>
 								<StateGroupRef Name="PlayerLife" ID="{43B627A2-332F-4ED9-BE3C-B487C779B40E}"/>
 							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="Menu" ID="{9625357E-3F7A-4AA8-BB13-B7709A1404B3}"/>
+							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
 								<StateRef Name="Alive" ID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
 								<CustomState Name="" ID="{B3CD4125-938E-4167-BEA6-CE45C10E73C5}" ShortID="713294008"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Menu" ID="{1A2C97F7-CF11-4B16-B583-956E081F0E93}"/>
+								<CustomState Name="" ID="{20797F36-5C30-42AD-9BBA-C85E3468A97B}" ShortID="555632330">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-16"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Game" ID="{C8F8ADA6-A521-4E9E-A202-9233F60CC435}"/>
+								<CustomState Name="" ID="{4D347876-54BA-421E-9CB7-FE3CB7304574}" ShortID="597881422"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Dead" ID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>

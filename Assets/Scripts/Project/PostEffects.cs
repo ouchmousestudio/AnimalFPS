@@ -55,13 +55,13 @@ public class PostEffects : MonoBehaviour
     {
         float elapsed = 0f;
 
-        bloomAmount = 30f;
+        bloomAmount = 10f;
 
         while (elapsed < 1.5f)
         {
             if (volume != null)
             {
-                bloomAmount = Mathf.Clamp(bloomAmount - 30f * Time.deltaTime, originalBloomAmount, 30f);
+                bloomAmount = Mathf.Clamp(bloomAmount - 10 * Time.deltaTime, originalBloomAmount, 10);
                 bloom.intensity.value = bloomAmount;
             }
 

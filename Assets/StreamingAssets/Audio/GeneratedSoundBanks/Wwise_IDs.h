@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID AMMO_PICKUP = 4253579710U;
         static const AkUniqueID ARCTICAMB = 1640085587U;
+        static const AkUniqueID BEEP = 1123068841U;
+        static const AkUniqueID BEEP2 = 165559097U;
         static const AkUniqueID DAMAGE_GLITCH = 1598691714U;
         static const AkUniqueID DESERTAMB = 3681418210U;
         static const AkUniqueID ELELPHANT_TRUMPET = 3551026914U;
@@ -30,6 +32,7 @@ namespace AK
         static const AkUniqueID PORTAL = 3118032615U;
         static const AkUniqueID RATTLESNAKE = 113145041U;
         static const AkUniqueID START_MUSIC = 540993415U;
+        static const AkUniqueID UPLOADSOUND = 1289334483U;
         static const AkUniqueID WATER_SPLASH = 1294445356U;
     } // namespace EVENTS
 
@@ -46,6 +49,18 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace BOSS
+
+        namespace MENU
+        {
+            static const AkUniqueID GROUP = 2607556080U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GAME = 702482391U;
+                static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MENU
 
         namespace PLAYERLIFE
         {
@@ -88,6 +103,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID DELAY = 357718954U;
         static const AkUniqueID OUTSIDEREVERB = 3370640258U;
     } // namespace AUX_BUSSES
 

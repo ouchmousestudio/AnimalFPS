@@ -56,11 +56,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1098102669">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3137538902">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
+				<AuxBus Id="357718954" Name="Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay"/>
 				<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 			</IncludedAuxBusses>
 			<StateGroups>
@@ -73,7 +74,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2810670744" Language="SFX" Hash="1649004652">
+		<SoundBank Id="2810670744" Language="SFX" Hash="2326794677">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
 			<ShortName>SoundFX</ShortName>
 			<Path>SoundFX.bnk</Path>
@@ -93,6 +94,30 @@
 							<Path>SFX/artic_F2BF74AC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1123068841" Name="Beep" ObjectPath="\Events\Default Work Unit\UI\Beep" DurationType="OneShot" DurationMin="0.982241" DurationMax="1.011023">
+					<IncludedMemoryFiles>
+						<File Id="688083710" Language="SFX">
+							<ShortName>Beep2.wav</ShortName>
+							<Path>SFX/Beep2_4931C287.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="357718954" Name="Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay"/>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="165559097" Name="Beep2" ObjectPath="\Events\Default Work Unit\UI\Beep2" DurationType="OneShot" DurationMin="0.482639" DurationMax="0.482639">
+					<IncludedMemoryFiles>
+						<File Id="87877141" Language="SFX">
+							<ShortName>Beep3.wav</ShortName>
+							<Path>SFX/Beep3_44612973.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="357718954" Name="Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay"/>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1598691714" Name="Damage_Glitch" ObjectPath="\Events\Default Work Unit\Player\Damage_Glitch" DurationType="OneShot" DurationMin="0.546834" DurationMax="1.046044">
 					<IncludedMemoryFiles>
@@ -284,6 +309,14 @@
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1289334483" Name="UploadSound" ObjectPath="\Events\Default Work Unit\Animals\UploadSound" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="4.306944" DurationMax="4.306944">
+					<IncludedMemoryFiles>
+						<File Id="326412846" Language="SFX">
+							<ShortName>UploadChoir.wav</ShortName>
+							<Path>SFX/UploadChoir_51ED1B03.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1294445356" Name="Water_Splash" ObjectPath="\Events\Default Work Unit\Environment\Water_Splash" DurationType="OneShot" DurationMin="3.025850" DurationMax="3.025850">
 					<IncludedMemoryFiles>
 						<File Id="967057740" Language="SFX">
@@ -299,7 +332,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3111627378">
+		<SoundBank Id="3991942870" Language="SFX" Hash="200528639">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

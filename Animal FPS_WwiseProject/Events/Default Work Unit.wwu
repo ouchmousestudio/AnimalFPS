@@ -263,6 +263,46 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="UploadSound" ID="{9BC9EAE1-EF23-4407-90DD-3A85FF42E4E9}">
+							<ChildrenList>
+								<Action Name="" ID="{FF8EC55D-9270-4AFE-A2D3-143EDB0E0286}" ShortID="836375950">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Upload" ID="{08E36A19-36E2-4554-9B95-B0E7EDD14A73}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{43179D58-DF0E-4C6C-9B1B-9849AA7FE9CD}" ShortID="428869701">
+					<ChildrenList>
+						<Event Name="Beep" ID="{889C1D4E-7108-45B0-8E41-B26BA5F6ACF2}">
+							<ChildrenList>
+								<Action Name="" ID="{2AA8523B-C727-4CEA-A82B-264518073A75}" ShortID="297714102">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beep2" ID="{53D391A6-1C26-4153-8E4A-0ACF03028C47}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Beep2" ID="{7A3E2506-D977-412B-9346-72CB8B7485A1}">
+							<ChildrenList>
+								<Action Name="" ID="{03AB56D8-4DA2-4579-848F-9F4CC67BBA62}" ShortID="925434277">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beep3" ID="{8C61AB36-7DD8-4E48-8414-72CCD5175DD2}" WorkUnitID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

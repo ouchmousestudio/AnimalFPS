@@ -34,6 +34,13 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
+						<AuxBus Name="Delay" ID="{6AC048CC-47A7-4CB4-A88F-CF2FD36346FE}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>

@@ -42,6 +42,24 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Menu" ID="{9625357E-3F7A-4AA8-BB13-B7709A1404B3}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{2FEFD422-0C40-4D5D-8E31-96C795166760}"/>
+						<State Name="Menu" ID="{1A2C97F7-CF11-4B16-B583-956E081F0E93}"/>
+						<State Name="Game" ID="{C8F8ADA6-A521-4E9E-A202-9233F60CC435}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Game" ID="{C8F8ADA6-A521-4E9E-A202-9233F60CC435}"/>
+							<EndState Name="Menu" ID="{1A2C97F7-CF11-4B16-B583-956E081F0E93}"/>
+							<Time>1.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 	1560169506	Boss			\Default Work Unit\Boss	
+	2607556080	Menu			\Default Work Unit\Menu	
 
 State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
@@ -12,10 +13,14 @@ State	ID	Name	State Group			Notes
 	31648514	HasStarted	Boss			
 	748895195	None	Boss			
 	3881786689	HasEnded	Boss			
+	702482391	Game	Menu			
+	748895195	None	Menu			
+	2607556080	Menu	Menu			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	135730797	Dead	PlayerLife	\Interactive Music Hierarchy\Music\Music\Calm\Calm\DrumFill		
 	303558559	HasEnded	Boss	\Interactive Music Hierarchy\Music\Music\Calm\Calm\DrumFill		
+	555632330	Menu	Menu	\Interactive Music Hierarchy\Music\Music		
 	595835495	Dead	PlayerLife	\Interactive Music Hierarchy\Music\Music		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

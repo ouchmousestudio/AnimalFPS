@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{E2016F6B-CF8A-46C2-ACD3-F31992CEEBE6}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Music\SFX\FPS\SFX\Animals\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Music\SFX\FPS\SFX\Environment\"/>
 				<Property Name="Event Action List\{00B27005-3062-43DC-BF48-59B1115BBD2B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{031D191A-673E-469F-9A8F-513FF9783BB2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0B8C9337-1702-4762-9485-C1110DD01372}\x64_Expand States" Type="string" Value=""/>
@@ -11,10 +11,13 @@
 				<Property Name="Event Action List\{4FC9EA8C-5408-49DE-9A92-27991ABE8E2E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{50B4FA3D-53BB-4119-B607-CC593BAE4F55}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66E76999-C35B-4EDC-AE0F-C6152BCB55FA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7A3E2506-D977-412B-9346-72CB8B7485A1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7B2F6C29-9CF1-43EB-B5C7-B84B1A2C5CD2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7BC56E40-1E45-4D2F-B32C-72D555F6BFB9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{840DC269-70D1-4D88-82F2-8C3ECAC986C3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{842A2C4E-5B75-4D05-8AA6-088E3DEDB873}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{889C1D4E-7108-45B0-8E41-B26BA5F6ACF2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9BC9EAE1-EF23-4407-90DD-3A85FF42E4E9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9CC88B12-2812-47D3-987F-3F521AA04D8F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9F911B4D-E030-461B-832D-C936A8706520}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ADEFD0D5-6A5D-4A5E-A3DF-197087196E91}\x64_Expand States" Type="string" Value=""/>

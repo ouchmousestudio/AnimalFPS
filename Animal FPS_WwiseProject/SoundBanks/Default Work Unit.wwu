@@ -6,9 +6,12 @@
 				<SoundBank Name="SoundFX" ID="{2FFBECB0-5340-44AC-ABBD-B6B1D1BDA77F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ammo_Pickup" ID="{50B4FA3D-53BB-4119-B607-CC593BAE4F55}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Beep2" ID="{7A3E2506-D977-412B-9346-72CB8B7485A1}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DesertAmb" ID="{C9EC335E-9272-436B-AC04-FCA6B154A970}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Health_Pickup" ID="{00B27005-3062-43DC-BF48-59B1115BBD2B}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footstep_Snow" ID="{7B2F6C29-9CF1-43EB-B5C7-B84B1A2C5CD2}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UploadSound" ID="{9BC9EAE1-EF23-4407-90DD-3A85FF42E4E9}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Beep" ID="{889C1D4E-7108-45B0-8E41-B26BA5F6ACF2}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rattlesnake" ID="{9F911B4D-E030-461B-832D-C936A8706520}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Shotgun" ID="{031D191A-673E-469F-9A8F-513FF9783BB2}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footstep_Land" ID="{0B8C9337-1702-4762-9485-C1110DD01372}" WorkUnitID="{6F1EA5CB-304E-45EF-99A8-18C625EE9650}" Origin="Manual" Filter="7"/>
