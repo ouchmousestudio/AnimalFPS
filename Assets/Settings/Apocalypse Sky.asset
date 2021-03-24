@@ -10,7 +10,6 @@ Material:
   m_Name: Jupiter/Sky
   m_Shader: {fileID: 4800000, guid: 3129e3b90193a0547900ecf4cf4e9864, type: 3}
   m_ShaderKeywords: HORIZON_CLOUD MOON OVERHEAD_CLOUD STARS STARS_LAYER_0 STARS_LAYER_1
-    STARS_LAYER_2
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,19 +67,19 @@ Material:
     - _OverheadCloudFlowZ: 1
     - _OverheadCloudSize: 10
     - _OverheadCloudStep: 2
-    - _StarsDensity0: 0.4
-    - _StarsDensity1: 0.34
+    - _StarsDensity0: 0.83
+    - _StarsDensity1: 0.42
     - _StarsDensity2: 0.45
     - _StarsEnd: 1
     - _StarsGlow0: 0.01
     - _StarsGlow1: 0.01
     - _StarsGlow2: 0.01
-    - _StarsOpacity: 1
-    - _StarsSize0: 0.42
+    - _StarsOpacity: 0.7
+    - _StarsSize0: 0.36
     - _StarsSize1: 0.53
     - _StarsSize2: 0.46
-    - _StarsStart: -0.01
-    - _StarsTwinkle0: 5
+    - _StarsStart: 0.05
+    - _StarsTwinkle0: 3
     - _StarsTwinkle1: 6
     - _StarsTwinkle2: 2
     - _SunGlow: 0
@@ -95,8 +94,8 @@ Material:
     - _MoonDirection: {r: -0.037000418, g: -0.7660445, b: -0.6417217, a: 0}
     - _OverheadCloudColor: {r: 1, g: 1, b: 1, a: 0.09803922}
     - _SkyColor: {r: 0.10090523, g: 0.06363475, b: 0.20754719, a: 1}
-    - _StarsColor0: {r: 0.9254902, g: 0.88081425, b: 0.5432628, a: 1}
-    - _StarsColor1: {r: 1, g: 0.24056602, b: 0.8628801, a: 1}
+    - _StarsColor0: {r: 1.8509804, g: 1.7647059, b: 1.0901961, a: 1}
+    - _StarsColor1: {r: 2.6183176, g: 2.6183176, b: 2.6183176, a: 1}
     - _StarsColor2: {r: 0, g: 0.8351569, b: 1, a: 1}
     - _SunColor: {r: 0, g: 0, b: 0, a: 0}
     - _SunDirection: {r: -1, g: -1, b: -1, a: 0}
@@ -122,23 +121,23 @@ MonoBehaviour:
   fogSyncOption: 2
   fogColor: {r: 0, g: 0, b: 0, a: 0}
   enableStars: 1
-  starsStartPosition: -0.01
+  starsStartPosition: 0.05
   starsEndPosition: 1
-  starsOpacity: 1
-  starsLayerCount: 3
-  starsColor0: {r: 0.9254902, g: 0.88081425, b: 0.5432628, a: 1}
-  starsColor1: {r: 1, g: 0.24056602, b: 0.8628801, a: 1}
+  starsOpacity: 0.7
+  starsLayerCount: 2
+  starsColor0: {r: 1.8509804, g: 1.7647059, b: 1.0901961, a: 1}
+  starsColor1: {r: 2.6183176, g: 2.6183176, b: 2.6183176, a: 1}
   starsColor2: {r: 0, g: 0.8351569, b: 1, a: 1}
-  starsDensity0: 0.4
-  starsDensity1: 0.34
+  starsDensity0: 0.83
+  starsDensity1: 0.42
   starsDensity2: 0.45
-  starsSize0: 0.42
+  starsSize0: 0.36
   starsSize1: 0.53
   starsSize2: 0.46
   starsGlow0: 0.01
   starsGlow1: 0.01
   starsGlow2: 0.01
-  starsTwinkle0: 5
+  starsTwinkle0: 3
   starsTwinkle1: 6
   starsTwinkle2: 2
   useBakedStars: 0

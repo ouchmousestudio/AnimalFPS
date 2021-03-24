@@ -74,7 +74,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2810670744" Language="SFX" Hash="2326794677">
+		<SoundBank Id="2810670744" Language="SFX" Hash="1485144141">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
 			<ShortName>SoundFX</ShortName>
 			<Path>SoundFX.bnk</Path>
@@ -99,7 +99,7 @@
 					<IncludedMemoryFiles>
 						<File Id="688083710" Language="SFX">
 							<ShortName>Beep2.wav</ShortName>
-							<Path>SFX/Beep2_4931C287.wem</Path>
+							<Path>SFX/Beep2_C97AC4F1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -111,7 +111,7 @@
 					<IncludedMemoryFiles>
 						<File Id="87877141" Language="SFX">
 							<ShortName>Beep3.wav</ShortName>
-							<Path>SFX/Beep3_44612973.wem</Path>
+							<Path>SFX/Beep3_C7EC1573.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -313,7 +313,7 @@
 					<IncludedMemoryFiles>
 						<File Id="326412846" Language="SFX">
 							<ShortName>UploadChoir.wav</ShortName>
-							<Path>SFX/UploadChoir_51ED1B03.wem</Path>
+							<Path>SFX/UploadChoir_004B214C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
