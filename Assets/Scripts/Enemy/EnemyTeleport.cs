@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class EnemyTeleport : MonoBehaviour
 {
     private bool isDissolving = true;
 
     private float dissolveAmount = 4.5f;
-    [SerializeField] ParticleSystem teleParticles;
+    [SerializeField] VisualEffect uploadParticles;
     [SerializeField] float dissolveSpeed = 2f;
 
     [SerializeField] float minClamp = 1f;
     [SerializeField] float maxClamp = 4.5f;
+
+    [SerializeField] float vfxDelayTime = 1f;
 
     private Renderer myRenderer;
     private MaterialPropertyBlock myPropBlock;
@@ -50,8 +53,13 @@ public class EnemyTeleport : MonoBehaviour
     public void DissolveOut()
     {
         isDissolving = false;
-        if (!teleParticles) { return; }
-        teleParticles.Play();
+        //Add Basic timer to the VFX, to time with the shader dissolve String Reference
+        Invoke("UploadVFX", vfxDelayTime);
+    }
 
+    private void UploadVFX()
+    {
+        if (!uploadParticles) { return; }
+        uploadParticles.Play();
     }
 }

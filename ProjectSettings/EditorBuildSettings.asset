@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Forest.unity
     guid: cdd22d8fb6ef249c59961900c5a8aa6b
   - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: 7126968ebef634b069c7d6ac729be741
+  - enabled: 1
     path: Assets/Scenes/OpeningText.unity
     guid: b47126947984e4a02b3ca08fa11e717f
   - enabled: 1

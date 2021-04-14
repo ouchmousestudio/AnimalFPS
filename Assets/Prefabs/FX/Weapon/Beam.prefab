@@ -3790,7 +3790,7 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 359
+      m_Bits: 2407
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -4831,3 +4831,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myWeapon: {fileID: 0}
   hitFX: {fileID: 5117813280055231150, guid: 78b2a61825c074d55a545342e5149a46, type: 3}
+  enemyHitFX: {fileID: 0}
+  enemyDamage: 0

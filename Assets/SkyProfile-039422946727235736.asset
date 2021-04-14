@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa5278d11d9502245b5cc174a196561b, type: 3}
-  m_Name: SkyProfile-057482928558454736
+  m_Name: SkyProfile-039422946727235736
   m_EditorClassIdentifier: 
   skyColor: {r: 0.2264151, g: 0.6028122, b: 0.9056604, a: 1}
   horizonColor: {r: 1, g: 0.94944346, b: 0.839, a: 1}
@@ -47,12 +47,12 @@ MonoBehaviour:
   sunTexture: {fileID: 0}
   sunColor: {r: 1, g: 0.9700814, b: 0.9009434, a: 1}
   sunSize: 0.07
-  sunSoftEdge: 0.5
-  sunGlow: 0.45
+  sunSoftEdge: 0.477
+  sunGlow: 0.461
   useBakedSun: 0
   sunCubemap: {fileID: 0}
   sunLightColor: {r: 1, g: 0.9929226, b: 0.9009434, a: 1}
-  sunLightIntensity: 1
+  sunLightIntensity: 0.5
   enableMoon: 0
   moonTexture: {fileID: 0}
   moonColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75,8 +75,8 @@ MonoBehaviour:
   overheadCloudColor: {r: 1, g: 1, b: 1, a: 0.5647059}
   overheadCloudAltitude: 1000
   overheadCloudSize: 10
-  overheadCloudStep: 2
-  overheadCloudAnimationSpeed: 50
+  overheadCloudStep: 20
+  overheadCloudAnimationSpeed: 100
   overheadCloudFlowDirectionX: 1
   overheadCloudFlowDirectionZ: 1
   enableDetailOverlay: 1
@@ -84,9 +84,9 @@ MonoBehaviour:
   detailOverlayCubeMap: {fileID: 0}
   detailOverlayLayer: 0
   detailOverlayRotationSpeed: 0
-  allowStepEffect: 1
-  material: {fileID: 8176870448671298751}
---- !u!21 &8176870448671298751
+  allowStepEffect: 0
+  material: {fileID: 0}
+--- !u!21 &6503531295019449295
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -95,8 +95,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter/Sky
   m_Shader: {fileID: 4800000, guid: 3129e3b90193a0547900ecf4cf4e9864, type: 3}
-  m_ShaderKeywords: ALLOW_STEP_EFFECT DETAIL_OVERLAY OVERHEAD_CLOUD STARS_LAYER_0
-    SUN
+  m_ShaderKeywords: DETAIL_OVERLAY OVERHEAD_CLOUD STARS_LAYER_0 SUN
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -149,11 +148,11 @@ Material:
     - _MoonSize: 0
     - _MoonSoftEdge: 0
     - _OverheadCloudAltitude: 1000
-    - _OverheadCloudAnimationSpeed: 50
+    - _OverheadCloudAnimationSpeed: 100
     - _OverheadCloudFlowX: 1
     - _OverheadCloudFlowZ: 1
     - _OverheadCloudSize: 10
-    - _OverheadCloudStep: 2
+    - _OverheadCloudStep: 20
     - _StarsDensity0: 0
     - _StarsDensity1: 0
     - _StarsDensity2: 0
@@ -169,9 +168,9 @@ Material:
     - _StarsTwinkle0: 0
     - _StarsTwinkle1: 0
     - _StarsTwinkle2: 0
-    - _SunGlow: 0.45
+    - _SunGlow: 0.461
     - _SunSize: 0.07
-    - _SunSoftEdge: 0.5
+    - _SunSoftEdge: 0.477
     m_Colors:
     - _DetailOverlayColor: {r: 0, g: 0, b: 0, a: 0}
     - _GroundColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
@@ -185,5 +184,5 @@ Material:
     - _StarsColor1: {r: 0, g: 0, b: 0, a: 0}
     - _StarsColor2: {r: 0, g: 0, b: 0, a: 0}
     - _SunColor: {r: 1, g: 0.9700814, b: 0.9009434, a: 1}
-    - _SunDirection: {r: -0.75000006, g: -0.5000001, b: -0.43301275, a: 0}
+    - _SunDirection: {r: -0.0009315858, g: -0.4566166, b: -0.8896633, a: 0}
   m_BuildTextureStacks: []

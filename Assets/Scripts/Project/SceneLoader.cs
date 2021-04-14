@@ -55,6 +55,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Forest");
     }
 
+        public void LoadCityLevel()
+    {
+        SceneManager.LoadScene("City");
+    }
+
     public void LoadLoading()
     {
         SceneManager.LoadScene("Loading");

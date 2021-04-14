@@ -126,8 +126,6 @@ MonoBehaviour:
   normalFOV: 60
   zoomFOV: 40
   smoothingAmount: 10
-  normalSensitivity: 2
-  zoomSensitivity: 1.2
   weaponAnimation: {fileID: 5215538355151405920}
 --- !u!1001 &228404698314056686
 PrefabInstance:
@@ -332,6 +330,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6499605661183957446}
     m_Modifications:
+    - target: {fileID: 659754673654527295, guid: acabf4e5ed5354243a6ce7cef23edd2a,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2841159499187064593, guid: acabf4e5ed5354243a6ce7cef23edd2a,
         type: 3}
       propertyPath: m_RootOrder

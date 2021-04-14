@@ -105,7 +105,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 8999956558304406554}
   laserBeam: {fileID: 5471133902498024444}
   hitFX: {fileID: 3810829144241709909, guid: c9968f606d6d242f9ba526d85b7cf7e2, type: 3}
-  damage: 25
+  damage: 10
   numberOfShots: 30
   ammoSlot: {fileID: 0}
   ammoType: 2
@@ -387,6 +387,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6499605661183957446}
     m_Modifications:
+    - target: {fileID: 659754673654527295, guid: acabf4e5ed5354243a6ce7cef23edd2a,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2841159499187064593, guid: acabf4e5ed5354243a6ce7cef23edd2a,
         type: 3}
       propertyPath: m_RootOrder

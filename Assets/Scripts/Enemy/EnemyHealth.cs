@@ -36,7 +36,6 @@ public class EnemyHealth : MonoBehaviour
         {
             Die();
         }
-
     }
 
     private void Die()
@@ -50,10 +49,6 @@ public class EnemyHealth : MonoBehaviour
             myAnimator.SetBool("isWalking", false);
             myAnimator.SetBool("isRunning", false);
             myAnimator.SetBool("isDead", true);
-            
-
-            //TODO: Play SFX
-
         }
         if (GetComponent<Boss>())
         {
