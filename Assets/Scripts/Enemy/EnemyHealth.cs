@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoint = 100f;
     private float hitPointMax;
-    [SerializeField] float deathTime = 6f;
+    [SerializeField] float deathTime = 6f; //Time before enemy vanishes
 
     [SerializeField] Slider enemyHealth;
 

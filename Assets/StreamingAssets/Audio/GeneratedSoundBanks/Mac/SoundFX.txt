@@ -1,0 +1,86 @@
+Event	ID	Name			Wwise Object Path	Notes
+	113145041	Rattlesnake			\Default Work Unit\Animals\Rattlesnake	
+	165559097	Beep2			\Default Work Unit\UI\Beep2	
+	336971538	Fire_Gun			\Default Work Unit\Weapons\Fire_Gun	
+	456342789	Footstep_Land			\Default Work Unit\Player\Footstep_Land	
+	554156753	Orca_Death			\Default Work Unit\Animals\Orca_Death	
+	626438066	Fire_Shotgun			\Default Work Unit\Weapons\Fire_Shotgun	
+	1123068841	Beep			\Default Work Unit\UI\Beep	
+	1289334483	UploadSound			\Default Work Unit\Animals\UploadSound	
+	1294445356	Water_Splash			\Default Work Unit\Environment\Water_Splash	
+	1415145768	Elephant_Stomp			\Default Work Unit\Animals\Elephant\Elephant_Stomp	
+	1598691714	Damage_Glitch			\Default Work Unit\Player\Damage_Glitch	
+	1640085587	ArcticAmb			\Default Work Unit\Environment\ArcticAmb	
+	1866025847	Footstep			\Default Work Unit\Player\Footstep	
+	3118032615	Portal			\Default Work Unit\Environment\Portal	
+	3293832530	Elephant_Fall			\Default Work Unit\Animals\Elephant\Elephant_Fall	
+	3549282475	Penguin			\Default Work Unit\Animals\Penguin	
+	3551026914	Elelphant_Trumpet			\Default Work Unit\Animals\Elephant\Elelphant_Trumpet	
+	3681418210	DesertAmb			\Default Work Unit\Environment\DesertAmb	
+	3731941266	Health_Pickup			\Default Work Unit\Pickups\Health_Pickup	
+	4253579710	Ammo_Pickup			\Default Work Unit\Pickups\Ammo_Pickup	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	787898836	Snow	Material			
+	803837735	Sand	Material			
+	841620460	Concrete	Material			
+	2195636714	Dirt	Material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	3278282	Dead	PlayerLife	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Arctic		
+	289750139	Dead	PlayerLife	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Desert		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11644128	FS_Dirt_01	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\FS_Dirt_01_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepLand\FS_Dirt_01		8889
+	17429998	SnowFootstep2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep3_A20A2C03.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Snow Footsteps\SnowFootstep2		7542
+	20901228	PistolSound_1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PistolSound_1_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\PistolSound_1		48416
+	27077756	Glitch3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Glitch3_7AA3802F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DamageGlitch\Glitch\Glitch3		25626
+	43589592	Portal	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Portal_66D58727.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Portal		314528
+	87877141	Beep3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Beep3_D09EE33B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Beep3		5172
+	97582287	FS_Concrete_02	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Concrete\FS_Concrete_02_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Concrete Footsteps\FS_Concrete_02		11755
+	98906436	Glitch4	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Glitch4_CD0C6A77.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DamageGlitch\Glitch\Glitch4		16532
+	107290720	PistolSound_3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PistolSound_3_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\PistolSound_3		49582
+	123132921	elephant-stomp	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\elephant-stomp_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Elephant\elephant-stomp		25031
+	159525673	FS_Concrete_03	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Concrete\FS_Concrete_03_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Concrete Footsteps\FS_Concrete_03		12060
+	326412846	UploadChoir	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\UploadChoir_5A879454.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Upload\UploadChoir		69547
+	392460886	Desert	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\desert_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Desert		642775
+	450793598	FootStepGravel_1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\FootStepGravel_1_A614427E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Dirt Footsteps\FootStepGravel_1		12186
+	484022025	Glitch6	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Glitch6_267314DE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DamageGlitch\Glitch\Glitch6		10409
+	490024087	elephant-trumpeting1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\elephant-trumpeting1_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Elephant\Elephant-Trumpet\elephant-trumpeting1		46967
+	512462347	ShotgunBlast_1	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\ShotgunBlast_1_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\ShotgunBlast_1		52525
+	543692342	ShotgunBlast_3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\ShotgunBlast_3_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\ShotgunBlast_3		49300
+	550014342	OrcaDie	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\OrcaDie_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\OrcaDie		37862
+	557103967	snake-rattle	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\snake-rattle_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\snake-rattle		91346
+	575388350	Ammo	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PowerUp4_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Ammo		63026
+	636450609	FootStepGravel_4	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\FootStepGravel_4_C190C308.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Dirt Footsteps\FootStepGravel_4		12079
+	644676214	FootStepGravel_3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\FootStepGravel_3_79EF172D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Dirt Footsteps\FootStepGravel_3		10786
+	650297903	elephant-trumpeting2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\elephant-trumpeting2_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Elephant\Elephant-Trumpet\elephant-trumpeting2		34812
+	650734746	FS_Concrete_04	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Concrete\FS_Concrete_04_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepLand\FS_Concrete_04		8329
+	675236680	SnowFootstep5	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep8_EAEA909B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Snow Footsteps\SnowFootstep5		6713
+	688083710	Beep2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Beep2_E4F372B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Beep2		16553
+	692104950	elephant-trumpeting3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\elephant-trumpeting3_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Elephant\Elephant-Trumpet\elephant-trumpeting3		32556
+	712141796	SnowFootstepLand	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep7_192A17F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepLand\SnowFootstepLand		4976
+	722984977	penguin	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\penguin_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\penguin		22469
+	735373283	SnowFootstep3	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep6_6CC130F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Snow Footsteps\SnowFootstep3		5026
+	765198228	FS_Concrete_01	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Concrete\FS_Concrete_01_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Concrete Footsteps\FS_Concrete_01		9716
+	823612950	SnowFootstep	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\SnowFootstep_DA7F8F88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Snow Footsteps\SnowFootstep		6999
+	861324236	Health	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PowerUp3_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Health		74562
+	868965491	Arctic	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\artic_5FB34EF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Arctic		541704
+	880758225	ShotgunBlast_2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\ShotgunBlast_2_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Shotgun\ShotgunBlast_2		49127
+	954565246	elephant-fall	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\elephant-fall_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Elephant\elephant-fall		31217
+	967057740	WaterSplash	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\waterSplash_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WaterSplash		75362
+	1010233304	Glitch2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\Glitch2_1F83C673.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DamageGlitch\Glitch\Glitch2		17387
+	1031316316	PistolSound_2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\PistolSound_2_F51D7C2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapons\Pistol\PistolSound_2		48920
+	1036081284	FootStepGravel_2	Y:\Documents\Repos\Unity 3D\Games\Animal FPS\Animal FPS_WwiseProject\.cache\Mac\SFX\FootStepGravel_2_0BF149E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footstep\Dirt Footsteps\FootStepGravel_2		11719
+

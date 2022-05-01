@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="18007623" Language="SFX">
+			<ShortName>Arp.wav</ShortName>
+			<Path>SFX/Arp_F2BF74AC.wem</Path>
+		</File>
+		<File Id="114816433" Language="SFX">
+			<ShortName>Drums2.wav</ShortName>
+			<Path>SFX/Drums2_F2BF74AC.wem</Path>
+		</File>
+		<File Id="279380458" Language="SFX">
+			<ShortName>Guitar+Bass.wav</ShortName>
+			<Path>SFX/Guitar+Bass_F2BF74AC.wem</Path>
+		</File>
+		<File Id="333075199" Language="SFX">
+			<ShortName>Lead2.wav</ShortName>
+			<Path>SFX/Lead2_F2BF74AC.wem</Path>
+		</File>
+		<File Id="391751706" Language="SFX">
+			<ShortName>Piano1.wav</ShortName>
+			<Path>SFX/Piano1_F2BF74AC.wem</Path>
+		</File>
+		<File Id="430593385" Language="SFX">
+			<ShortName>Piano2.wav</ShortName>
+			<Path>SFX/Piano2_F2BF74AC.wem</Path>
+		</File>
+		<File Id="579283487" Language="SFX">
+			<ShortName>GuitarHigh.wav</ShortName>
+			<Path>SFX/GuitarHigh_F2BF74AC.wem</Path>
+		</File>
+		<File Id="669970577" Language="SFX">
+			<ShortName>Pad.wav</ShortName>
+			<Path>SFX/Pad_F2BF74AC.wem</Path>
+		</File>
+		<File Id="848084346" Language="SFX">
+			<ShortName>Drums1.wav</ShortName>
+			<Path>SFX/Drums1_F2BF74AC.wem</Path>
+		</File>
+		<File Id="892534645" Language="SFX">
+			<ShortName>Lead1.wav</ShortName>
+			<Path>SFX/Lead1_F2BF74AC.wem</Path>
+		</File>
+		<File Id="985165178" Language="SFX">
+			<ShortName>DrumFill.wav</ShortName>
+			<Path>SFX/DrumFill_F2BF74AC.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3137538902">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="357718954" Name="Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay"/>
+				<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{43B627A2-332F-4ED9-BE3C-B487C779B40E}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{9CA6BF4A-341C-43A2-9C7E-AC6EA4487215}"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead" GUID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2810670744" Language="SFX" Hash="3511497078">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
+			<ShortName>SoundFX</ShortName>
+			<Path>SoundFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4253579710" Name="Ammo_Pickup" ObjectPath="\Events\Default Work Unit\Pickups\Ammo_Pickup" DurationType="OneShot" DurationMin="2.009977" DurationMax="2.009977">
+					<IncludedMemoryFiles>
+						<File Id="575388350" Language="SFX">
+							<ShortName>PowerUp4.wav</ShortName>
+							<Path>SFX/PowerUp4_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1640085587" Name="ArcticAmb" ObjectPath="\Events\Default Work Unit\Environment\ArcticAmb" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="868965491" Language="SFX">
+							<ShortName>artic.wav</ShortName>
+							<Path>SFX/artic_5FB34EF4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1123068841" Name="Beep" ObjectPath="\Events\Default Work Unit\UI\Beep" DurationType="OneShot" DurationMin="0.982241" DurationMax="1.011023">
+					<IncludedMemoryFiles>
+						<File Id="688083710" Language="SFX">
+							<ShortName>Beep2.wav</ShortName>
+							<Path>SFX/Beep2_E4F372B9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="357718954" Name="Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay"/>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="165559097" Name="Beep2" ObjectPath="\Events\Default Work Unit\UI\Beep2" DurationType="OneShot" DurationMin="0.482639" DurationMax="0.482639">
+					<IncludedMemoryFiles>
+						<File Id="87877141" Language="SFX">
+							<ShortName>Beep3.wav</ShortName>
+							<Path>SFX/Beep3_D09EE33B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="357718954" Name="Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay"/>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1598691714" Name="Damage_Glitch" ObjectPath="\Events\Default Work Unit\Player\Damage_Glitch" DurationType="OneShot" DurationMin="0.546834" DurationMax="1.046044">
+					<IncludedMemoryFiles>
+						<File Id="27077756" Language="SFX">
+							<ShortName>Glitch3.wav</ShortName>
+							<Path>SFX/Glitch3_7AA3802F.wem</Path>
+						</File>
+						<File Id="98906436" Language="SFX">
+							<ShortName>Glitch4.wav</ShortName>
+							<Path>SFX/Glitch4_CD0C6A77.wem</Path>
+						</File>
+						<File Id="484022025" Language="SFX">
+							<ShortName>Glitch6.wav</ShortName>
+							<Path>SFX/Glitch6_267314DE.wem</Path>
+						</File>
+						<File Id="1010233304" Language="SFX">
+							<ShortName>Glitch2.wav</ShortName>
+							<Path>SFX/Glitch2_1F83C673.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3681418210" Name="DesertAmb" ObjectPath="\Events\Default Work Unit\Environment\DesertAmb" DurationType="OneShot" DurationMin="23.009319" DurationMax="23.009319">
+					<IncludedMemoryFiles>
+						<File Id="392460886" Language="SFX">
+							<ShortName>desert.wav</ShortName>
+							<Path>SFX/desert_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3551026914" Name="Elelphant_Trumpet" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elelphant_Trumpet" MaxAttenuation="70." DurationType="OneShot" DurationMin="1.028934" DurationMax="1.552835">
+					<IncludedMemoryFiles>
+						<File Id="490024087" Language="SFX">
+							<ShortName>elephant-trumpeting1.wav</ShortName>
+							<Path>SFX/elephant-trumpeting1_F51D7C2A.wem</Path>
+						</File>
+						<File Id="650297903" Language="SFX">
+							<ShortName>elephant-trumpeting2.wav</ShortName>
+							<Path>SFX/elephant-trumpeting2_F51D7C2A.wem</Path>
+						</File>
+						<File Id="692104950" Language="SFX">
+							<ShortName>elephant-trumpeting3.wav</ShortName>
+							<Path>SFX/elephant-trumpeting3_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3293832530" Name="Elephant_Fall" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Fall" MaxAttenuation="70." DurationType="OneShot" DurationMin="1.1" DurationMax="1.1">
+					<IncludedMemoryFiles>
+						<File Id="954565246" Language="SFX">
+							<ShortName>elephant-fall.wav</ShortName>
+							<Path>SFX/elephant-fall_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1415145768" Name="Elephant_Stomp" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Stomp" MaxAttenuation="70." DurationType="OneShot" DurationMin="0.953333" DurationMax="0.953333">
+					<IncludedMemoryFiles>
+						<File Id="123132921" Language="SFX">
+							<ShortName>elephant-stomp.wav</ShortName>
+							<Path>SFX/elephant-stomp_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="336971538" Name="Fire_Gun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Gun" DurationType="OneShot" DurationMin="1.943064" DurationMax="2.058604">
+					<IncludedMemoryFiles>
+						<File Id="20901228" Language="SFX">
+							<ShortName>PistolSound_1.wav</ShortName>
+							<Path>SFX/PistolSound_1_F51D7C2A.wem</Path>
+						</File>
+						<File Id="107290720" Language="SFX">
+							<ShortName>PistolSound_3.wav</ShortName>
+							<Path>SFX/PistolSound_3_F51D7C2A.wem</Path>
+						</File>
+						<File Id="1031316316" Language="SFX">
+							<ShortName>PistolSound_2.wav</ShortName>
+							<Path>SFX/PistolSound_2_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="626438066" Name="Fire_Shotgun" ObjectPath="\Events\Default Work Unit\Weapons\Fire_Shotgun" DurationType="OneShot" DurationMin="1.971326" DurationMax="2.058604">
+					<IncludedMemoryFiles>
+						<File Id="512462347" Language="SFX">
+							<ShortName>ShotgunBlast_1.wav</ShortName>
+							<Path>SFX/ShotgunBlast_1_F51D7C2A.wem</Path>
+						</File>
+						<File Id="543692342" Language="SFX">
+							<ShortName>ShotgunBlast_3.wav</ShortName>
+							<Path>SFX/ShotgunBlast_3_F51D7C2A.wem</Path>
+						</File>
+						<File Id="880758225" Language="SFX">
+							<ShortName>ShotgunBlast_2.wav</ShortName>
+							<Path>SFX/ShotgunBlast_2_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Footstep" DurationType="OneShot" DurationMin="0.254276" DurationMax="0.740141">
+					<IncludedMemoryFiles>
+						<File Id="17429998" Language="SFX">
+							<ShortName>SnowFootstep3.wav</ShortName>
+							<Path>SFX/SnowFootstep3_A20A2C03.wem</Path>
+						</File>
+						<File Id="97582287" Language="SFX">
+							<ShortName>Concrete\FS_Concrete_02.wav</ShortName>
+							<Path>SFX/Concrete/FS_Concrete_02_F51D7C2A.wem</Path>
+						</File>
+						<File Id="159525673" Language="SFX">
+							<ShortName>Concrete\FS_Concrete_03.wav</ShortName>
+							<Path>SFX/Concrete/FS_Concrete_03_F51D7C2A.wem</Path>
+						</File>
+						<File Id="450793598" Language="SFX">
+							<ShortName>FootStepGravel_1.wav</ShortName>
+							<Path>SFX/FootStepGravel_1_A614427E.wem</Path>
+						</File>
+						<File Id="636450609" Language="SFX">
+							<ShortName>FootStepGravel_4.wav</ShortName>
+							<Path>SFX/FootStepGravel_4_C190C308.wem</Path>
+						</File>
+						<File Id="644676214" Language="SFX">
+							<ShortName>FootStepGravel_3.wav</ShortName>
+							<Path>SFX/FootStepGravel_3_79EF172D.wem</Path>
+						</File>
+						<File Id="650734746" Language="SFX">
+							<ShortName>Concrete\FS_Concrete_04.wav</ShortName>
+							<Path>SFX/Concrete/FS_Concrete_04_F51D7C2A.wem</Path>
+						</File>
+						<File Id="675236680" Language="SFX">
+							<ShortName>SnowFootstep8.wav</ShortName>
+							<Path>SFX/SnowFootstep8_EAEA909B.wem</Path>
+						</File>
+						<File Id="712141796" Language="SFX">
+							<ShortName>SnowFootstep7.wav</ShortName>
+							<Path>SFX/SnowFootstep7_192A17F6.wem</Path>
+						</File>
+						<File Id="735373283" Language="SFX">
+							<ShortName>SnowFootstep6.wav</ShortName>
+							<Path>SFX/SnowFootstep6_6CC130F6.wem</Path>
+						</File>
+						<File Id="765198228" Language="SFX">
+							<ShortName>Concrete\FS_Concrete_01.wav</ShortName>
+							<Path>SFX/Concrete/FS_Concrete_01_F51D7C2A.wem</Path>
+						</File>
+						<File Id="823612950" Language="SFX">
+							<ShortName>SnowFootstep.wav</ShortName>
+							<Path>SFX/SnowFootstep_DA7F8F88.wem</Path>
+						</File>
+						<File Id="1036081284" Language="SFX">
+							<ShortName>FootStepGravel_2.wav</ShortName>
+							<Path>SFX/FootStepGravel_2_0BF149E5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2812D5DB-6D1F-42A3-93C1-0DC841C4335F}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{15AD392F-8E89-4BB6-ADC2-E3E31B0A4F3D}">
+							<Media>
+								<File Id="97582287"/>
+								<File Id="159525673"/>
+								<File Id="650734746"/>
+								<File Id="765198228"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3196C67F-0787-4C4D-9739-9E25FFA532E5}">
+							<Media>
+								<File Id="17429998"/>
+								<File Id="675236680"/>
+								<File Id="712141796"/>
+								<File Id="735373283"/>
+								<File Id="823612950"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3939E598-D729-4FF1-BB4D-2AED446E3C86}">
+							<Media>
+								<File Id="450793598"/>
+								<File Id="636450609"/>
+								<File Id="644676214"/>
+								<File Id="1036081284"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2812D5DB-6D1F-42A3-93C1-0DC841C4335F}">
+							<Media>
+								<File Id="17429998"/>
+								<File Id="675236680"/>
+								<File Id="712141796"/>
+								<File Id="735373283"/>
+								<File Id="823612950"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="456342789" Name="Footstep_Land" ObjectPath="\Events\Default Work Unit\Player\Footstep_Land" DurationType="OneShot" DurationMin="0.269396" DurationMax="0.590262">
+					<IncludedMemoryFiles>
+						<File Id="11644128" Language="SFX">
+							<ShortName>FS_Dirt_01.wav</ShortName>
+							<Path>SFX/FS_Dirt_01_F51D7C2A.wem</Path>
+						</File>
+						<File Id="650734746" Language="SFX">
+							<ShortName>Concrete\FS_Concrete_04.wav</ShortName>
+							<Path>SFX/Concrete/FS_Concrete_04_F51D7C2A.wem</Path>
+						</File>
+						<File Id="712141796" Language="SFX">
+							<ShortName>SnowFootstep7.wav</ShortName>
+							<Path>SFX/SnowFootstep7_192A17F6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2812D5DB-6D1F-42A3-93C1-0DC841C4335F}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{15AD392F-8E89-4BB6-ADC2-E3E31B0A4F3D}">
+							<Media>
+								<File Id="650734746"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3196C67F-0787-4C4D-9739-9E25FFA532E5}">
+							<Media>
+								<File Id="712141796"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3939E598-D729-4FF1-BB4D-2AED446E3C86}">
+							<Media>
+								<File Id="11644128"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2812D5DB-6D1F-42A3-93C1-0DC841C4335F}">
+							<Media>
+								<File Id="712141796"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3731941266" Name="Health_Pickup" ObjectPath="\Events\Default Work Unit\Pickups\Health_Pickup" DurationType="OneShot" DurationMin="3.009887" DurationMax="3.009887">
+					<IncludedMemoryFiles>
+						<File Id="861324236" Language="SFX">
+							<ShortName>PowerUp3.wav</ShortName>
+							<Path>SFX/PowerUp3_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="554156753" Name="Orca_Death" ObjectPath="\Events\Default Work Unit\Animals\Orca_Death" MaxAttenuation="70." DurationType="OneShot" DurationMin="4.160726" DurationMax="4.160726">
+					<IncludedMemoryFiles>
+						<File Id="550014342" Language="SFX">
+							<ShortName>OrcaDie.wav</ShortName>
+							<Path>SFX/OrcaDie_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3549282475" Name="Penguin" ObjectPath="\Events\Default Work Unit\Animals\Penguin" MaxAttenuation="70." DurationType="OneShot" DurationMin="1.147936" DurationMax="1.147936">
+					<IncludedMemoryFiles>
+						<File Id="722984977" Language="SFX">
+							<ShortName>penguin.wav</ShortName>
+							<Path>SFX/penguin_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3118032615" Name="Portal" ObjectPath="\Events\Default Work Unit\Environment\Portal" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="43589592" Language="SFX">
+							<ShortName>Portal.wav</ShortName>
+							<Path>SFX/Portal_66D58727.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="113145041" Name="Rattlesnake" ObjectPath="\Events\Default Work Unit\Animals\Rattlesnake" MaxAttenuation="70." DurationType="OneShot" DurationMin="2.934026" DurationMax="3.108493">
+					<IncludedMemoryFiles>
+						<File Id="557103967" Language="SFX">
+							<ShortName>snake-rattle.wav</ShortName>
+							<Path>SFX/snake-rattle_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1289334483" Name="UploadSound" ObjectPath="\Events\Default Work Unit\Animals\UploadSound" MaxAttenuation="70." DurationType="OneShot" DurationMin="4.306944" DurationMax="4.306944">
+					<IncludedMemoryFiles>
+						<File Id="326412846" Language="SFX">
+							<ShortName>UploadChoir.wav</ShortName>
+							<Path>SFX/UploadChoir_5A879454.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1294445356" Name="Water_Splash" ObjectPath="\Events\Default Work Unit\Environment\Water_Splash" DurationType="OneShot" DurationMin="3.02585" DurationMax="3.02585">
+					<IncludedMemoryFiles>
+						<File Id="967057740" Language="SFX">
+							<ShortName>waterSplash.wav</ShortName>
+							<Path>SFX/waterSplash_F51D7C2A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="11644128" Language="SFX">
+					<ShortName>FS_Dirt_01.wav</ShortName>
+					<Path>SFX/FS_Dirt_01_F51D7C2A.wem</Path>
+				</File>
+				<File Id="650734746" Language="SFX">
+					<ShortName>Concrete\FS_Concrete_04.wav</ShortName>
+					<Path>SFX/Concrete/FS_Concrete_04_F51D7C2A.wem</Path>
+				</File>
+				<File Id="712141796" Language="SFX">
+					<ShortName>SnowFootstep7.wav</ShortName>
+					<Path>SFX/SnowFootstep7_192A17F6.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{8E3C275B-E20D-4EF5-89EE-0FAA8D2FCE84}">
+					<Switches>
+						<Switch Id="787898836" Name="Snow" ObjectPath="\Switches\Default Work Unit\Material\Snow" GUID="{2812D5DB-6D1F-42A3-93C1-0DC841C4335F}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Material\Concrete" GUID="{15AD392F-8E89-4BB6-ADC2-E3E31B0A4F3D}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Material\Dirt" GUID="{3939E598-D729-4FF1-BB4D-2AED446E3C86}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Material\Sand" GUID="{3196C67F-0787-4C4D-9739-9E25FFA532E5}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2348770020">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="200528639">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="540993415" Name="Start_Music" ObjectPath="\Events\Default Work Unit\Start_Music" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="18007623" Language="SFX">
+							<ShortName>Arp.wav</ShortName>
+							<Path>SFX/Arp_F2BF74AC.wem</Path>
+						</File>
+						<File Id="114816433" Language="SFX">
+							<ShortName>Drums2.wav</ShortName>
+							<Path>SFX/Drums2_F2BF74AC.wem</Path>
+						</File>
+						<File Id="279380458" Language="SFX">
+							<ShortName>Guitar+Bass.wav</ShortName>
+							<Path>SFX/Guitar+Bass_F2BF74AC.wem</Path>
+						</File>
+						<File Id="333075199" Language="SFX">
+							<ShortName>Lead2.wav</ShortName>
+							<Path>SFX/Lead2_F2BF74AC.wem</Path>
+						</File>
+						<File Id="391751706" Language="SFX">
+							<ShortName>Piano1.wav</ShortName>
+							<Path>SFX/Piano1_F2BF74AC.wem</Path>
+						</File>
+						<File Id="430593385" Language="SFX">
+							<ShortName>Piano2.wav</ShortName>
+							<Path>SFX/Piano2_F2BF74AC.wem</Path>
+						</File>
+						<File Id="579283487" Language="SFX">
+							<ShortName>GuitarHigh.wav</ShortName>
+							<Path>SFX/GuitarHigh_F2BF74AC.wem</Path>
+						</File>
+						<File Id="669970577" Language="SFX">
+							<ShortName>Pad.wav</ShortName>
+							<Path>SFX/Pad_F2BF74AC.wem</Path>
+						</File>
+						<File Id="848084346" Language="SFX">
+							<ShortName>Drums1.wav</ShortName>
+							<Path>SFX/Drums1_F2BF74AC.wem</Path>
+						</File>
+						<File Id="892534645" Language="SFX">
+							<ShortName>Lead1.wav</ShortName>
+							<Path>SFX/Lead1_F2BF74AC.wem</Path>
+						</File>
+						<File Id="985165178" Language="SFX">
+							<ShortName>DrumFill.wav</ShortName>
+							<Path>SFX/DrumFill_F2BF74AC.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}">
+							<Media>
+								<File Id="114816433"/>
+								<File Id="279380458"/>
+								<File Id="579283487"/>
+								<File Id="848084346"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{04B0F5BC-2932-4D6D-A811-C727312CB2EE}">
+							<Media>
+								<File Id="18007623"/>
+								<File Id="333075199"/>
+								<File Id="391751706"/>
+								<File Id="430593385"/>
+								<File Id="669970577"/>
+								<File Id="892534645"/>
+								<File Id="985165178"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{325F4859-B589-461E-A70A-2A02AC44DF84}">
+							<Media>
+								<File Id="18007623"/>
+								<File Id="333075199"/>
+								<File Id="391751706"/>
+								<File Id="430593385"/>
+								<File Id="669970577"/>
+								<File Id="892534645"/>
+								<File Id="985165178"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Boss" GUID="{04B0F5BC-2932-4D6D-A811-C727312CB2EE}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Boss\None" GUID="{AC8E2F60-0333-4381-BAA2-E43041DB647A}"/>
+						<State Id="31648514" Name="HasStarted" ObjectPath="\States\Default Work Unit\Boss\HasStarted" GUID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
+						<State Id="3881786689" Name="HasEnded" ObjectPath="\States\Default Work Unit\Boss\HasEnded" GUID="{325F4859-B589-461E-A70A-2A02AC44DF84}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

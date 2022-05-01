@@ -806,6 +806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunHand
       objectReference: {fileID: 0}
+    - target: {fileID: 6128140153830238031, guid: 56b0b304c950e490a944c87d6e1f4e47,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56b0b304c950e490a944c87d6e1f4e47, type: 3}
 --- !u!1001 &8059208469950330727
@@ -874,6 +879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GunHand
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128140153830238031, guid: 56b0b304c950e490a944c87d6e1f4e47,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56b0b304c950e490a944c87d6e1f4e47, type: 3}
