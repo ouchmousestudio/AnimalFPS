@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{6B853E53-9041-4BAD-AF58-333D5C7BCE66}" PersistMode="Standalone">
 			<ChildrenList>
@@ -63,6 +63,7 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="artic" ID="{27F5F6AB-C1E7-4916-B933-CB6E9C349BB8}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -120,6 +121,7 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="desert" ID="{1D5CEDBC-2006-4E7A-ACD9-E6A0187F101B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -159,6 +161,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="PowerUp3" ID="{D6CF99BB-EFC4-4401-9082-5205B0AB2CC5}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -190,6 +193,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="PowerUp4" ID="{4301E963-1915-4873-8FE4-9DC2D991618E}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -234,6 +238,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="waterSplash" ID="{87EA551E-6928-4536-B2F2-09CA186F372E}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -276,6 +281,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Portal" ID="{54EE366A-80FD-43FB-B4BB-39547580F2A2}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -341,6 +347,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="pistol1" ID="{16563EEE-DB7E-4722-A525-1FB210981BB0}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -363,6 +370,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="pistol2" ID="{9AAC651E-F729-48E3-9D4C-9232EB62B092}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -392,11 +400,13 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="pistol3" ID="{84DC72F1-B0BF-4E75-82ED-A420B18E607F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Shotgun" ID="{CE5FA951-92CB-4D15-8C81-EE5605D2B85A}" ShortID="519735696">
 									<PropertyList>
@@ -478,6 +488,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Shotgun5" ID="{681AF120-BD45-45DB-B997-3BD51CBAF4C4}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -500,11 +511,13 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Shotgun6" ID="{52E05EF2-EA1A-477A-8ED5-7D9F894F1CD8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
@@ -586,6 +599,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SnowFootstep" ID="{1F23EAEB-FFDF-4206-AF8D-3FAB1BB65CC5}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -615,6 +629,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SnowFootstep3" ID="{EF4374CF-6866-495C-AF09-C1360095975E}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -645,6 +660,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SnowFootstep6" ID="{BD5F4C4D-D7FB-4EBE-94CA-18AD945D8104}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -674,6 +690,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SnowFootstep7" ID="{2E6DFD4A-50E4-467C-9FC8-21273D2A9944}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -703,11 +720,13 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SnowFootstep8" ID="{003C7BF6-7AA1-459D-9F77-1FAD6A991894}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 								<Sound Name="SnowFootstepLand" ID="{152C024B-9824-4EAB-AD3E-64E162E31AC4}" ShortID="450663710">
 									<PropertyList>
@@ -765,6 +784,7 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="SnowFootstep7" ID="{9B4E8B53-CBCC-44EA-920F-9E5568FB4C42}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -828,6 +848,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Glitch1" ID="{37284FD8-CEC4-4DB8-BDA0-0388D949974F}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -864,6 +885,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Glitch2" ID="{0CF2A6DC-102B-4D4B-A9D0-A5B24522BF8A}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -899,6 +921,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Glitch3" ID="{D9B94E03-1504-476B-BC6D-DCFF5A72AD16}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -928,6 +951,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Glitch4" ID="{5B542529-1CDF-4F6A-AD51-D27DCE6BDBD0}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -968,6 +992,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Glitch5" ID="{8ED61E4D-6D6C-4C98-9506-28215DAA77A9}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -996,11 +1021,13 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Glitch6" ID="{9C6BBD80-EDD1-4D4D-9ED1-6E8DF7BF6C89}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
@@ -1046,6 +1073,7 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="elephant-fall" ID="{3EE2C282-2F7B-4B29-A28C-D08C3F7A0373}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1096,6 +1124,7 @@
 										<Panner Name="" ID="{1E4887CF-49BF-4AF2-9219-4A04F839946E}"/>
 										<Position Name="" ID="{3FC11478-E1EF-4ED9-A685-ABA6A8365E6A}"/>
 									</PositioningInfo>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="elephant-stomp" ID="{C9D38563-4E90-4759-909E-34907A0C9256}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1147,6 +1176,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="elephant-trumpeting1" ID="{B5CC7931-B4D9-4D5F-8A0C-071A11C19B8D}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1169,6 +1199,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="elephant-trumpeting2" ID="{A3A69CC5-8F04-4C4E-A526-0044B48EEC0D}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1191,11 +1222,13 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="elephant-trumpeting3" ID="{5ED00BA7-7476-4182-947E-C9B83B0238B4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
@@ -1288,6 +1321,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="OrcaDie" ID="{907F3FDF-4EF9-4C53-ACCA-78B1E283D561}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1342,6 +1376,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="snake-rattle" ID="{DD67CDF4-250D-4622-8727-F533F386AD3B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1383,6 +1418,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="penguin" ID="{D0B41974-42B5-455A-88C0-9A33940A6F69}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1460,11 +1496,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="UploadChoir" ID="{3DD8E6D7-3817-4D75-8AD1-B54F69A7D218}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
@@ -1539,6 +1577,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Beep2" ID="{73E6FC43-22FB-4F19-8126-8F82BEB7178F}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1589,6 +1628,7 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Beep3" ID="{A013CC8C-1330-4C75-9924-868E7A45470E}" Platform="Linked"/>
 							</ActiveSourceList>

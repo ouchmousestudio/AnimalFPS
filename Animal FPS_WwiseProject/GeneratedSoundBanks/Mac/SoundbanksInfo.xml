@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
 		<ProjectRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/</ProjectRoot>
 		<SourceFilesRoot>/Users/miles/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Repos/Unity 3D/Games/Animal FPS/Animal FPS_WwiseProject/.cache/Mac/</SourceFilesRoot>
@@ -56,7 +56,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3137538902">
+		<SoundBank Id="1355168291" Language="SFX" Hash="136264324">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -65,16 +65,16 @@
 				<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 			</IncludedAuxBusses>
 			<StateGroups>
-				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife">
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{43B627A2-332F-4ED9-BE3C-B487C779B40E}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None"/>
-						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive"/>
-						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{9CA6BF4A-341C-43A2-9C7E-AC6EA4487215}"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{DC94CAC8-89B1-4072-AF98-198253D0DFD8}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead" GUID="{7B53D075-8B8A-4ED3-B7D4-7F634C06F097}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2810670744" Language="SFX" Hash="1485144141">
+		<SoundBank Id="2810670744" Language="SFX" Hash="2835956419">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundFX</ObjectPath>
 			<ShortName>SoundFX</ShortName>
 			<Path>SoundFX.bnk</Path>
@@ -147,7 +147,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3551026914" Name="Elelphant_Trumpet" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elelphant_Trumpet" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="1.028934" DurationMax="1.552835">
+				<Event Id="3551026914" Name="Elelphant_Trumpet" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elelphant_Trumpet" MaxAttenuation="70." DurationType="OneShot" DurationMin="1.028934" DurationMax="1.552835">
 					<IncludedMemoryFiles>
 						<File Id="490024087" Language="SFX">
 							<ShortName>elephant-trumpeting1.wav</ShortName>
@@ -166,7 +166,7 @@
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3293832530" Name="Elephant_Fall" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Fall" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="1.100000" DurationMax="1.100000">
+				<Event Id="3293832530" Name="Elephant_Fall" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Fall" MaxAttenuation="70." DurationType="OneShot" DurationMin="1.1" DurationMax="1.1">
 					<IncludedMemoryFiles>
 						<File Id="954565246" Language="SFX">
 							<ShortName>elephant-fall.wav</ShortName>
@@ -177,7 +177,7 @@
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1415145768" Name="Elephant_Stomp" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Stomp" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="0.953333" DurationMax="0.953333">
+				<Event Id="1415145768" Name="Elephant_Stomp" ObjectPath="\Events\Default Work Unit\Animals\Elephant\Elephant_Stomp" MaxAttenuation="70." DurationType="OneShot" DurationMin="0.953333" DurationMax="0.953333">
 					<IncludedMemoryFiles>
 						<File Id="123132921" Language="SFX">
 							<ShortName>elephant-stomp.wav</ShortName>
@@ -268,7 +268,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="554156753" Name="Orca_Death" ObjectPath="\Events\Default Work Unit\Animals\Orca_Death" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="4.160726" DurationMax="4.160726">
+				<Event Id="554156753" Name="Orca_Death" ObjectPath="\Events\Default Work Unit\Animals\Orca_Death" MaxAttenuation="70." DurationType="OneShot" DurationMin="4.160726" DurationMax="4.160726">
 					<IncludedMemoryFiles>
 						<File Id="550014342" Language="SFX">
 							<ShortName>OrcaDie.wav</ShortName>
@@ -279,7 +279,7 @@
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3549282475" Name="Penguin" ObjectPath="\Events\Default Work Unit\Animals\Penguin" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="1.147936" DurationMax="1.147936">
+				<Event Id="3549282475" Name="Penguin" ObjectPath="\Events\Default Work Unit\Animals\Penguin" MaxAttenuation="70." DurationType="OneShot" DurationMin="1.147936" DurationMax="1.147936">
 					<IncludedMemoryFiles>
 						<File Id="722984977" Language="SFX">
 							<ShortName>penguin.wav</ShortName>
@@ -290,7 +290,7 @@
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3118032615" Name="Portal" ObjectPath="\Events\Default Work Unit\Environment\Portal" MaxAttenuation="15.000000" DurationType="Infinite">
+				<Event Id="3118032615" Name="Portal" ObjectPath="\Events\Default Work Unit\Environment\Portal" MaxAttenuation="15." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="43589592" Language="SFX">
 							<ShortName>Portal.wav</ShortName>
@@ -298,7 +298,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="113145041" Name="Rattlesnake" ObjectPath="\Events\Default Work Unit\Animals\Rattlesnake" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="2.934026" DurationMax="3.108493">
+				<Event Id="113145041" Name="Rattlesnake" ObjectPath="\Events\Default Work Unit\Animals\Rattlesnake" MaxAttenuation="70." DurationType="OneShot" DurationMin="2.934026" DurationMax="3.108493">
 					<IncludedMemoryFiles>
 						<File Id="557103967" Language="SFX">
 							<ShortName>snake-rattle.wav</ShortName>
@@ -309,7 +309,7 @@
 						<AuxBus Id="3370640258" Name="OutsideReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OutsideReverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1289334483" Name="UploadSound" ObjectPath="\Events\Default Work Unit\Animals\UploadSound" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="4.306944" DurationMax="4.306944">
+				<Event Id="1289334483" Name="UploadSound" ObjectPath="\Events\Default Work Unit\Animals\UploadSound" MaxAttenuation="70." DurationType="OneShot" DurationMin="4.306944" DurationMax="4.306944">
 					<IncludedMemoryFiles>
 						<File Id="326412846" Language="SFX">
 							<ShortName>UploadChoir.wav</ShortName>
@@ -317,7 +317,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1294445356" Name="Water_Splash" ObjectPath="\Events\Default Work Unit\Environment\Water_Splash" DurationType="OneShot" DurationMin="3.025850" DurationMax="3.025850">
+				<Event Id="1294445356" Name="Water_Splash" ObjectPath="\Events\Default Work Unit\Environment\Water_Splash" DurationType="OneShot" DurationMin="3.02585" DurationMax="3.02585">
 					<IncludedMemoryFiles>
 						<File Id="967057740" Language="SFX">
 							<ShortName>waterSplash.wav</ShortName>
@@ -327,12 +327,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2348770020">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1077138683">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="200528639">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1094556893">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -422,11 +422,11 @@
 				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Boss">
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Boss" GUID="{04B0F5BC-2932-4D6D-A811-C727312CB2EE}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Boss\None"/>
-						<State Id="31648514" Name="HasStarted" ObjectPath="\States\Default Work Unit\Boss\HasStarted"/>
-						<State Id="3881786689" Name="HasEnded" ObjectPath="\States\Default Work Unit\Boss\HasEnded"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Boss\None" GUID="{AC8E2F60-0333-4381-BAA2-E43041DB647A}"/>
+						<State Id="31648514" Name="HasStarted" ObjectPath="\States\Default Work Unit\Boss\HasStarted" GUID="{7530AA3F-A5B1-41F2-9365-44C50241CBAB}"/>
+						<State Id="3881786689" Name="HasEnded" ObjectPath="\States\Default Work Unit\Boss\HasEnded" GUID="{325F4859-B589-461E-A70A-2A02AC44DF84}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
